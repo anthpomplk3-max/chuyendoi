@@ -58,10 +58,10 @@
     "id": 6,
     "question": "Việc đặt tiếp đất lưu động tại nơi làm việc nhằm mục đích gì?",
     "options": [
-      "A. Chống điện cảm ứng",
-      "B. Chống có điện bất ngờ",
-      "C. Bảo vệ thiết bị",
-      "D. Cả A và B đều đúng"
+      "Chống điện cảm ứng",
+      "Chống có điện bất ngờ",
+      "Bảo vệ thiết bị",
+      "Cả A và B đều đúng"
     ],
     "answer": null
   },
