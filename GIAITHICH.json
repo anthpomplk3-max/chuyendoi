@@ -2,1401 +2,1601 @@
   {
     "id": 1,
     "question": "Theo QCVN 25:2025, khoảng cách an toàn tối thiểu đến phần có điện áp 110kV đối với người và thiết bị không được bảo vệ là bao nhiêu?",
+    "options": ["1.5 m", "1.0 m", "2.0 m", "2.5 m"],
     "answer": "A",
     "can_cu": "",
-    "explanation": "Đối với lưới điện 110kV, khoảng cách an toàn phóng điện tối thiểu theo quy chuẩn mới quy định là 1.5 mét nhằm đảm bảo không xảy ra hiện tượng phóng điện trong không khí sang người hoặc thiết bị."
+    "explanation": "Đối với lưới điện 110kV, khoảng cách an toàn phóng điện tối thiểu theo quy chuẩn mới quy định là 1.5 mét."
   },
   {
     "id": 2,
     "question": "Quy trình an toàn EVN 2026 yêu cầu thời gian huấn luyện an toàn định kỳ cho người lao động trực tiếp là bao lâu một lần?",
-    "answer": "1 năm/lần",
+    "options": ["6 tháng/lần", "1 năm/lần", "2 năm/lần", "3 năm/lần"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đối với lực lượng lao động trực tiếp sản xuất, vận hành, sửa chữa điện lực, quy định bắt buộc phải tổ chức huấn luyện và sát hạch an toàn định kỳ mỗi năm ít nhất 1 lần để cập nhật kiến thức và duy trì thẻ an toàn."
+    "explanation": "Đối với lao động trực tiếp, quy định bắt buộc huấn luyện và sát hạch an toàn định kỳ mỗi năm ít nhất 1 lần."
   },
   {
     "id": 3,
     "question": "Trước khi làm việc tại nơi có điện áp cao, bước đầu tiên trong các biện pháp kỹ thuật an toàn là gì?",
-    "answer": "Cắt điện",
+    "options": ["Đặt rào chắn", "Treo biển báo", "Cắt điện", "Thử hết điện"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Trình tự thực hiện 4 biện pháp kỹ thuật an toàn bắt buộc tại hiện trường luôn tuân theo thứ tự: 1. Cắt điện → 2. Kiểm tra không còn điện (Thử hết điện) → 3. Đặt tiếp đất lưu động → 4. Đặt rào chắn, treo biển báo."
+    "explanation": "Trình tự 4 biện pháp kỹ thuật an toàn: 1. Cắt điện → 2. Kiểm tra không còn điện → 3. Đặt tiếp đất lưu động → 4. Đặt rào chắn, treo biển báo."
   },
   {
     "id": 4,
     "question": "Khi trèo lên cột điện, người lao động phải sử dụng loại dây an toàn nào?",
-    "answer": "Dây đai an toàn có 2 móc (chống rơi)",
+    "options": ["Dây thừng", "Dây đai an toàn có 2 móc (chống rơi)", "Dây cáp thép", "Không bắt buộc"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Sử dụng dây đai an toàn có 2 móc độc lập (hệ thống chống rơi ngã) đảm bảo khi dịch chuyển qua các xà cột, người lao động luôn có ít nhất 1 móc được cài cố định vào cấu kiện chắc chắn."
+    "explanation": "Sử dụng dây đai an toàn có 2 móc độc lập, đảm bảo khi dịch chuyển luôn có ít nhất 1 móc cố định."
   },
   {
     "id": 5,
     "question": "Theo tiêu chuẩn mới, người làm công việc quản lý, vận hành điện phải có bậc an toàn điện tối thiểu là bậc mấy?",
-    "answer": "Bậc 3",
+    "options": ["Bậc 1", "Bậc 2", "Bậc 3", "Bậc 4"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Để thực hiện các công việc quản lý, vận hành độc lập trên lưới điện, người lao động bắt buộc phải có kiến thức và kỹ năng từ bậc 3 an toàn điện trở lên."
+    "explanation": "Để quản lý, vận hành độc lập trên lưới điện, yêu cầu tối thiểu bậc 3 an toàn điện."
   },
   {
     "id": 6,
     "question": "Việc đặt tiếp đất lưu động tại nơi làm việc nhằm mục đích gì?",
-    "answer": "D. Cả A và B đều đúng",
+    "options": ["A. Chống điện cảm ứng", "B. Chống có điện bất ngờ", "C. Bảo vệ thiết bị", "D. Cả A và B đều đúng"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Tiếp đất lưu động là biện pháp bảo vệ tính mạng tối cao của công nhân, có tác dụng triệt tiêu điện áp cảm ứng từ các đường dây mang điện lân cận và làm nhảy bảo vệ (áp-tô-mát, máy cắt) để cắt nguồn ngay lập tức nếu có ai đó vô tình đóng điện nhầm vào phân đoạn đang sửa chữa."
+    "explanation": "Tiếp đất lưu động triệt tiêu điện áp cảm ứng và làm nhảy bảo vệ nếu có đóng điện nhầm."
   },
   {
     "id": 7,
     "question": "Ai là người có quyền cho phép đơn vị công tác vào làm việc tại hiện trường theo Phiếu công tác?",
-    "answer": "Người cho phép",
+    "options": ["Người lãnh đạo công việc", "Người chỉ huy trực tiếp", "Người cho phép", "Người giám sát"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Người cho phép (thường là nhân viên vận hành trực ca tại trạm hoặc điều độ viên trực ban) sau khi thực hiện xong các biện pháp an toàn kỹ thuật cô lập thiết bị mới có quyền cho phép đơn vị công tác vào hiện trường."
+    "explanation": "Người cho phép (nhân viên vận hành trực ca hoặc điều độ viên) sau khi thực hiện biện pháp an toàn mới cho phép vào hiện trường."
   },
   {
     "id": 8,
     "question": "Khi thực hiện cắt điện để làm việc, lưỡi dao cách ly phải ở trạng thái nào?",
-    "answer": "D. Cả A và C",
+    "options": ["A. Mở hoàn toàn", "B. Đóng hoàn toàn", "C. Có thể nhìn thấy khoảng cách hở", "D. Cả A và C"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Điểm cốt lõi của dao cách ly là tạo ra một khoảng hở không khí nhìn thấy được bằng mắt thường, khẳng định chắc chắn mạch điện nhất thứ đã được cô lập hoàn toàn."
+    "explanation": "Dao cách ly tạo khoảng hở không khí nhìn thấy được, khẳng định mạch đã cô lập."
   },
   {
     "id": 9,
     "question": "Biển báo \"CẤM TRÈO! ĐIỆN CAO ÁP NGUY HIỂM CHẾT NGƯỜI\" phải được treo ở đâu?",
-    "answer": "Thân cột điện ở độ cao 2-2.5m",
+    "options": ["Trên tay xà", "Thân cột điện ở độ cao 2-2.5m", "Chân cột điện", "Cửa trạm biến áp"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Treo ở độ cao từ 2m đến 2.5m trên thân cột nhằm mục đích vừa tầm mắt nhìn của người dân hoặc người không có nhiệm vụ, cảnh báo họ không leo trèo nguy hiểm."
+    "explanation": "Treo ở độ cao 2-2.5m trên thân cột để vừa tầm mắt cảnh báo người dân."
   },
   {
     "id": 10,
     "question": "Trong quy trình cứu nạn, phương pháp nào là ưu tiên số 1 khi có người bị điện giật ở trên cao?",
-    "answer": "Ngắt nguồn điện hoặc tách nạn nhân ra khỏi điện",
+    "options": ["Trèo lên đưa xuống ngay", "Ngắt nguồn điện hoặc tách nạn nhân ra khỏi điện", "Gọi cấp cứu 115", "Phun nước dập lửa"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Nguyên tắc cứu người bị điện giật là phải tách nạn nhân ra khỏi nguồn điện trước tiên (bằng cách cắt cầu dao, gạt dây...). Nếu người cứu hộ trèo lên ngay khi chưa cắt điện sẽ bị điện giật dây chuyền."
+    "explanation": "Phải tách nạn nhân khỏi nguồn điện trước tiên, nếu không người cứu sẽ bị điện giật dây chuyền."
   },
   {
     "id": 11,
     "question": "Phiếu công tác (PCT) được cấp cho đơn vị công tác làm việc tại mấy địa điểm?",
-    "answer": "Chỉ duy nhất 1 địa điểm",
+    "options": ["Chỉ duy nhất 1 địa điểm", "Tối đa 2 địa điểm", "Nhiều địa điểm nhưng cùng một lệnh công việc", "Tùy theo người cấp phiếu"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Để quản lý an toàn chặt chẽ và tránh nhầm lẫn giữa vùng có điện và vùng cắt điện, một Phiếu công tác thông thường chỉ cấp cho một đơn vị công tác tại một địa điểm làm việc xác định."
+    "explanation": "Một Phiếu công tác thông thường chỉ cấp cho một đơn vị tại một địa điểm xác định để quản lý chặt chẽ."
   },
   {
     "id": 12,
     "question": "Khi làm việc trên thiết bị đã cắt điện, nếu khoảng cách đến phần có điện gần nhất nhỏ hơn quy định thì phải làm gì?",
-    "answer": "Phải đặt rào chắn tạm thời và treo biển báo",
+    "options": ["Vừa làm vừa quan sát", "Làm nhanh rồi rút", "Phải đặt rào chắn tạm thời và treo biển báo", "Không được phép làm việc"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Khi khoảng cách làm việc thực tế vi phạm khoảng cách an toàn, bắt buộc phải dựng rào chắn tạm thời (bằng vật liệu cách điện) để ngăn ngừa việc người hoặc dụng cụ vô tình chạm/lại gần phần mang điện."
+    "explanation": "Bắt buộc dựng rào chắn tạm thời bằng vật liệu cách điện để ngăn chạm vào phần mang điện."
   },
   {
     "id": 13,
     "question": "Theo Quy trình an toàn EVN 2026, \"Người chỉ huy trực tiếp\" phải có bậc an toàn điện tối thiểu là bao nhiêu khi làm việc ở điện áp trên 35kV?",
-    "answer": "Bậc 4",
+    "options": ["Bậc 3", "Bậc 4", "Bậc 5", "Bậc 4 hoặc 5 tùy vị trí"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đối với lưới điện cao thế (trên 35kV như 110kV, 220kV, 500kV), người chịu trách nhiệm chỉ huy trực tiếp tại hiện trường yêu cầu tối thiểu phải đạt từ bậc 4 an toàn điện trở lên."
+    "explanation": "Đối với lưới trên 35kV (110kV, 220kV...), yêu cầu tối thiểu bậc 4 an toàn điện."
   },
   {
     "id": 14,
     "question": "Khi thử hết điện bằng bút thử điện cao thế, việc đầu tiên cần làm là gì?",
-    "answer": "Kiểm tra hạn kiểm định và thử lại độ nhạy của bút",
+    "options": ["Thử trực tiếp vào phần có điện", "Kiểm tra hạn kiểm định và thử lại độ nhạy của bút", "Đeo găng tay cách điện", "Để bút chạm xuống đất"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Trước khi đưa bút lên lưới cao thế thử, phải xác định xem thiết bị thử còn hạn kiểm định không và thử lại độ nhạy của bút tại một nguồn điện chắc chắn có điện (hoặc bằng bộ tạo nguồn thử chuyên dụng của bút) để tránh trường hợp bút hỏng đưa ra kết quả sai lệch."
+    "explanation": "Trước khi dùng phải kiểm tra hạn kiểm định và thử độ nhạy tại nguồn chắc chắn có điện."
   },
   {
     "id": 15,
     "question": "Trong sơ đồ cấp điện, \"Vùng an toàn\" được hiểu là vùng như thế nào?",
-    "answer": "Vùng đã được bao quanh bởi rào chắn an toàn",
+    "options": ["Vùng không có điện", "Vùng đã được bao quanh bởi rào chắn an toàn", "Vùng nằm ngoài khoảng cách an toàn phóng điện", "Vùng có biển báo \"Đã tiếp đất\""],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Vùng an toàn tại hiện trường là phạm vi giới hạn nằm trong rào chắn, lưới che cách ly, nơi đã được cô lập điện, thử hết điện, tiếp đất và treo biển \"LÀM VIỆC TẠI ĐÂY\"."
+    "explanation": "Vùng an toàn là phạm vi có rào chắn, đã cô lập điện, thử hết điện, tiếp đất và treo biển làm việc tại đây."
   },
   {
     "id": 16,
     "question": "Việc bàn giao hiện trường giữa \"Người cho phép\" và \"Người chỉ huy trực tiếp\" phải được thực hiện bằng hình thức nào?",
-    "answer": "Bằng văn bản (ký phiếu) và chỉ dẫn trực tiếp tại hiện trường",
+    "options": ["Qua điện thoại", "Bằng văn bản (ký phiếu) và chỉ dẫn trực tiếp tại hiện trường", "Chỉ cần nói miệng", "Gửi tin nhắn xác nhận"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Việc bàn giao phải thực hiện trực quan tại thực địa: Chỉ rõ phần nào có điện, phần nào đã cắt điện, vị trí đặt tiếp đất... sau đó cả hai bên phải ký xác nhận vào Phiếu công tác bằng văn bản giấy hoặc ký số hợp lệ."
+    "explanation": "Phải thực hiện trực quan tại thực địa và ký xác nhận bằng văn bản vào Phiếu công tác."
   },
   {
     "id": 17,
     "question": "Khi làm việc trong hầm cáp, trạm ngầm, trước khi xuống phải thực hiện biện pháp gì?",
-    "answer": "Kiểm tra hàm lượng oxy và khí độc",
+    "options": ["Thông gió tự nhiên 15 phút", "Kiểm tra hàm lượng oxy và khí độc", "Mang theo bình chữa cháy", "Đi nhóm ít nhất 3 người"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Trong các không gian hạn chế (hầm cáp kín, trạm ngầm), khí độc (Methane, CO, CO2...) thường tích tụ và thiếu hụt Oxy. Do đó bắt buộc phải đo nồng độ khí bằng máy chuyên dụng trước khi cho người xuống."
+    "explanation": "Bắt buộc đo nồng độ Oxy và khí độc bằng máy chuyên dụng trước khi xuống."
   },
   {
     "id": 18,
     "question": "Đối với thang nhôm sử dụng trong trạm biến áp, quy định nào sau đây là đúng?",
-    "answer": "Tuyệt đối không dùng thang kim loại tại nơi có khả năng tiếp xúc điện",
+    "options": ["Cho phép dùng thang nhôm bình thường", "Chỉ dùng khi có người giữ thang", "Tuyệt đối không dùng thang kim loại tại nơi có khả năng tiếp xúc điện", "Phải bọc băng dính cách điện vào chân thang"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Thang nhôm/thang kim loại dẫn điện rất tốt. Trong môi trường trạm biến áp có điện cao áp lộ thiên, việc mang vác hoặc dùng thang kim loại tiềm ẩn nguy cơ phóng điện chết người. Thay vào đó phải dùng thang sợi thủy tinh hoặc thang gỗ cách điện."
+    "explanation": "Thang kim loại dẫn điện, phải dùng thang sợi thủy tinh hoặc thang gỗ cách điện."
   },
   {
     "id": 19,
     "question": "Khi phát hiện dây điện cao áp bị đứt rơi xuống đất, khoảng cách an toàn để người không được lại gần tối thiểu là bao nhiêu?",
-    "answer": "10 m",
+    "options": ["2 m", "5 m", "10 m", "15 m"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Khi dây cao áp chạm đất, dòng điện chạy vào lòng đất tạo ra vùng điện áp bước xung quanh tâm điểm rơi. Khoảng cách an toàn tối thiểu ngoài trời quy định là 10 mét (trong nhà là 4 mét) để tránh tai nạn do điện áp bước."
+    "explanation": "Ngoài trời, khoảng cách an toàn tối thiểu là 10 mét để tránh điện áp bước."
   },
   {
     "id": 20,
     "question": "Trước khi trèo lên cột để làm việc, người công nhân phải kiểm tra yếu tố nào của cột?",
-    "answer": "Tình trạng chân cột, móng cột và độ nghiêng",
+    "options": ["Tình trạng chân cột, móng cột và độ nghiêng", "Độ rỉ sét của xà", "Màu sơn của cột", "Vị trí đặt tủ công tơ (đồng hồ)"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Để phòng ngừa nguy cơ đổ sập cột khi đang trèo làm việc, công nhân bắt buộc phải kiểm tra cơ học phần móng, chân cột xem có bị nứt gãy, sụt lún hay nghiêng quá mức cho phép không."
+    "explanation": "Kiểm tra móng, chân cột, độ nghiêng để phòng ngừa đổ sập."
   },
   {
     "id": 21,
     "question": "Thời hạn kiểm định định kỳ đối với găng tay cách điện cao áp là bao lâu?",
-    "answer": "6 tháng/lần",
+    "options": ["3 tháng/lần", "6 tháng/lần", "12 tháng/lần", "24 tháng/lần"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Găng tay cách điện là trang bị bảo hộ cá nhân trực tiếp. Theo tiêu chuẩn an toàn điện, định kỳ 6 tháng một lần phải mang đi thử nghiệm điện áp đánh thủng và dòng rò rỉ."
+    "explanation": "Găng tay cách điện phải thử nghiệm định kỳ 6 tháng/lần."
   },
   {
     "id": 22,
     "question": "Khi thực hiện tiếp đất, trình tự thao tác nào sau đây là đúng quy trình an toàn?",
-    "answer": "Đấu dây vào cọc tiếp đất trước, sau đó mới đấu vào phần có điện",
+    "options": ["Đấu dây vào phần có điện trước, sau đó đấu vào cọc tiếp đất", "Thao tác đầu nào cũng được", "Làm đồng thời cả hai đầu", "Đấu dây vào cọc tiếp đất trước, sau đó mới đấu vào phần có điện"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Đây là nguyên tắc sống còn. Đấu vào cọc đất trước để đảm bảo sợi dây nối đất luôn ở tiềm năng 0V. Nếu làm ngược lại (đấu vào thiết bị trước), nếu thiết bị vẫn còn điện tích hoặc điện cảm ứng, sợi dây sẽ mang điện thế cao, khi bạn đưa đầu còn lại vào đất sẽ gây phóng điện nổ hoặc giật chết người."
+    "explanation": "Nguyên tắc sống còn: đấu vào cọc đất trước để dây luôn ở tiềm năng 0V."
   },
   {
     "id": 23,
     "question": "\"Lệnh công tác\" (LCT) thường được áp dụng cho các loại công việc nào?",
-    "answer": "Công việc ít nguy hiểm, đơn giản và thực hiện trong thời gian ngắn",
+    "options": ["Công việc phức tạp, dài ngày", "Công việc ít nguy hiểm, đơn giản và thực hiện trong thời gian ngắn", "Công việc trên đường dây 500kV", "Công việc thay máy biến áp"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Phiếu công tác dùng cho các công việc phức tạp, cần làm nhiều biện pháp an toàn kỹ thuật nghiêm ngặt. Còn Lệnh công tác dùng cho các công việc đơn giản, ít nguy hiểm như ghi chỉ số công tơ, kiểm tra ngoài trạm, chặt cây ngoài hành lang an toàn..."
+    "explanation": "Lệnh công tác dùng cho công việc đơn giản, ít nguy hiểm như ghi chỉ số công tơ, chặt cây ngoài hành lang."
   },
   {
     "id": 24,
     "question": "Khi di chuyển trong vùng có điện áp bước (do dây đứt chạm đất), cách di chuyển nào là an toàn nhất?",
-    "answer": "Nhảy lò cò một chân hoặc đi bước nhỏ, hai bàn chân sát nhau",
+    "options": ["Chạy thật nhanh ra ngoài", "Đi bình thường", "Nhảy lò cò một chân hoặc đi bước nhỏ, hai bàn chân sát nhau", "Đợi người đến cứu"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Điện áp bước sinh ra do sự chênh lệch điện thế giữa hai vị trí đặt bàn chân. Nếu bạn đi bước rộng, độ chênh điện thế lớn → dòng điện qua người lớn. Đi bước nhỏ sát nhau hoặc nhảy 1 chân giúp hai điểm chạm có điện thế bằng nhau (hoặc gần bằng nhau), triệt tiêu dòng điện qua cơ thể."
+    "explanation": "Đi bước nhỏ sát nhau hoặc nhảy lò cò giúp triệt tiêu điện áp bước."
   },
   {
     "id": 25,
     "question": "Theo QCVN 25:2025, người làm công việc thí nghiệm điện phải có bậc an toàn điện từ bậc mấy trở lên?",
-    "answer": "Bậc 3",
+    "options": ["Bậc 2", "Bậc 3", "Bậc 4", "Bậc 5"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Công tác thí nghiệm điện thường xuyên tiếp xúc với các nguồn điện áp cao thử nghiệm, yêu cầu kỹ sư/công nhân phải đạt tối thiểu bậc 3 an toàn điện mới được thao tác."
+    "explanation": "Người thí nghiệm điện yêu cầu tối thiểu bậc 3 an toàn điện."
   },
   {
     "id": 26,
     "question": "Biển báo \"DỪNG LẠI! CÓ ĐIỆN NGUY HIỂM CHẾT NGƯỜI\" thuộc loại biển báo nào?",
-    "answer": "Biển báo cấm",
+    "options": ["Biển báo cấm", "Biển báo nhắc nhở", "Biển báo chỉ dẫn", "Biển báo cảnh báo"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Từ khóa \"DỪNG LẠI!\" thể hiện một mệnh lệnh cấm di chuyển tiếp vào khu vực nguy hiểm, thuộc nhóm biển cấm đóng điện hoặc cấm lại gần."
+    "explanation": "Từ \"DỪNG LẠI!\" thể hiện mệnh lệnh cấm, thuộc nhóm biển báo cấm."
   },
   {
     "id": 27,
     "question": "Khi sử dụng xe nâng (xe cẩu) làm việc gần đường dây đang có điện, vỏ xe phải được xử lý như thế nào?",
-    "answer": "Phải được nối tiếp đất lưu động",
+    "options": ["Cách điện với đất", "Phải được nối tiếp đất lưu động", "Bọc vải bạt", "Không cần xử lý nếu lốp cao su"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Xe nâng/cẩu là khối kim loại lớn hoạt động sát lưới điện, rất dễ bị nhiễm điện cảm ứng hoặc phóng điện khi vi phạm khoảng cách. Nối đất vỏ xe để đảm bảo nếu có hiện tượng phóng điện, dòng điện sẽ đi thẳng xuống đất, bảo vệ người ngồi trên cabin và người xung quanh."
+    "explanation": "Nối đất vỏ xe để bảo vệ người ngồi trên cabin nếu có phóng điện."
   },
   {
     "id": 28,
     "question": "Ai là người chịu trách nhiệm chính về việc đơn vị công tác không vi phạm khoảng cách an toàn trong suốt quá trình làm việc?",
-    "answer": "Người chỉ huy trực tiếp (hoặc người giám sát)",
+    "options": ["Người cấp phiếu", "Người cho phép", "Người chỉ huy trực tiếp (hoặc người giám sát)", "Giám đốc đơn vị"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Người chỉ huy trực tiếp có nhiệm vụ có mặt liên tục tại hiện trường để giám sát hành vi, vị trí làm việc của từng công nhân, đảm bảo không một ai vi phạm khoảng cách an toàn."
+    "explanation": "Người chỉ huy trực tiếp giám sát liên tục khoảng cách an toàn cho từng công nhân."
   },
   {
     "id": 29,
     "question": "Trước khi làm việc với tụ điện, sau khi đã cắt điện và thử hết điện, cần thực hiện thêm bước gì?",
-    "answer": "Phóng điện tích dư (xả tụ)",
+    "options": ["Lau sạch bụi", "Phóng điện tích dư (xả tụ)", "Đo kích thước tụ", "Thay dầu tụ"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Tụ điện có đặc tính lưu trữ điện năng rất lâu ngay cả khi đã cắt nguồn điện lưới. Do đó, bắt buộc phải dùng thanh tiếp đất chuyên dụng để chập các cực tụ xuống đất nhằm giải phóng hoàn toàn điện tích dư trước khi chạm tay vào."
+    "explanation": "Tụ điện lưu trữ điện tích lâu, phải xả bằng thanh tiếp đất chuyên dụng."
   },
   {
     "id": 30,
     "question": "Việc sử dụng thiết bị cầm tay (máy khoan, máy mài) ở nơi ẩm ướt yêu cầu điều kiện gì?",
-    "answer": "Phải dùng điện áp an toàn (qua biến áp cách ly) hoặc có bộ chống giật (RCD)",
+    "options": ["Phải đi giày cao su", "Phải dùng điện áp an toàn (qua biến áp cách ly) hoặc có bộ chống giật (RCD)", "Dùng găng tay vải", "Chỉ làm việc dưới 15 phút"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Môi trường ẩm ướt điện trở người giảm mạnh, tăng nguy cơ rò điện. Thiết bị bắt buộc phải cấp nguồn qua Aptomat chống giật (RCD) có dòng rò ≤30mA hoặc sử dụng nguồn hạ áp an toàn."
+    "explanation": "Môi trường ẩm ướt giảm điện trở người, cần RCD (≤30mA) hoặc nguồn hạ áp an toàn."
   },
   {
     "id": 31,
     "question": "Khi phát hiện có người bị điện giật, hành động nào là sai?",
-    "answer": "Dùng tay không kéo nạn nhân ra ngay lập tức",
+    "options": ["Dùng tay không kéo nạn nhân ra ngay lập tức", "Ngắt cầu dao điện gần nhất", "Dùng vật khô cách điện để gạt dây điện", "Gọi người trợ giúp"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Tay không chạm trực tiếp vào nạn nhân đang dính dòng điện sẽ biến người cứu hộ thành nạn nhân tiếp theo."
+    "explanation": "Tay không chạm vào nạn nhân sẽ biến người cứu thành nạn nhân thứ hai."
   },
   {
     "id": 32,
     "question": "Tại vị trí làm việc trên cao, dụng cụ cầm tay phải được để như thế nào để đảm bảo an toàn?",
-    "answer": "Để trong túi đựng dụng cụ chuyên dụng (không để rơi tự do)",
+    "options": ["Để trực tiếp lên xà", "Để trong túi đựng dụng cụ chuyên dụng (không để rơi tự do)", "Để ở dưới đất", "Gài vào thắt lưng"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Tránh việc rơi lọt dụng cụ từ trên cao xuống đầu những người làm việc phía dưới đáy cột hoặc phá hủy các thiết bị nhất thứ bên dưới."
+    "explanation": "Tránh rơi dụng cụ từ trên cao xuống đầu người phía dưới."
   },
   {
     "id": 33,
     "question": "Theo Quy trình an toàn EVN, \"Người cho phép\" tại trạm không người trực là ai?",
-    "answer": "Nhân viên vận hành tại trung tâm điều khiển",
+    "options": ["Nhân viên vận hành tại trung tâm điều khiển", "Người trực chính tại trạm gần nhất", "Người chỉ huy trực tiếp", "Bảo vệ trạm"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Với các trạm biến áp không người trực (Substation Automation), việc giám sát và cô lập thiết bị được điều khiển từ xa (Remote), do đó Trưởng kíp/Nhân viên vận hành tại Trung tâm điều khiển (OCC) giữ vai trò Người cho phép."
+    "explanation": "Tại trạm tự động hóa, người cho phép là nhân viên vận hành tại Trung tâm điều khiển (OCC)."
   },
   {
     "id": 34,
     "question": "Khi làm việc trên mái nhà bằng tôn gần đường dây điện, biện pháp an toàn cần thiết là gì?",
-    "answer": "Nối đất vỏ mái tôn (nếu cần) và giữ khoảng cách an toàn",
+    "options": ["Đeo khẩu trang", "Nối đất vỏ mái tôn (nếu cần) và giữ khoảng cách an toàn", "Đi chân trần để tăng độ bám", "Làm việc khi trời mưa"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Mái tôn diện tích lớn nằm gần hành lang điện rất dễ bị nhiễm điện cảm ứng tĩnh điện nguy hiểm, cần nối đất tạm thời để xả dòng."
+    "explanation": "Mái tôn dễ nhiễm điện cảm ứng tĩnh điện, cần nối đất tạm thời để xả dòng."
   },
   {
     "id": 35,
     "question": "Mục đích của việc treo biển \"LÀM VIỆC TẠI ĐÂY\" là gì?",
-    "answer": "Để chỉ dẫn vị trí làm việc an toàn đã được chuẩn bị",
+    "options": ["Để khoe công việc", "Để chỉ dẫn vị trí làm việc an toàn đã được chuẩn bị", "Để báo hiệu cho người đi đường", "Để giữ chỗ"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Biển chỉ dẫn này giúp công nhân xác định chính xác khu vực đã được cắt điện và làm tiếp đất an toàn, tránh đi nhầm sang các ngăn lộ mang điện bên cạnh."
+    "explanation": "Biển chỉ dẫn giúp công nhân xác định khu vực đã cắt điện và tiếp đất an toàn."
   },
   {
     "id": 36,
     "question": "Khi làm việc với ắc quy, tại sao cấm hút thuốc và dùng lửa hở?",
-    "answer": "Do ắc quy giải phóng khí Hydro (dễ cháy nổ)",
+    "options": ["Sợ cháy hỏng ắc quy", "Do ắc quy giải phóng khí Hydro (dễ cháy nổ)", "Để giữ vệ sinh", "Do axit bay hơi"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Quá trình sạc/xả của bình ắc quy điện dịch (axit chì) sinh ra khí Hydro (H2) thoát ra ngoài. Khí này gặp tia lửa hở hoặc tàn thuốc sẽ gây nổ bình cực kỳ nguy hiểm."
+    "explanation": "Quá trình sạc/xả sinh khí H2, gặp lửa hở sẽ gây nổ."
   },
   {
     "id": 37,
     "question": "\"Bậc 5\" là bậc an toàn điện cao nhất, người có bậc này được làm những nhiệm vụ gì?",
-    "answer": "Tất cả các nhiệm vụ trên (Cấp phiếu công tác, Chỉ huy trực tiếp, Giám sát an toàn)",
+    "options": ["Cấp phiếu công tác", "Chỉ huy trực tiếp", "Giám sát an toàn", "Tất cả các nhiệm vụ trên"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Người đạt bậc 5 có năng lực chuyên môn và an toàn toàn diện nhất, đủ thẩm quyền đảm nhận mọi chức danh trong sơ đồ tổ chức an toàn của Phiếu công tác."
+    "explanation": "Bậc 5 có năng lực toàn diện, đủ thẩm quyền đảm nhận mọi chức danh trong Phiếu công tác."
   },
   {
     "id": 38,
     "question": "Khi thực hiện thao tác đóng/cắt dao cách ly bằng tay, yêu cầu bắt buộc là gì?",
-    "answer": "Phải đeo găng tay cách điện và đi ủng cách điện (hoặc đứng trên ghế cách điện)",
+    "options": ["Phải đeo găng tay cách điện và đi ủng cách điện (hoặc đứng trên ghế cách điện)", "Đóng thật chậm", "Không cần trang bị bảo hộ", "Chỉ cần đứng xa 1 mét"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Phòng trừ trường hợp dao cách ly bị phóng điện hồ quang dọc sứ, hoặc rò điện từ cơ cấu truyền động cơ khí sang tay thao tác."
+    "explanation": "Phòng trừ phóng điện hồ quang dọc sứ hoặc rò điện từ cơ cấu truyền động."
   },
   {
     "id": 39,
     "question": "Sau khi kết thúc công việc, trước khi bàn giao trả phiếu công tác, đơn vị công tác phải làm gì?",
-    "answer": "Thu dọn công cụ, dụng cụ và tháo bỏ các bộ tiếp đất do mình đặt",
+    "options": ["Thu dọn công cụ, dụng cụ và tháo bỏ các bộ tiếp đất do mình đặt", "Rút người về ngay", "Chỉ cần thu dọn dụng cụ", "Để nguyên tiếp đất cho an toàn"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Phải trả lại trạng thái ban đầu của thiết bị. Nếu quên không tháo tiếp đất lưu động của đơn vị mình mà đóng điện lại sẽ gây ra sự cố ngắn mạch sập toàn trạm."
+    "explanation": "Phải trả lại trạng thái ban đầu, nếu quên tháo tiếp đất sẽ gây ngắn mạch khi đóng điện."
   },
   {
     "id": 40,
     "question": "Trường hợp nào được phép làm việc trên đường dây đang có điện (Hotline)?",
-    "answer": "Khi có quy trình riêng biệt, trang thiết bị chuyên dụng và công nhân được đào tạo đặc thù",
+    "options": ["Khi trời đang mưa bão", "Khi có quy trình riêng biệt, trang thiết bị chuyên dụng và công nhân được đào tạo đặc thù", "Khi có người đứng dưới quan sát", "Bất cứ khi nào cần tiến độ"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Công tác thi công Hotline (sửa chữa điện nóng) yêu cầu xe gàu cách điện cao thế, sào cách ly hotline chuyên dụng và công nhân phải có chứng chỉ đào tạo khắt khe riêng biệt."
+    "explanation": "Công tác hotline yêu cầu thiết bị chuyên dụng và đào tạo đặc thù."
   },
   {
     "id": 41,
     "question": "Khi làm việc trên cao (từ 2m trở lên), nếu không thể đặt được giàn giáo hoặc lưới an toàn thì bắt buộc phải làm gì?",
-    "answer": "Sử dụng dây đai an toàn móc vào vị trí chắc chắn",
+    "options": ["Đi chậm, cẩn thận", "Sử dụng dây đai an toàn móc vào vị trí chắc chắn", "Có người giữ ở dưới", "Làm việc vào ban ngày"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đây là quy định cốt lõi về phòng chống ngã cao trong xây lắp và sửa chữa điện."
+    "explanation": "Quy định cốt lõi phòng chống ngã cao trong xây lắp và sửa chữa điện."
   },
   {
     "id": 42,
     "question": "Khoảng cách an toàn tối thiểu khi làm việc có cắt điện một phần ở cấp điện áp 22kV là bao nhiêu?",
-    "answer": "0.7 m",
+    "options": ["0.4 m", "0.6 m", "0.7 m", "1.0 m"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Theo quy chuẩn kỹ thuật an toàn lưới điện, đối với cấp điện áp từ trên 6kV đến 22kV, khoảng cách an toàn phóng điện tối thiểu đến phần mang điện xung quanh là 0.7 mét."
+    "explanation": "Đối với cấp điện áp từ trên 6kV đến 22kV, khoảng cách an toàn là 0.7m."
   },
   {
     "id": 43,
     "question": "Người thực hiện nhiệm vụ \"Giám sát an toàn điện\" trên 01kV phải có bậc an toàn điện tối thiểu là bậc mấy?",
-    "answer": "Bậc 4",
+    "options": ["Bậc 2", "Bậc 3", "Bậc 4", "Bậc 5"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Giám sát an toàn điện lưới cao thế (trên 1000V) đòi hỏi năng lực nhận diện nguy hiểm cao, quy trình quy định tối thiểu phải đạt bậc 4."
+    "explanation": "Giám sát an toàn lưới cao thế (trên 1000V) yêu cầu tối thiểu bậc 4."
   },
   {
     "id": 44,
     "question": "Khi cắt điện bằng cầu dao cách ly (DCL) 3 pha, sau khi mở phải kiểm tra điều kiện gì?",
-    "answer": "Cả 3 lưỡi dao đều đã mở hoàn toàn",
+    "options": ["Cả 3 lưỡi dao đều đã mở hoàn toàn", "Chỉ cần 1 lưỡi dao mở", "Đèn báo tín hiệu tắt", "Nghe tiếng hồ quang tắt"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Tránh sự cố kẹt cơ khí dẫn đến hiện tượng 1 hoặc 2 pha chưa mở hết (mở không hết hành trình), gây xuất hiện điện áp ở đầu ra hoặc mất pha thiết bị."
+    "explanation": "Tránh kẹt cơ khí dẫn đến mở không hết hành trình, gây mất pha hoặc điện áp đầu ra."
   },
   {
     "id": 45,
     "question": "Trong một phiên làm việc, nếu Người chỉ huy trực tiếp phải rời khỏi hiện trường thì phải làm gì?",
-    "answer": "Tạm dừng công việc và rút quân ra ngoài vùng làm việc",
+    "options": ["Đơn vị tiếp tục làm", "Tạm dừng công việc và rút quân ra ngoài vùng làm việc", "Giao lại cho người có bậc an toàn cao nhất trong nhóm", "Nhờ người cho phép trông hộ"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Không có Người chỉ huy trực tiếp tại hiện trường thì đơn vị không được phép tiếp tục thi công để tránh mất kiểm soát về an toàn, trừ khi có điều khoản chỉ định người thay thế hợp lệ trên phiếu."
+    "explanation": "Không có chỉ huy trực tiếp thì đơn vị không được tiếp tục để tránh mất kiểm soát an toàn."
   },
   {
     "id": 46,
     "question": "Loại bình chữa cháy nào phù hợp nhất để dập tắt đám cháy thiết bị đang có điện?",
-    "answer": "Bình khí CO2",
+    "options": ["Bình bọt (Foam)", "Bình khí CO2", "Xô nước", "Cát ướt"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khí CO2 không dẫn điện và không làm hư hỏng hay bám bẩn các bo mạch điện tử, thiết bị tinh vi giống như bình bọt Foam hay bình bột."
+    "explanation": "CO2 không dẫn điện, không làm hỏng thiết bị điện tử."
   },
   {
     "id": 47,
     "question": "Khi di chuyển thiết bị, vật tư dưới đường dây đang có điện, yêu cầu về khoảng cách là gì?",
-    "answer": "Không được vượt quá chiều cao cho phép để tránh phóng điện",
+    "options": ["Không được vượt quá chiều cao cho phép để tránh phóng điện", "Tùy ý di chuyển nhanh", "Chỉ cần không chạm vào dây", "Phải cắt điện toàn bộ đường dây"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đảm bảo khi đi qua dưới gầm đường dây mang điện, khoảng cách từ điểm cao nhất của vật tư/thiết bị đến dây dẫn không nhỏ hơn khoảng cách an toàn phóng điện."
+    "explanation": "Đảm bảo khoảng cách từ điểm cao nhất của vật tư đến dây dẫn không nhỏ hơn khoảng cách an toàn phóng điện."
   },
   {
     "id": 48,
     "question": "Theo quy định mới nhất, thẻ an toàn điện do đơn vị nào cấp cho người lao động?",
-    "answer": "Người sử dụng lao động (Doanh nghiệp)",
+    "options": ["Bộ Công Thương", "Cục Kỹ thuật an toàn", "Người sử dụng lao động (Doanh nghiệp)", "Sở Lao động - Thương binh & Xã hội"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Doanh nghiệp/Người sử dụng lao động chịu trách nhiệm tổ chức huấn luyện, sát hạch và trực tiếp cấp/ký thẻ an toàn điện cho công nhân của mình quản lý."
+    "explanation": "Doanh nghiệp tổ chức huấn luyện, sát hạch và cấp thẻ an toàn điện."
   },
   {
     "id": 49,
     "question": "Biển báo \"CẤM ĐÓNG ĐIỆN! CÓ NGƯỜI ĐANG LÀM VIỆC\" được treo ở đâu?",
-    "answer": "Tại tay lái của máy cắt hoặc cần gạt dao cách ly đã cắt điện",
+    "options": ["Tại vị trí làm việc", "Tại tay lái của máy cắt hoặc cần gạt dao cách ly đã cắt điện", "Ở cửa trạm", "Trên thân cột điện"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Treo trực tiếp tại cơ cấu đóng cắt để ngăn chặn việc nhân viên vận hành khác vô tình thao tác đóng điện ngược trở lại đường dây."
+    "explanation": "Treo trực tiếp tại cơ cấu đóng cắt để ngăn thao tác đóng điện nhầm."
   },
   {
     "id": 50,
     "question": "Khi làm việc trên đường dây nhiều mạch, mạch đang có điện và mạch đang cắt điện nằm chung cột, quy định nào là đúng?",
-    "answer": "Phải có biển báo mạch có điện và chỉ được leo lên phía mạch đã cắt điện",
+    "options": ["Cho phép leo lên bất cứ phía nào", "Phải có biển báo mạch có điện và chỉ được leo lên phía mạch đã cắt điện", "Chỉ làm khi cắt điện cả hai mạch", "Không cần quan tâm nếu có dây bảo hiểm"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Biện pháp này ngăn chặn công nhân leo nhầm sang phía nhánh dây đang mang điện."
+    "explanation": "Ngăn chặn công nhân leo nhầm sang phía đang mang điện."
   },
   {
     "id": 51,
     "question": "Thời gian kiểm định định kỳ đối với sào cách ly cao áp là bao lâu?",
-    "answer": "12 tháng/lần",
+    "options": ["6 tháng/lần", "24 tháng/lần", "12 tháng/lần", "36 tháng/lần"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Sào cách ly dùng để thao tác dao cách ly, tiếp đất... có chu kỳ kiểm định định kỳ thử nghiệm cách điện là 1 năm (12 tháng) một lần."
+    "explanation": "Sào cách ly có chu kỳ kiểm định 12 tháng/lần."
   },
   {
     "id": 52,
     "question": "Khi sử dụng xe cẩu làm việc gần đường dây điện, ai là người phải trực tiếp giám sát khoảng cách an toàn?",
-    "answer": "Người chỉ huy trực tiếp hoặc người giám sát an toàn chuyên trách",
+    "options": ["Lái xe cẩu", "Người chỉ huy trực tiếp hoặc người giám sát an toàn chuyên trách", "Người đi đường", "Công nhân phụ cẩu"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Lái xe cẩu có điểm mù lớn nên bắt buộc phải có cán bộ an toàn/chỉ huy đứng dưới đất làm xi-nhan và kiểm soát khoảng cách phóng điện."
+    "explanation": "Lái xe có điểm mù, cần người dưới đất giám sát và ra hiệu."
   },
   {
     "id": 53,
     "question": "Nếu phát hiện thiết bị điện bị quá nhiệt, bốc khói, bước xử lý đầu tiên là gì?",
-    "answer": "Ngắt ngay nguồn điện cấp cho thiết bị đó",
+    "options": ["Dùng bình chữa cháy xịt vào chỗ cháy", "Ngắt ngay nguồn điện cấp cho thiết bị đó", "Gọi điện báo cáo lãnh đạo", "Đổ nước vào làm mát"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Cắt nguồn để triệt tiêu năng lượng duy trì đám cháy điện và cô lập vùng sự cố trước khi dùng các biện pháp dập lửa."
+    "explanation": "Cắt nguồn để triệt tiêu năng lượng duy trì đám cháy."
   },
   {
     "id": 54,
     "question": "Khi làm việc trong trạm biến áp có các phần có điện lộ thiên, công nhân có được phép mang vác các vật dài (sào, thang) dựng đứng không?",
-    "answer": "Tuyệt đối không, phải khiêng nằm ngang",
+    "options": ["Có, nếu đi nhanh", "Tuyệt đối không, phải khiêng nằm ngang", "Có, nếu có găng tay cách điện", "Tùy theo độ cao của trạm"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Mang vác dựng đứng làm tăng chiều cao, rất dễ va chạm hoặc đi vào vùng khoảng cách phóng điện của các thanh cái, dao cách ly phía trên."
+    "explanation": "Mang vác dựng đứng dễ va chạm hoặc vi phạm khoảng cách phóng điện."
   },
   {
     "id": 55,
     "question": "Theo Quy trình an toàn EVN 2026, đối với công việc làm trực tiếp trên lưới điện hạ thế đang có điện, yêu cầu bắt buộc là gì?",
-    "answer": "Phải dùng công cụ cách điện và bảo hộ cá nhân phù hợp (găng tay hạ thế, mũ an toàn...)",
+    "options": ["Phải dùng công cụ cách điện và bảo hộ cá nhân phù hợp (găng tay hạ thế, mũ an toàn...)", "Không được làm khi có điện", "Chỉ cần đứng trên thảm cao su", "Phải có 3 người cùng làm"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Làm việc Hotline hạ thế (0.4kV) cho phép thao tác trực tiếp nhưng yêu cầu bắt buộc phải đi giày cách điện, đeo găng tay hạ thế và sử dụng kìm, tuốc-nơ-vít có bọc cách điện an toàn."
+    "explanation": "Làm việc hotline hạ thế yêu cầu giày cách điện, găng tay hạ thế và dụng cụ bọc cách điện."
   },
   {
     "id": 56,
     "question": "Tiếp đất lưu động phải được làm bằng dây gì?",
-    "answer": "Dây đồng trần nhiều sợi, bọc nhựa trong, tiết diện phù hợp quy định",
+    "options": ["Dây đồng trần nhiều sợi, bọc nhựa trong, tiết diện phù hợp quy định", "Dây kẽm", "Dây nhôm", "Dây cáp điện cũ"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Dây đồng nhiều sợi mềm dẻo giúp truyền dẫn dòng ngắn mạch tốt, lớp nhựa trong suốt giúp dễ dàng kiểm tra bằng mắt xem các sợi đồng bên trong có bị đứt ngầm hay rỉ sét không."
+    "explanation": "Dây đồng nhiều sợi mềm, vỏ nhựa trong để kiểm tra đứt ngầm."
   },
   {
     "id": 57,
     "question": "Trước khi thay bóng đèn chiếu sáng tại các vị trí nguy hiểm về điện, cần thực hiện gì?",
-    "answer": "Cắt điện và kiểm tra không còn điện",
+    "options": ["Đeo kính bảo hộ", "Cắt điện và kiểm tra không còn điện", "Chuẩn bị sẵn bóng mới", "Nhờ người giữ thang"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Tuân thủ quy tắc cô lập điện trước khi thay thế bất kỳ linh kiện, thiết bị điện nào."
+    "explanation": "Tuân thủ quy tắc cô lập điện trước khi thay thế."
   },
   {
     "id": 58,
     "question": "Đối với các công việc cần phải leo cột điện bằng guốc leo, yêu cầu đối với guốc là gì?",
-    "answer": "Phải đúng kích cỡ và dây da, đai khóa phải chắc chắn, không nứt gãy",
+    "options": ["Phải đúng kích cỡ và dây da, đai khóa phải chắc chắn, không nứt gãy", "Guốc càng nặng càng tốt", "Không cần kiểm tra trước khi leo", "Dùng chung một cỡ cho tất cả mọi người"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đảm bảo guốc bám chặt vào cột chân, không bị tuột đai khóa gây trượt ngã tự do."
+    "explanation": "Đảm bảo guốc bám chặt, không tuột đai khóa gây trượt ngã."
   },
   {
     "id": 59,
     "question": "Khi thực hiện công việc theo \"Lệnh công tác\" qua điện thoại, yêu cầu bắt buộc là gì?",
-    "answer": "Người ra lệnh và người nhận lệnh phải ghi vào sổ nhật ký vận hành",
+    "options": ["Phải ghi âm cuộc gọi", "Người ra lệnh và người nhận lệnh phải ghi vào sổ nhật ký vận hành", "Chỉ cần nhớ để thực hiện", "Không cần ghi chép"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Nhằm lưu lại vết thông tin điều độ, phục vụ việc đối chiếu trách nhiệm và kiểm soát tiến độ làm việc giữa hai bên."
+    "explanation": "Lưu lại vết thông tin điều độ để đối chiếu trách nhiệm."
   },
   {
     "id": 60,
     "question": "Khoảng cách an toàn tối thiểu đến phần có điện 35kV theo QCVN 25:2025 là bao nhiêu?",
-    "answer": "1.0 m",
+    "options": ["0.6 m", "0.8 m", "1.0 m", "1.5 m"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Khoảng cách an toàn phóng điện đối với cấp điện áp 35kV quy định tối thiểu là 1.0 mét."
+    "explanation": "Khoảng cách an toàn phóng điện đối với cấp 35kV là 1.0 m."
   },
   {
     "id": 61,
     "question": "Khi phát hiện có người bị điện hạ thế giật, nếu không cắt được điện ngay, ta nên làm gì?",
-    "answer": "D. Cả B và C đều đúng",
+    "options": ["A. Dùng tay nắm vào áo khô của nạn nhân để kéo ra", "B. Dùng vật khô cách điện (gỗ, nhựa) gạt dây điện hoặc đẩy nạn nhân ra", "C. Đứng lên thảm cao su rồi kéo nạn nhân", "D. Cả B và C đều đúng"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Áp dụng cho lưới hạ thế: Có thể đứng trên vật cách điện (thảm cao su, lốp xe khô, chồng báo dày) rồi dùng tay kéo mạnh quần áo khô của nạn nhân, hoặc dùng gậy gỗ khô để tách nguồn điện khỏi người họ."
+    "explanation": "Đứng trên vật cách điện (thảm cao su) hoặc dùng gậy gỗ khô để tách nạn nhân."
   },
   {
     "id": 62,
     "question": "Việc kiểm tra định kỳ sức khỏe cho người lao động làm công việc có nguy cơ về điện được thực hiện bao lâu một lần?",
-    "answer": "Ít nhất 1 năm/lần",
+    "options": ["3 tháng/lần", "6 tháng/lần", "Ít nhất 1 năm/lần", "2 năm/lần"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Theo Luật An toàn vệ sinh lao động, người lao động làm việc trong môi trường độc hại, nguy hiểm như ngành điện phải được khám sức khỏe định kỳ tối thiểu 1 năm/lần (nhiều đơn vị áp dụng 6 tháng/lần cho công việc đặc thù)."
+    "explanation": "Theo Luật ATVSLĐ, tối thiểu 1 năm/lần (nhiều đơn vị áp dụng 6 tháng/lần cho công việc đặc thù)."
   },
   {
     "id": 63,
     "question": "Tại sao không được dùng nước để dập tắt đám cháy do dầu máy biến áp khi máy đang có điện?",
-    "answer": "Nước dẫn điện gây nguy hiểm cho người chữa cháy",
+    "options": ["Nước làm dầu cháy to hơn", "Nước dẫn điện gây nguy hiểm cho người chữa cháy", "Nước làm hỏng vỏ máy", "Nước dễ kiếm"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Nước sinh hoạt thông thường dẫn điện. Phun nước vào nguồn điện cao áp sẽ tạo đường dẫn điện ngược về lăng vòi gây giật chết người chữa cháy, đồng thời nước làm dầu tràn lan khiến đám cháy lan rộng."
+    "explanation": "Nước dẫn điện, phun vào nguồn cao áp gây giật chết người chữa cháy."
   },
   {
     "id": 64,
     "question": "Khi đi kiểm tra đường dây sau bão, công nhân phải đi như thế nào?",
-    "answer": "Đi dọc theo hành lang nhưng phải tránh xa các gốc cột, vị trí dây võng",
+    "options": ["Đi chính giữa dưới gầm đường dây", "Đi dọc theo hành lang nhưng phải tránh xa các gốc cột, vị trí dây võng", "Chạy xe máy để kiểm tra nhanh", "Chỉ cần đứng từ xa nhìn"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Sau bão, gốc cột có thể bị lỏng móng nguy cơ đổ sập, hoặc dây dẫn bị sà thấp/đứt treo lơ lửng nhiễm điện cảm ứng. Do đó phải đi vòng tránh xa các điểm nhạy cảm này."
+    "explanation": "Tránh gốc cột có nguy cơ đổ sập và dây võng nhiễm điện cảm ứng."
   },
   {
     "id": 65,
     "question": "Theo quy định, \"Người cấp phiếu\" có thể đồng thời là \"Người cho phép\" không?",
-    "answer": "Có, nếu được đơn vị giao nhiệm vụ và đủ điều kiện theo quy định",
+    "options": ["Không bao giờ", "Có, nếu được đơn vị giao nhiệm vụ và đủ điều kiện theo quy định", "Chỉ khi thiếu người", "Chỉ ở cấp điện áp 110kV"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Tại một số cơ sở, nhà máy hoặc phân xưởng nhỏ, quy trình cho phép kiêm nhiệm chức danh nếu nhân sự đó đạt bậc an toàn theo quy định văn bản và được Giám đốc ký quyết định phê duyệt."
+    "explanation": "Cho phép kiêm nhiệm nếu đạt bậc an toàn và được giám đốc phê duyệt."
   },
   {
     "id": 66,
     "question": "Trước khi đóng điện lại sau khi sửa chữa, Người chỉ huy trực tiếp phải kiểm tra điều kiện gì?",
-    "answer": "Đã rút hết người, thu dọn dụng cụ và tháo hết các bộ tiếp đất lưu động",
+    "options": ["Đã rút hết người, thu dọn dụng cụ và tháo hết các bộ tiếp đất lưu động", "Đã treo xong biển báo", "Mọi người đã đứng xa 5m", "Đã gọi điện báo cho trung tâm điều độ"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đây là thủ tục hoàn phiếu, đảm bảo tuyệt đối không còn chập mạch (do quên tiếp đất) và không còn ai ở trên lưới trước khi cấp điện trở lại."
+    "explanation": "Thủ tục hoàn phiếu, đảm bảo không còn chập mạch và không còn ai trên lưới."
   },
   {
     "id": 67,
     "question": "Biển báo \"CẤM LẠI GẦN! CÓ ĐIỆN NGUY HIỂM\" thường có đặc điểm nhận dạng nào?",
-    "answer": "Hình chữ nhật vàng (hoặc trắng) viền đỏ, có hình tia sét màu đỏ",
+    "options": ["Hình tròn viền đỏ", "Hình chữ nhật vàng (hoặc trắng) viền đỏ, có hình tia sét màu đỏ", "Hình vuông nền xanh", "Hình chữ nhật nền trắng"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đây là quy chuẩn thiết kế hình ảnh biển cảnh báo/biển cấm an toàn điện tại Việt Nam để dễ dàng nhận diện từ xa."
+    "explanation": "Quy chuẩn biển cảnh báo/cấm an toàn điện tại Việt Nam."
   },
   {
     "id": 68,
     "question": "Khi làm việc trên cột thép cao, nếu gặp trời mưa to, giông sét, đơn vị công tác phải xử lý thế nào?",
-    "answer": "Xuống đất ngay lập tức và tìm nơi trú ẩn an toàn",
+    "options": ["Tiếp tục làm cho xong", "Xuống đất ngay lập tức và tìm nơi trú ẩn an toàn", "Đứng im trên cột đợi hết mưa", "Che ô để làm việc tiếp"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Cột thép cao thế đóng vai trò như một cột thu lôi tự nhiên. Khi có giông sét, việc đứng trên cột có nguy cơ bị sét đánh trực tiếp cực kỳ cao."
+    "explanation": "Cột thép cao đóng vai trò cột thu lôi, cực kỳ nguy hiểm khi có giông sét."
   },
   {
     "id": 69,
     "question": "Việc sử dụng găng tay cách điện quá hạn kiểm định bị coi là gì?",
-    "answer": "Vi phạm nghiêm trọng quy trình an toàn",
+    "options": ["Vi phạm nghiêm trọng quy trình an toàn", "Có thể dùng nếu nhìn còn mới", "Chỉ dùng cho điện hạ thế", "Không sao nếu có dán băng dính"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Găng tay quá hạn kiểm định hoàn toàn có thể có các vết nứt vi mô hoặc suy giảm độ bền điện môi mà mắt thường không thấy được, dẫn đến nguy cơ bị đánh thủng khi thao tác."
+    "explanation": "Găng quá hạn có thể có vết nứt vi mô, mất độ bền điện môi, dễ bị đánh thủng."
   },
   {
     "id": 70,
     "question": "\"Người giám sát an toàn điện\" có quyền hạn gì khi thấy đơn vị công tác vi phạm an toàn?",
-    "answer": "Có quyền đình chỉ công việc để khắc phục",
+    "options": ["Chỉ được nhắc nhở", "Có quyền đình chỉ công việc để khắc phục", "Phải tự mình vào làm thay", "Không có quyền gì"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Người giám sát an toàn có quyền lực tối cao về mặt an toàn tại hiện trường. Nếu phát hiện hành vi nguy hiểm, họ có quyền ra lệnh dừng ngay công việc để chấn chỉnh."
+    "explanation": "Người giám sát có quyền lực tối cao về an toàn, có thể ra lệnh dừng công việc."
   },
   {
     "id": 71,
     "question": "Khi thực hiện thao tác nhổ cọc tiếp đất lưu động, trình tự nào là đúng?",
-    "answer": "Tháo đầu dây ở phần thiết bị trước, sau đó nhổ cọc",
+    "options": ["Tháo đầu dây ở phần thiết bị trước, sau đó nhổ cọc", "Nhổ cọc trước, tháo dây ở thiết bị sau", "Làm thế nào cũng được", "Không được tháo"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Ngược lại với quá trình lắp. Tháo đầu thiết bị trước để ngắt liên kết với phần lưới điện, sau đó mới nhổ cọc đất. Đảm bảo sợi dây luôn được nối đất cho tới khi rời khỏi thiết bị."
+    "explanation": "Ngược với lắp: tháo đầu thiết bị trước để ngắt liên kết, sau đó nhổ cọc."
   },
   {
     "id": 72,
     "question": "Đối với các công việc sơn cột điện, khoảng cách an toàn điện được quy định như thế nào?",
-    "answer": "Phải đảm bảo khoảng cách an toàn từ người, dụng cụ sơn đến dây dẫn",
+    "options": ["Giống như khoảng cách làm việc thông thường", "Phải đảm bảo khoảng cách an toàn từ người, dụng cụ sơn đến dây dẫn", "Không cần khoảng cách vì sơn là chất cách điện", "Chỉ cần đeo khẩu trang"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khi sơn cột, người lao động dễ rướn người hoặc đưa chổi sơn/vòi phun lại gần dây dẫn. Khoảng cách an toàn phải tính cả chiều dài của dụng cụ sơn."
+    "explanation": "Khoảng cách phải tính cả chiều dài của dụng cụ sơn (chổi, vòi phun)."
   },
   {
     "id": 73,
     "question": "Khi làm việc với thiết bị có sử dụng khí SF6, yêu cầu an toàn hàng đầu là gì?",
-    "answer": "Đảm bảo thông gió và tránh hít phải khí phân hủy của SF6",
+    "options": ["Đeo tai nghe", "Đảm bảo thông gió và tránh hít phải khí phân hủy của SF6", "Đeo kính râm", "Đi giày vải"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khí SF6 nguyên chất không độc nhưng nặng hơn không khí nên gây ngạt. Đặc biệt, dưới tác động của hồ quang điện bên trong máy cắt, SF6 bị phân hủy thành các hợp chất khí độc hại (SOF2, SF4...) gây ăn mòn phổi và ngộ độc nặng."
+    "explanation": "SF6 nặng hơn không khí gây ngạt, khí phân hủy độc hại."
   },
   {
     "id": 74,
     "question": "Tại sao phải có ít nhất 2 người khi thực hiện các công việc kiểm tra tại trạm biến áp?",
-    "answer": "Để hỗ trợ nhau và cứu nạn kịp thời khi có sự cố",
+    "options": ["Để làm cho nhanh", "Để hỗ trợ nhau và cứu nạn kịp thời khi có sự cố", "Để mang được nhiều đồ hơn", "Quy định không bắt buộc"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đi kiểm tra tối thiểu 2 người nhằm đảm bảo nếu một người không may gặp sự cố phóng điện ngã gục, người còn lại sẽ kịp thời ngắt điện và thực hiện hồi sức cấp cứu."
+    "explanation": "Đảm bảo nếu một người gặp sự cố, người kia kịp thời ngắt điện và cấp cứu."
   },
   {
     "id": 75,
     "question": "\"Vành đai an toàn\" xung quanh vị trí làm việc trên cao có mục đích gì?",
-    "answer": "Để ngăn người không nhiệm vụ vào vùng có nguy cơ vật rơi",
+    "options": ["Để ngăn người không nhiệm vụ vào vùng có nguy cơ vật rơi", "Để đánh dấu trạm điện", "Để trang trí", "Để làm chỗ để xe"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Khi làm việc trên cao, rủi ro rơi rớt bu-lông, cờ-lê, sứ cách điện là rất lớn. Vành đai cảnh báo bên dưới bảo vệ an toàn cho những người đi lại xung quanh."
+    "explanation": "Ngăn người qua lại bị rơi bu-lông, cờ-lê, sứ cách điện từ trên cao."
   },
   {
     "id": 76,
     "question": "Khi làm việc trên lưới điện 500kV, khoảng cách an toàn tối thiểu là bao nhiêu?",
-    "answer": "4.5 m",
+    "options": ["3.0 m", "4.0 m", "4.5 m", "6.0 m"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Cấp điện áp siêu cao áp 500kV có khả năng phóng điện phóng hồ quang rất xa trong không khí, khoảng cách an toàn quy định tối thiểu đối với người là 4.5 mét."
+    "explanation": "Cấp 500kV quy định khoảng cách an toàn tối thiểu 4.5 mét."
   },
   {
     "id": 77,
     "question": "Dụng cụ thử điện (bút thử điện) phải được kiểm tra như thế nào trước khi dùng?",
-    "answer": "Thử tại nơi biết chắc chắn có điện để xác nhận bút hoạt động tốt",
+    "options": ["Nhìn bằng mắt", "Thử tại nơi biết chắc chắn có điện để xác nhận bút hoạt động tốt", "Thử vào nước", "Chỉ cần xem ngày sản xuất"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Kiểm tra thực tế xem hệ thống còi/đèn báo của bút có hoạt động không, tránh tình trạng \"bút hỏng không báo\" dẫn đến việc hiểu lầm lưới đã hết điện."
+    "explanation": "Phải thử bút tại nguồn điện sống để tránh bút hỏng không báo."
   },
   {
     "id": 78,
     "question": "Khi bàn giao ca trực vận hành, nội dung về an toàn nào cần phải chú ý?",
-    "answer": "Các vị trí đang có đơn vị công tác làm việc và các bộ tiếp đất đang đặt",
+    "options": ["Các vị trí đang có đơn vị công tác làm việc và các bộ tiếp đất đang đặt", "Tên của bảo vệ ca trước", "Thời tiết của ngày hôm qua", "Không cần chú ý"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Ca sau phải nắm rõ đang có bao nhiêu người làm việc ngoài hiện trường và vị trí nào đang bị chập mạch tiếp đất để quản lý vận hành, tuyệt đối không được đóng điện vào các vùng này."
+    "explanation": "Nắm rõ đơn vị công tác và vị trí tiếp đất để tránh đóng điện nhầm."
   },
   {
     "id": 79,
     "question": "Một người có bậc an toàn điện bậc 4 có được phép làm \"Người cho phép\" tại trạm 110kV không?",
-    "answer": "Có, nếu đủ năng lực và được bổ nhiệm bằng văn bản",
+    "options": ["Không", "Có, nếu đủ năng lực và được bổ nhiệm bằng văn bản", "Chỉ khi có lãnh đạo đi cùng", "Chỉ làm được ở phần hạ thế"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Bậc 4 an toàn điện đã đủ điều kiện về mặt phân cấp nhân sự để làm Người cho phép trên lưới cao thế, với điều kiện đơn vị quản lý có quyết định bổ nhiệm chức danh bằng văn bản."
+    "explanation": "Bậc 4 đủ điều kiện làm Người cho phép trên lưới cao thế nếu được bổ nhiệm bằng văn bản."
   },
   {
     "id": 80,
     "question": "Nếu Phiếu công tác bị mất hoặc bị rách nát đến mức không đọc được thì phải xử lý thế nào?",
-    "answer": "Đình chỉ công việc và lập phiếu mới",
+    "options": ["Dán lại để dùng", "Đình chỉ công việc và lập phiếu mới", "Cứ làm tiếp vì đã nhớ nội dung", "Chụp ảnh lại là được"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Phiếu công tác là chứng từ pháp lý tối cao về an toàn điện tại hiện trường. Nếu mất hoặc rách nát không đọc được, bắt buộc phải dừng thi công để làm thủ tục cấp lại phiếu mới."
+    "explanation": "Phiếu công tác là chứng từ pháp lý, nếu mất hoặc rách phải dừng và lập phiếu mới."
   },
   {
     "id": 81,
     "question": "Khi làm việc trên đường dây đang vận hành song song với đường dây khác có điện, yếu tố nguy hiểm nhất cần được kiểm soát là gì?",
-    "answer": "Điện áp cảm ứng",
+    "options": ["Gió bão", "Điện áp cảm ứng", "Độ võng của dây", "Tiếng ồn từ vầng quang"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đường dây mang điện chạy song song sẽ tạo ra một điện trường và từ trường mạnh cảm ứng sang đường dây đã cắt điện bên cạnh, sinh ra điện áp cảm ứng tĩnh điện/từ điện lên tới hàng nghìn Vôn, có thể gây giật chết người nếu không đặt tiếp đất lưu động."
+    "explanation": "Điện áp cảm ứng từ đường dây bên cạnh có thể lên tới hàng nghìn Vôn."
   },
   {
     "id": 82,
     "question": "Theo QCVN 25:2025, khi làm việc tại các mạch điều khiển, bảo vệ của trạm biến áp, việc sử dụng các dụng cụ kim loại dài phải tuân thủ quy tắc nào?",
-    "answer": "Phải bọc cách điện toàn bộ phần thân, trừ phần đầu làm việc",
+    "options": ["Không được mang vào", "Phải đeo găng tay vải", "Phải bọc cách điện toàn bộ phần thân, trừ phần đầu làm việc", "Chỉ làm khi đã cắt điện nhất thứ"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Mạch điều khiển nhị thứ trong các tủ điều khiển rất dày đặc. Sử dụng dụng cụ kim loại không bọc cách điện thân rất dễ gây chập mạch chéo giữa các hàng kẹp terminal, làm nhảy máy cắt gây sự cố sập trạm hoặc hỏng rơ-le."
+    "explanation": "Tránh đoản mạch giữa các cực trong tủ nhị thứ do dụng cụ kim loại trần."
   },
   {
     "id": 83,
     "question": "Trong trường hợp khẩn cấp để cứu người hoặc ngăn chặn sự cố lớn, ai có quyền ra lệnh thực hiện thao tác mà không cần Phiếu công tác?",
-    "answer": "Nhân viên vận hành trực ca (theo quy trình xử lý sự cố)",
+    "options": ["Người chỉ huy trực tiếp", "Nhân viên vận hành trực ca (theo quy trình xử lý sự cố)", "Giám đốc đơn vị", "Bất cứ ai phát hiện sự cố"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Quy trình xử lý sự cố quy định: Khi có tình huống khẩn cấp đe dọa tính mạng con người hoặc an toàn thiết bị, nhân viên trực ca được phép cô lập, cắt điện ngay lập tức mà không cần thủ tục giấy tờ, sau đó báo cáo cấp trên và ghi sổ nhật ký sau."
+    "explanation": "Quy trình xử lý sự cố cho phép nhân viên trực ca cô lập khẩn cấp để cứu người, sau đó báo cáo."
   },
   {
     "id": 84,
     "question": "Khoảng cách an toàn tối thiểu chống phóng điện đối với cấp điện áp 220kV theo tiêu chuẩn mới là bao nhiêu?",
-    "answer": "2.5 m",
+    "options": ["2.0 m", "2.5 m", "3.0 m", "4.0 m"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đối với lưới điện 220kV, khoảng cách an toàn phóng điện tối thiểu quy định là 2.5 mét."
+    "explanation": "Đối với lưới 220kV, khoảng cách an toàn phóng điện tối thiểu là 2.5 m."
   },
   {
     "id": 85,
     "question": "Khi làm việc trên thiết bị có nhiều nguồn điện cấp tới, việc \"Cắt điện để làm việc\" yêu cầu tối thiểu điều gì?",
-    "answer": "Cắt điện từ mọi phía, tạo khoảng cách hở và khóa các bộ truyền động",
+    "options": ["Chỉ cắt nguồn phía tải", "Cắt điện từ mọi phía, tạo khoảng cách hở và khóa các bộ truyền động", "Chỉ cần tắt máy cắt", "Đóng tiếp đất là đủ"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đảm bảo nguyên tắc cô lập hoàn toàn: Cắt cả phía cao thế, trung thế, hạ thế (nếu là máy biến áp), ngắt nguồn điều khiển, khóa cơ khí tay thao tác để tránh nguồn điện đóng ngược từ bất kỳ phía nào."
+    "explanation": "Cô lập hoàn toàn từ mọi phía, tạo khoảng hở nhìn thấy và khóa cơ khí."
   },
   {
     "id": 86,
     "question": "\"Người lãnh đạo công việc\" có trách nhiệm gì trong việc đảm bảo an toàn tại hiện trường?",
-    "answer": "Xác định phạm vi, biện pháp an toàn chung và chọn người chỉ huy phù hợp",
+    "options": ["Trực tiếp làm việc cùng nhóm", "Đứng dưới đất giám sát", "Xác định phạm vi, biện pháp an toàn chung và chọn người chỉ huy phù hợp", "Không có trách nhiệm tại hiện trường"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Người lãnh đạo công việc quản lý tầm vĩ mô của phiên làm việc: Xem xét phương án thi công, ký duyệt phiếu và giao trách nhiệm cho Người chỉ huy trực tiếp phù hợp năng lực."
+    "explanation": "Quản lý tầm vĩ mô: phê duyệt phương án, ký phiếu, giao trách nhiệm cho người chỉ huy."
   },
   {
     "id": 87,
     "question": "Tại sao quy định cấm thực hiện tiếp đất lưu động tại các vị trí mà dây tiếp đất phải băng qua đường giao thông?",
-    "answer": "Nguy cơ bị phương tiện kéo đứt gây mất an toàn và tạo điện áp bước",
+    "options": ["Tốn dây", "Nguy cơ bị phương tiện kéo đứt gây mất an toàn và tạo điện áp bước", "Không thẩm mỹ", "Cản trở giao thông"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Xe cộ qua lại cán qua dây tiếp đất có thể giật đứt dây làm mất tác dụng bảo vệ, đồng thời dòng điện sự cố/cảm ứng truyền ra đường gây nguy hiểm điện áp bước cho người đi đường."
+    "explanation": "Xe cộ cán qua dây có thể kéo đứt, mất tác dụng bảo vệ và gây điện áp bước."
   },
   {
     "id": 88,
     "question": "Khi thay sứ cách điện trên đường dây cao áp đang cắt điện nhưng có điện áp cảm ứng lớn, yêu cầu bắt buộc là gì?",
-    "answer": "Đặt tiếp đất lưu động tại cả hai phía của vị trí đang làm việc",
+    "options": ["Đeo thêm găng tay", "Đặt tiếp đất lưu động tại cả hai phía của vị trí đang làm việc", "Làm thật nhanh", "Chỉ làm khi trời nắng"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đặt tiếp đất 2 phía (kẹp khóa vùng làm việc) để đảm bảo dòng điện cảm ứng từ hai đầu đường dây đều bị xả hết xuống đất, tạo ra vùng tiềm năng bằng không tại vị trí công nhân đứng làm việc."
+    "explanation": "Tiếp đất hai phía tạo vùng đẳng thế an toàn, xả dòng cảm ứng xuống đất."
   },
   {
     "id": 89,
     "question": "Đối với máy biến áp lực vừa mới tách ra khỏi lưới, nguy cơ nào tồn tại nếu không thực hiện tiếp đất ngay?",
-    "answer": "Điện dung dư trên cuộn dây và điện áp cảm ứng",
+    "options": ["Máy bị hỏng", "Điện dung dư trên cuộn dây và điện áp cảm ứng", "Máy bị nóng", "Không có nguy cơ gì"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Cuộn dây máy biến áp kích thước lớn đóng vai trò giống như một tụ điện khổng lồ tích trữ điện tích sau khi ngắt điện, cần tiếp đất để xả hoàn toàn năng lượng tích lũy này."
+    "explanation": "Cuộn dây máy biến áp tích tụ điện dung dư và điện áp cảm ứng, cần xả đất."
   },
   {
     "id": 90,
     "question": "Theo Quy định an toàn EVN 2026, một người có bậc 3 an toàn điện có thể đảm nhận vai trò nào dưới đây?",
-    "answer": "Người chỉ huy trực tiếp cho nhóm làm việc đơn giản",
+    "options": ["Người cấp phiếu công tác", "Người cho phép", "Người chỉ huy trực tiếp cho nhóm làm việc đơn giản", "Người kiểm soát phiếu"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Người có bậc 3 an toàn điện có thể chỉ huy các tổ nhóm thực hiện các công việc đơn giản trên lưới điện hạ thế hoặc công việc không liên quan trực tiếp đến vùng nguy hiểm cao thế."
+    "explanation": "Bậc 3 có thể chỉ huy nhóm làm việc đơn giản trên lưới hạ thế hoặc không liên quan cao thế."
   },
   {
     "id": 91,
     "question": "Khi làm việc tại các ngăn lộ thiết bị khí (GIS), nếu phát hiện nồng độ khí SF6 dưới mức cho phép, quy định xử lý là gì?",
-    "answer": "Rút toàn bộ quân và thực hiện thông gió cưỡng bức",
+    "options": ["Đeo khẩu trang làm tiếp", "Rút toàn bộ quân và thực hiện thông gió cưỡng bức", "Bật quạt cá nhân", "Không cần xử lý"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Nồng độ khí SF6 rò rỉ tăng cao đồng nghĩa lượng Oxy bị đẩy xuống thấp. Phải di tản người ngay và dùng hệ thống quạt hút thông gió cưỡng bức để khôi phục lại lượng không khí sạch."
+    "explanation": "SF6 nặng hơn không khí, gây ngạt; cần di tản và thông gió cưỡng bức."
   },
   {
     "id": 92,
     "question": "Trong quy trình bàn giao hiện trường, nếu \"Người chỉ huy trực tiếp\" phát hiện biện pháp an toàn chưa đủ, họ phải làm gì?",
-    "answer": "Từ chối nhận bàn giao và yêu cầu người cho phép bổ sung đúng quy định",
+    "options": ["Tự ý bổ sung và làm", "Từ chối nhận bàn giao và yêu cầu người cho phép bổ sung đúng quy định", "Cứ làm và cẩn thận hơn", "Báo cáo trực ban"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Người chỉ huy trực tiếp có quyền và nghĩa vụ từ chối nhận bàn giao nếu thấy các biện pháp kỹ thuật (cắt điện, tiếp đất...) chưa thực hiện đúng cam kết trên phiếu để bảo vệ an toàn tính mạng cho đội ngũ của mình."
+    "explanation": "Người chỉ huy có quyền từ chối nếu thấy biện pháp an toàn chưa đảm bảo."
   },
   {
     "id": 93,
     "question": "Biện pháp nào là tối ưu để bảo vệ người lao động khỏi điện áp bước khi thao tác đóng cắt dao cách ly bằng tay tại trạm?",
-    "answer": "Sử dụng thảm cách điện hoặc thiết kế lưới đẳng thế tại vị trí đứng thao tác",
+    "options": ["Đi ủng cách điện", "Sử dụng thảm cách điện hoặc thiết kế lưới đẳng thế tại vị trí đứng thao tác", "Đứng bằng một chân", "Thao tác bằng sào thật dài"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Thiết kế sàn thao tác có lưới thép nối đất đẳng thế bên dưới giúp chân người đứng thao tác và phần bệ máy luôn có cùng một điện thế, loại bỏ hoàn toàn điện áp bước."
+    "explanation": "Thảm cách điện hoặc lưới đẳng thế giữ hai chân cùng điện thế, loại bỏ điện áp bước."
   },
   {
     "id": 94,
     "question": "Khi làm việc với thiết bị viễn thông gắn trên cột điện cao thế, khoảng cách an toàn được tính từ đâu?",
-    "answer": "Từ phần có điện gần nhất của đường dây đến người và dụng cụ làm việc",
+    "options": ["Từ phần có điện gần nhất của đường dây đến người và dụng cụ làm việc", "Từ thân cột", "Từ mặt đất", "Từ xà thấp nhất"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Dù làm việc với thiết bị viễn thông điện áp thấp, nhưng do treo chung cột cao thế nên khoảng cách nguy hiểm luôn phải tính từ sợi dây dẫn điện cao thế gần nhất đến cơ thể và dụng cụ thi công."
+    "explanation": "Khoảng cách được tính từ dây dẫn điện trần (vùng mang điện nguy hiểm) đến người và dụng cụ."
   },
   {
     "id": 95,
     "question": "\"Khoảng cách làm việc an toàn\" khác gì so với \"Khoảng cách an toàn phóng điện\"?",
-    "answer": "Khoảng cách làm việc bao gồm khoảng cách phóng điện cộng thêm khoảng cách bù sai số do dịch chuyển của người",
+    "options": ["Là một", "Khoảng cách làm việc bao gồm khoảng cách phóng điện cộng thêm khoảng cách bù sai số do dịch chuyển của người", "Là khoảng cách từ đất lên", "Không có định nghĩa này"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khoảng cách phóng điện là khoảng cách tối giới hạn gây phóng tia lửa điện. Khoảng cách làm việc luôn lớn hơn khoảng cách phóng điện vì phải cộng thêm biên độ dịch chuyển, cử động tay chân vô ý của công nhân trong quá trình làm việc."
+    "explanation": "Khoảng cách làm việc lớn hơn khoảng cách phóng điện một biên độ để dự phòng cử động vô ý."
   },
   {
     "id": 96,
     "question": "Khi kéo dây lấy độ võng băng qua đường dây đang có điện phía dưới, biện pháp bắt buộc là gì?",
-    "answer": "Xây dựng giàn giáo bảo vệ (giàn giáo chắn dây) chắc chắn",
+    "options": ["Kéo thật căng", "Có người cầm sào đẩy dây", "Chỉ làm ban đêm", "Xây dựng giàn giáo bảo vệ (giàn giáo chắn dây) chắc chắn"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Giàn giáo chắn dây giúp ngăn ngừa trường hợp trong lúc kéo, dây mới bị trùng đột ngột rơi xuống chạm vào đường dây đang mang điện phía dưới gây đoản mạch nghiêm trọng."
+    "explanation": "Giàn giáo chắn dây bằng vật liệu cách điện ngăn dây mới chạm vào lưới điện bên dưới."
   },
   {
     "id": 97,
     "question": "Đối với công việc làm trên cao có tính chất lưu động (di chuyển dọc dây dẫn), yêu cầu về dây an toàn là gì?",
-    "answer": "Phải sử dụng dây an toàn kép có thiết bị chống rơi hoặc giảm chấn",
+    "options": ["Dùng dây thừng", "Phải sử dụng dây an toàn kép có thiết bị chống rơi hoặc giảm chấn", "Chỉ cần 1 dây móc", "Không cần móc dây khi đang đi"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Dây an toàn kép giúp đảm bảo nguyên tắc lúc nào cũng có 1 móc bám vào dây chịu lực/cấu kiện khi di chuyển từ điểm này sang điểm khác."
+    "explanation": "Dây kép đảm bảo luôn có một móc cố định khi di chuyển dọc dây."
   },
   {
     "id": 98,
     "question": "Sau khi cắt điện máy cắt chân không, tại sao vẫn phải mở dao cách ly nối tiếp với nó?",
-    "answer": "Để tạo khoảng cách hở vì máy cắt không đảm bảo khoảng cách hở an toàn",
+    "options": ["Để làm mát", "Để tạo khoảng cách hở vì máy cắt không đảm bảo khoảng cách hở an toàn", "Quy định cho đủ thủ tục", "Để khóa máy cắt"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Các tiếp điểm của máy cắt nằm kín trong buồng dập hồ quang (buồng chân không hoặc buồng khí), không nhìn thấy bằng mắt và khoảng cách tiếp điểm rất nhỏ, có thể bị đánh thủng nếu có quá điện áp. Do đó phải mở dao cách ly nối tiếp để tạo khoảng hở không khí rõ ràng."
+    "explanation": "Tiếp điểm máy cắt kín không nhìn thấy, mở dao cách ly tạo khoảng hở nhìn thấy được."
   },
   {
     "id": 99,
     "question": "Khi thực hiện công việc \"Cấp cứu người bị điện giật\", ưu tiên hồi sức tim phổi (CPR) phải được thực hiện trong bao lâu?",
-    "answer": "Liên tục cho đến khi nhân viên y tế đến hoặc nạn nhân tỉnh lại",
+    "options": ["15 phút", "30 phút", "Liên tục cho đến khi nhân viên y tế đến hoặc nạn nhân tỉnh lại", "1 tiếng"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Quá trình CPR giúp duy trì dòng máu mang oxy nuôi não. Tuyệt đối không được bỏ cuộc sớm vì tế bào não sẽ chết sau 4-6 phút thiếu oxy. Đã có nhiều trường hợp nạn nhân tim đập trở lại sau hơn 1 tiếng ép tim liên tục."
+    "explanation": "Cần kiên trì ép tim liên tục, không bỏ cuộc sớm vì có thể nạn nhân sống lại sau nhiều giờ."
   },
   {
     "id": 100,
     "question": "Đối với thiết bị có điện áp từ 1000V trở lên, người thực hiện thử hết điện bắt buộc phải trang bị gì?",
-    "answer": "Găng tay cách điện phù hợp cấp điện áp và sào cách ly gắn bút thử",
+    "options": ["Găng tay cách điện phù hợp cấp điện áp và sào cách ly gắn bút thử", "Chỉ cần bút thử", "Đeo kính bảo hộ", "Đi chân không"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Thử điện lưới cao thế bắt buộc công nhân phải đứng ngoài khoảng cách phóng điện, sử dụng sào cách ly có chiều dài đạt chuẩn kết hợp đeo găng tay cao thế để bảo vệ tuyệt đối."
+    "explanation": "Thử cao thế phải dùng sào cách ly và găng tay cách điện để tránh phóng điện qua người."
   },
   {
     "id": 101,
     "question": "Khi làm việc với hệ thống pin năng lượng mặt trời (Solar), nguy hiểm đặc thù nào cần lưu ý?",
-    "answer": "Pin luôn tạo ra điện áp DC khi có ánh sáng, không thể ngắt \"nguồn\" tại tấm pin",
+    "options": ["Pin rất nặng", "Pin luôn tạo ra điện áp DC khi có ánh sáng, không thể ngắt \"nguồn\" tại tấm pin", "Pin dễ vỡ", "Pin gây ô nhiễm"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khác với nguồn điện truyền thống có thể dập aptomat để ngắt nguồn hoàn toàn, các tấm pin mặt trời hễ cứ có ánh sáng mặt trời (hoặc ánh đèn mạnh) chiếu vào là tự động sinh điện áp DC cao thế trên các chuỗi (string), không thể tắt nguồn này được ngoại trừ việc che bạt tối toàn bộ tấm pin."
+    "explanation": "Pin mặt trời sinh điện áp DC khi có ánh sáng, không thể tắt nguồn trừ khi che tối hoàn toàn."
   },
   {
     "id": 102,
     "question": "Theo Quy trình an toàn EVN 2026, việc kiểm tra thiết bị an toàn trước khi cấp cho đơn vị công tác thuộc trách nhiệm của ai?",
-    "answer": "Người sử dụng lao động và Người chỉ huy trực tiếp (trước khi dùng)",
+    "options": ["Người sử dụng lao động và Người chỉ huy trực tiếp (trước khi dùng)", "Chỉ người chỉ huy", "Chỉ người cấp phiếu", "Chỉ kho quỹ"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đơn vị cấp trang bị phải có trách nhiệm quản lý thử nghiệm, còn Người chỉ huy trực tiếp tại hiện trường có trách nhiệm kiểm tra lại bằng mắt (vết nứt, rách, hạn kiểm định) trước khi giao cho công nhân sử dụng."
+    "explanation": "Đơn vị quản lý trang bị và người chỉ huy trực tiếp kiểm tra bằng mắt trước khi dùng."
   },
   {
     "id": 103,
     "question": "Trong một trạm biến áp, biển báo \"VÀO HƯỚNG NÀY\" được treo tại đâu?",
-    "answer": "Dọc theo lối đi an toàn dẫn đến hiện trường làm việc",
+    "options": ["Ở cổng trạm", "Dọc theo lối đi an toàn dẫn đến hiện trường làm việc", "Tại phòng trực", "Trên máy biến áp"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Biển này dẫn hướng cho công nhân đi đúng hành lang an toàn đã được vạch sẵn, ngăn ngừa việc đi lạc sang các khu vực có điện lộ thiên khác trong trạm."
+    "explanation": "Dẫn hướng công nhân đi đúng hành lang an toàn, tránh khu vực có điện lộ thiên."
   },
   {
     "id": 104,
     "question": "Khi làm việc trên mạch nhị thứ nhưng có liên quan đến rơ le bảo vệ, tại sao phải có Phiếu công tác?",
-    "answer": "Để ngăn chặn việc gây tác động nhầm làm nhảy máy cắt đang vận hành",
+    "options": ["Vì tốn thời gian", "Để ngăn chặn việc gây tác động nhầm làm nhảy máy cắt đang vận hành", "Do quy định ISO", "Để kiểm tra tay nghề"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Một thao tác chạm nhầm hoặc làm ngắn mạch vô ý trên rơ-le có thể gửi lệnh trip (cắt) đến máy cắt chính, làm mất điện diện rộng hoặc gây rã lưới hệ thống."
+    "explanation": "Tránh chạm nhầm mạch điều khiển gửi lệnh trip đến máy cắt, gây mất điện diện rộng."
   },
   {
     "id": 105,
     "question": "Một người có bậc 5 an toàn điện nhưng bị mất thẻ an toàn thì có được chỉ huy đơn vị công tác không?",
-    "answer": "Tuyệt đối không, cho đến khi được cấp lại thẻ",
+    "options": ["Được vì đã có kiến thức", "Tuyệt đối không, cho đến khi được cấp lại thẻ", "Có nếu có CMND/CCCD", "Được nếu giám đốc bảo lãnh"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Thẻ an toàn điện là chứng chỉ pháp lý bắt buộc phải mang theo người khi thực hiện nhiệm vụ ngoài hiện trường để phục vụ công tác thanh tra, kiểm tra."
+    "explanation": "Thẻ an toàn là chứng chỉ pháp lý bắt buộc phải mang theo khi làm nhiệm vụ."
   },
   {
     "id": 106,
     "question": "Khi làm việc trong thùng xe nâng (Bucket truck) gần lưới điện, người công nhân có phải móc dây an toàn vào thùng không?",
-    "answer": "Bắt buộc phải móc vào điểm neo quy định trên cần hoặc thùng xe",
+    "options": ["Không cần", "Bắt buộc phải móc vào điểm neo quy định trên cần hoặc thùng xe", "Chỉ khi xe di chuyển", "Tùy độ cao"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Thùng xe nâng có thể bị rung lắc mạnh, nghiêng hoặc gặp sự cố cơ khí đột ngột. Móc dây an toàn giữ người lao động không bị hất văng ra ngoài."
+    "explanation": "Móc dây an toàn để tránh bị hất văng ra ngoài khi thùng rung lắc."
   },
   {
     "id": 107,
     "question": "Việc sử dụng máy phát điện dự phòng cá nhân đấu nối vào lưới điện gia đình mà không có thiết bị chuyển mạch (ATS) gây nguy hiểm gì?",
-    "answer": "Điện ngược từ máy phát lên lưới điện đang sửa chữa gây tai nạn cho công nhân",
+    "options": ["Hỏng máy phát", "Điện ngược từ máy phát lên lưới điện đang sửa chữa gây tai nạn cho công nhân", "Tốn xăng", "Cháy bóng đèn"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Hiện tượng này gọi là \"xông điện ngược\". Nếu không tách lưới bằng cầu dao đảo chiều hoặc ATS, điện từ máy phát gia đình sẽ đi qua máy biến áp phân phối tăng áp ngược lên lưới trung thế 22kV, giật chết công nhân đang sửa đường dây bên ngoài."
+    "explanation": "Hiện tượng xông điện ngược, điện từ máy phát tăng áp ngược lên lưới trung thế, giật chết công nhân."
   },
   {
     "id": 108,
     "question": "Theo QCVN 25:2025, khi thao tác đóng điện đường dây mới sau đại tu, yêu cầu về nhân sự là gì?",
-    "answer": "Phải có phương án đóng điện và chỉ thực hiện theo lệnh của điều độ viên",
+    "options": ["Càng đông càng tốt", "Phải có phương án đóng điện và chỉ thực hiện theo lệnh của điều độ viên", "Chỉ cần 1 người trực", "Làm lúc vắng người"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đóng lưới điện mới hoặc sau đại tu tiềm ẩn nguy cơ nổ, ngắn mạch nếu có sai sót kỹ thuật. Phải tuân thủ nghiêm ngặt phương án đóng điện đã phê duyệt và chỉ thực hiện khi có Lệnh điều độ."
+    "explanation": "Đóng điện sau đại tu tiềm ẩn nguy cơ, phải tuân thủ phương án và lệnh điều độ."
   },
   {
     "id": 109,
     "question": "Tại sao khi làm việc trên dây chống sét (OPGW) vẫn phải thực hiện các biện pháp an toàn như dây dẫn?",
-    "answer": "Vì nguy cơ điện áp cảm ứng từ các dây dẫn đang có điện xung quanh",
+    "options": ["Vì dây nặng", "Vì nguy cơ điện áp cảm ứng từ các dây dẫn đang có điện xung quanh", "Vì dây dễ đứt", "Vì quy trình bắt buộc"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Dây chống sét OPGW (có lõi cáp quang) treo ở đỉnh cột, nằm rất gần các dây pha mang điện. Do đó từ trường cảm ứng xung quanh cực lớn, dây OPGW hoàn toàn có thể mang điện thế cảm ứng cao nguy hiểm."
+    "explanation": "OPGW treo gần dây pha mang điện, bị cảm ứng điện áp cao nguy hiểm."
   },
   {
     "id": 110,
     "question": "Khi xử lý sự cố trong điều kiện đêm tối, thiếu ánh sáng, đơn vị công tác phải làm gì?",
-    "answer": "Dừng công việc nếu không đảm bảo đủ ánh sáng để quan sát các khoảng cách an toàn",
+    "options": ["Làm mò", "Vừa làm vừa dùng đèn flash điện thoại", "Dừng công việc nếu không đảm bảo đủ ánh sáng để quan sát các khoảng cách an toàn", "Chỉ cần dùng đèn pin cá nhân"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Nguyên tắc an toàn điện đặt lên hàng đầu. Thiếu ánh sáng làm mất khả năng định vị khoảng cách phóng điện, dễ dẫn đến va chạm phần có điện."
+    "explanation": "Thiếu ánh sáng không thể xác định khoảng cách phóng điện, dễ dẫn đến tai nạn."
   },
   {
     "id": 111,
     "question": "Đối với công việc có thời gian làm việc kéo dài trên nhiều ngày, Phiếu công tác phải được quản lý thế nào mỗi cuối ngày?",
-    "answer": "Phải làm thủ tục tạm dừng, thu quân và Người cho phép ký xác nhận hàng ngày",
+    "options": ["Người chỉ huy giữ luôn", "Phải làm thủ tục tạm dừng, thu quân và Người cho phép ký xác nhận hàng ngày", "Để lại hiện trường", "Hủy phiếu cũ lập phiếu mới"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Cuối ngày làm việc phải bàn giao lại hiện trường, thu dọn công cụ để nhân viên vận hành quản lý, tránh việc công nhân tự ý vào trạm làm ban đêm không kiểm soát."
+    "explanation": "Bàn giao hiện trường cuối ngày để nhân viên vận hành quản lý, tránh tự ý vào ban đêm."
   },
   {
     "id": 112,
     "question": "Khi làm việc gần phần có điện, nếu phải dùng thước cuộn để đo, loại thước nào được phép?",
-    "answer": "Thước vải hoặc thước nhựa (không chứa sợi kim loại)",
+    "options": ["Thước thép", "Thước vải hoặc thước nhựa (không chứa sợi kim loại)", "Thước inox", "Thước loại nào cũng được"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Thước thép cuộn cực kỳ nguy hiểm, khi kéo ra thước dễ bị cong vểnh phóng điện hoặc chạm trực tiếp vào lưới điện."
+    "explanation": "Thước thép dẫn điện, dễ gây phóng điện; dùng thước vải hoặc nhựa cách điện."
   },
   {
     "id": 113,
     "question": "Một đơn vị công tác gồm 05 người, nếu có 02 người cần tách ra làm việc ở một vị trí khác (ngoài tầm quan sát của chỉ huy) thì phải xử lý thế nào?",
-    "answer": "Phải lập Phiếu công tác riêng hoặc chỉ định người giám sát phụ nếu có trong phiếu",
+    "options": ["Cứ đi làm bình thường", "Phải lập Phiếu công tác riêng hoặc chỉ định người giám sát phụ nếu có trong phiếu", "Chỉ cần dặn dò kỹ", "Đi 15 phút rồi về"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Người chỉ huy trực tiếp không thể phân thân để giám sát 2 địa điểm khác nhau cùng lúc. Do đó phải tách phiếu hoặc bổ sung người giám sát phụ hợp lệ."
+    "explanation": "Chỉ huy không thể giám sát hai địa điểm, cần tách phiếu hoặc bổ sung giám sát phụ."
   },
   {
     "id": 114,
     "question": "Khi làm việc trên cột điện có gắn chung đèn chiếu sáng đường phố, quy định về an toàn là gì?",
-    "answer": "Phải coi mạch đèn chiếu sáng là mạch có điện và thực hiện các biện pháp an toàn tương ứng",
+    "options": ["Không quan tâm vì đèn dùng điện thấp", "Tháo bóng đèn ra", "Chỉ làm khi đèn tắt", "Phải coi mạch đèn chiếu sáng là mạch có điện và thực hiện các biện pháp an toàn tương ứng"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Mạch đèn đường thường bật/tắt tự động bằng rơ-le thời gian hoặc quang trở. Ngay cả khi ban ngày đèn tắt, nguồn điện vẫn có thể xuất hiện bất ngờ do lỗi mạch điều khiển hoặc chạm chập."
+    "explanation": "Mạch đèn đường có thể đóng ngắt tự động, vẫn có điện ngay cả khi đèn tắt."
   },
   {
     "id": 115,
     "question": "Việc đặt rào chắn tạm thời trong trạm biến áp phải đảm bảo khoảng cách tối thiểu đến phần có điện 110kV là bao nhiêu?",
-    "answer": "1.5 m",
+    "options": ["1.0 m", "1.5 m", "2.0 m", "2.5 m"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đồng nhất với khoảng cách an toàn phóng điện tối thiểu quy định tại Câu 1 đối với cấp điện áp 110kV."
+    "explanation": "Đồng nhất với khoảng cách an toàn phóng điện 1.5m cho cấp 110kV (câu 1)."
   },
   {
     "id": 116,
     "question": "Người lao động phát hiện đồng nghiệp vi phạm quy trình an toàn có quyền gì?",
-    "answer": "Nhắc nhở và có quyền đình chỉ hành vi vi phạm đó ngay lập tức",
+    "options": ["Bỏ qua", "Nhắc nhở và có quyền đình chỉ hành vi vi phạm đó ngay lập tức", "Chụp ảnh báo cáo sau", "Không có quyền gì"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Quy trình quy định mọi chức danh tại hiện trường đều có quyền ngăn chặn hành vi mất an toàn của đồng nghiệp để tránh tai nạn xảy ra."
+    "explanation": "Mọi chức danh tại hiện trường đều có quyền ngăn chặn hành vi mất an toàn."
   },
   {
     "id": 117,
     "question": "Khi sử dụng thang dây để làm việc trên lưới điện, yêu cầu kiểm tra trọng tải là bao nhiêu?",
-    "answer": "Gấp ít nhất 2 lần trọng tải thiết kế tối đa",
+    "options": ["Gấp 1 lần trọng tải", "Gấp ít nhất 2 lần trọng tải thiết kế tối đa", "50 kg", "Không cần thử"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Hệ số an toàn đối với các loại thiết bị mang tải động chịu lực người (như thang dây, dây an toàn) bắt buộc phải chịu thử nghiệm tải gấp đôi tải trọng làm việc thực tế để đảm bảo dự phòng an toàn."
+    "explanation": "Hệ số an toàn 2 lần đối với thiết bị chịu tải động (dây an toàn, thang dây)."
   },
   {
     "id": 118,
     "question": "Theo Quy trình an toàn EVN 2026, \"Khoảng cách an toàn\" khi làm việc với thiết bị nâng dưới đường dây 35kV là bao nhiêu?",
-    "answer": "4.0 m",
+    "options": ["1.0 m", "3.0 m", "4.0 m", "5.0 m"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Thiết bị nâng (cần cẩu) hoạt động dưới lưới 35kV yêu cầu giữ khoảng cách tối thiểu là 4.0 mét từ bất kỳ bộ phận nào của cẩu (gàu, cáp, cần) đến sợi dây dẫn mang điện để bù trừ sai số chuyển động văng lắc."
+    "explanation": "Thiết bị nâng dưới lưới 35kV yêu cầu khoảng cách tối thiểu 4.0 mét đến dây dẫn."
   },
   {
     "id": 119,
     "question": "Khi thực hiện hàn điện tại các khu vực có nguy cơ cháy nổ trong nhà máy điện, cần phải có gì?",
-    "answer": "Giấy phép làm việc nóng (Hot Work Permit) và biện pháp ngăn tia lửa",
+    "options": ["Bình chữa cháy", "Giấy phép làm việc nóng (Hot Work Permit) và biện pháp ngăn tia lửa", "Nước tưới", "Quạt thông gió"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Hàn cắt sinh ra tia lửa nhiệt độ cao (>1000°C). Tại vùng nhạy cảm nổ (buồng dầu, kho hydro, hầm cáp), bắt buộc phải có Giấy phép làm việc nóng riêng biệt kiểm soát bởi phòng PCCC."
+    "explanation": "Hàn cắt sinh tia lửa nhiệt độ cao, cần có giấy phép làm việc nóng và kiểm soát cháy nổ."
   },
   {
     "id": 120,
     "question": "Sau khi hoàn thành 200 câu hỏi trắc nghiệm an toàn điện này, bước quan trọng nhất đối với người lao động là gì?",
-    "answer": "Học thuộc, hiểu rõ bản chất và áp dụng nghiêm túc vào thực tế hiện trường",
+    "options": ["Cất tài liệu đi", "Học thuộc, hiểu rõ bản chất và áp dụng nghiêm túc vào thực tế hiện trường", "Để đối phó kỳ thi", "Chia sẻ cho bạn bè"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Bản chất của việc sát hạch an toàn không phải là học vẹt để lấy điểm mà là biến kiến thức thành kỹ năng phản xạ tự nhiên ngoài công trường nhằm mục đích cao nhất: \"Đi làm an toàn - Về nhà bình an\"."
+    "explanation": "Mục đích là biến kiến thức thành kỹ năng phản xạ thực tế, đảm bảo an toàn tính mạng."
   },
   {
     "id": 121,
     "question": "Khi nạn nhân bị điện giật đã được tách khỏi nguồn điện và bất tỉnh, bước kiểm tra đầu tiên là gì?",
-    "answer": "Kiểm tra hơi thở và mạch đập (trong không quá 10 giây)",
+    "options": ["Đổ nước vào mặt", "Không cần làm gì", "Kiểm tra hơi thở và mạch đập (trong không quá 10 giây)", "Xoa bóp chân tay"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Cần đánh giá nhanh trong vòng 10 giây xem nạn nhân có bị ngừng tim, ngừng thở không (nhìn lồng ngực phập phồng, sờ mạch cảnh ở cổ) để quyết định thực hiện ép tim ngay lập tức."
+    "explanation": "Đánh giá nhanh xem nạn nhân có ngừng tim, ngừng thở không để quyết định CPR."
   },
   {
     "id": 122,
     "question": "Theo quy trình hồi sức tim phổi (CPR) hiện nay, tỷ lệ giữa ép tim và thổi ngạt cho người lớn là bao nhiêu?",
-    "answer": "30 lần ép tim / 2 lần thổi",
+    "options": ["15 lần ép tim / 2 lần thổi", "30 lần ép tim / 2 lần thổi", "5 lần ép tim / 1 lần thổi", "30 lần ép tim / 5 lần thổi"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đây là phác đồ chuẩn quốc tế (AHA) áp dụng cho cấp cứu ngưng tuần hoàn: Cứ thực hiện chu kỳ 30 lần ép tim ngoài lồng ngực liên tiếp rồi đến 2 lần thổi ngạt nhân tạo."
+    "explanation": "Phác đồ chuẩn AHA: 30 ép tim / 2 thổi ngạt."
   },
   {
     "id": 123,
     "question": "Vị trí đặt tay để ép tim ngoài lồng ngực đúng cách là ở đâu?",
-    "answer": "1/2 dưới của xương ức",
+    "options": ["1/2 dưới của xương ức", "Bên trái ngực", "Thượng vị", "Mạn sườn phải"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Vị trí này nằm ngay trên tâm thất của tim, khi ép xuống sẽ tạo lực ép tối ưu tống máu ra hệ tuần hoàn mà hạn chế tối đa nguy cơ gãy xương sườn."
+    "explanation": "Đặt tay ở nửa dưới xương ức, trên tâm thất, để ép tim hiệu quả."
   },
   {
     "id": 124,
     "question": "Khi ép tim cho người lớn, độ sâu của mỗi lần ép phải đạt tối thiểu là bao nhiêu?",
-    "answer": "5 - 6 cm",
+    "options": ["2 - 3 cm", "5 - 6 cm", "8 - 10 cm", "Ép càng sâu càng tốt"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Phải ép sâu từ 5cm đến tối đa 6cm mới đủ lực nén ép tim vào cột sống để đẩy máu đi nuôi cơ thể. Ép nông quá dòng máu sẽ không di chuyển được lên não."
+    "explanation": "Ép sâu 5-6 cm mới đủ lực đẩy máu nuôi cơ thể."
   },
   {
     "id": 125,
     "question": "Tốc độ ép tim chuẩn khi thực hiện hồi sức tim phổi cho nạn nhân là bao nhiêu lần một phút?",
-    "answer": "100 - 120 lần/phút",
+    "options": ["60 - 80 lần/phút", "100 - 120 lần/phút", "140 - 160 lần/phút", "Tùy vào người sơ cứu"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Ép tim với tần số nhanh từ 100 đến 120 lần/phút (tương đương khoảng 2 lần ép mỗi giây) nhằm mô phỏng lại nhịp tim sinh lý bình thường của con người lúc hoạt động để duy trì áp lực tưới máu não liên tục."
+    "explanation": "Tần số 100-120 lần/phút, tương đương khoảng 2 lần ép mỗi giây."
   },
   {
     "id": 126,
     "question": "Khi thổi ngạt cho nạn nhân bị điện giật ngừng thở, động tác nào sau đây là bắt buộc để đảm bảo không khí lọt vào phổi?",
-    "answer": "Bóp chặt mũi nạn nhân trong lúc thổi và ngửa đầu, nâng cằm để khai thông đường thở",
+    "options": ["Bóp chặt mũi nạn nhân trong lúc thổi và ngửa đầu, nâng cằm để khai thông đường thở", "Đặt đầu nạn nhân nghiêng sang bên", "Kê gối dưới vai", "Cho nạn nhân ngậm ống thở"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Nếu không bóp mũi, lượng hơi thổi vào sẽ thoát ngay ra ngoài qua đường mũi mà không đi xuống phổi. Việc ngửa đầu nâng cằm giúp kéo gốc lưỡi không bị chèn ép vào thanh quản, mở toang đường thở cho nạn nhân."
+    "explanation": "Bóp mũi tránh thoát hơi, ngửa đầu nâng cằm mở đường thở."
   },
   {
     "id": 127,
     "question": "Trong hệ thống điện, mục đích chính của việc nối đất lặp lại cho dây trung tính (dây N) là gì?",
-    "answer": "Đảm bảo tính ổn định của điểm trung tính, giảm điện áp sụt và hạn chế điện áp nguy hiểm xuất hiện trên vỏ thiết bị khi đứt dây trung tính",
+    "options": ["Đảm bảo tính ổn định của điểm trung tính, giảm điện áp sụt và hạn chế điện áp nguy hiểm xuất hiện trên vỏ thiết bị khi đứt dây trung tính", "Tiết kiệm dây dẫn", "Tăng công suất truyền tải", "Giảm tổn thất điện năng"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Khi xảy ra sự cố đứt dây trung tính tổng trên lưới điện hạ thế, nếu không có hệ thống nối đất lặp lại, điểm trung tính sẽ bị \"lệch\" (trôi). Lúc này, điện áp các pha sẽ bị mất cân bằng trầm trọng (pha tải nhẹ điện áp vọt lên gần 380V, pha tải nặng tụt sâu), gây cháy hỏng loạt thiết bị gia súc/gia đình và làm vỏ thiết bị nhiễm điện thế cao cực kỳ nguy hiểm."
+    "explanation": "Tránh lệch trung tính và điện áp nguy hiểm khi đứt dây N."
   },
   {
     "id": 128,
     "question": "Khi làm việc trên mái nhà xưởng để bảo trì hệ thống pin năng lượng mặt trời (Solar), nguy cơ cơ học nào là phổ biến và nguy hiểm nhất?",
-    "answer": "Giẫm sập các tấm tôn lấy sáng (tấm nhựa) xuyên thấu",
+    "options": ["Giẫm sập các tấm tôn lấy sáng (tấm nhựa) xuyên thấu", "Trượt ngã do mưa", "Bỏng nắng", "Điện giật từ dây DC"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Các tấm tôn lấy sáng bằng nhựa xen kẽ giữa các tấm tôn kẽm thường bị mục hóa, giòn theo thời gian do thời tiết. Công nhân di chuyển không chú ý giẫm lên sẽ bị sập và ngã tự do từ độ cao nhà xưởng xuống đất. Luôn phải đi trên các đường xà gồ chịu lực hoặc có sàn lót di chuyển chuyên dụng."
+    "explanation": "Tấm nhựa lấy sáng thường mục, giòn, dễ sập khi giẫm lên, gây ngã cao."
   },
   {
     "id": 129,
     "question": "Đối với máy biến áp lực, thiết bị bảo vệ nào dựa trên nguyên lý đo tốc độ dòng dầu và áp suất dầu tăng đột biến để cắt máy cắt cô lập máy biến áp?",
-    "answer": "Rơ le Buchholz (Rơ le hơi)",
+    "options": ["Rơ le nhiệt", "Rơ le Buchholz (Rơ le hơi)", "Cầu chì tự rơi", "Chống sét van"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khi xảy ra sự cố ngắn mạch nội bộ bên trong thùng máy biến áp (phóng điện giữa các vòng dây), hồ quang nhiệt độ cao làm phân hủy dầu cách điện thành một lượng lớn khí gas tạo ra áp lực đẩy luồng dầu chạy mạnh từ thùng chính lên bình dầu phụ. Rơ le Buchholz đón đầu luồng dầu này, tác động trực tiếp gửi lệnh đi cắt máy cắt để bảo vệ máy biến áp không bị nổ tơi tả."
+    "explanation": "Rơ le Buchholz phát hiện dòng dầu và khí do sự cố nội bộ, cắt máy cắt bảo vệ."
   },
   {
     "id": 130,
     "question": "Trước khi thực hiện công việc hàn điện trong một bồn chứa kim loại kín, yêu cầu nào về máy hàn là bắt buộc để chống giật cho thợ hàn?",
-    "answer": "Máy hàn phải có bộ giảm áp tự động ở chế độ không tải (VRD) và vỏ máy phải được nối đất",
+    "options": ["Máy hàn phải có bộ giảm áp tự động ở chế độ không tải (VRD) và vỏ máy phải được nối đất", "Máy hàn phải mới", "Máy hàn phải có quạt làm mát", "Máy hàn phải là loại xoay chiều"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Ở chế độ không tải (khi chưa quẹt que hàn), điện áp đầu ra của máy hàn thông thường khá cao (từ 60V đến 90V DC/AC), hoàn toàn có thể gây rung tim chết người trong môi trường bồn kín chật hẹp, mồ hôi ướt sũng. Bộ VRD (Voltage Reduction Device) có tác dụng dìm điện áp không tải này xuống mức an toàn (<24V), và chỉ vọt lên cao khi que hàn thực sự tiếp xúc tạo mạch hàn."
+    "explanation": "VRD giảm điện áp không tải xuống dưới 24V, nối đất vỏ máy tránh rò."
   },
   {
     "id": 131,
     "question": "Trong quy trình thao tác đóng/cắt không tải đường dây cao áp 110kV-220kV bằng Dao cách ly (DCL), hiện tượng gì chắc chắn xảy ra giữa các lưỡi dao dẫn điện?",
-    "answer": "Hồ quang điện mồi trong không khí",
+    "options": ["Hồ quang điện mồi trong không khí", "Ngắn mạch vĩnh viễn", "Cháy thiết bị", "Mất pha"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Do đường dây dài có điện dung ký sinh lớn với đất, khi đóng hoặc cắt DCL không tải vẫn có một dòng điện dung (dòng nạp) nhất định chạy qua. Khi các tiếp điểm rời nhau, khoảng cách không khí nhỏ bị đánh thủng sinh ra hồ quang kèm tiếng nổ xèo xèo. Do đó, thao tác DCL phải được thực hiện dứt khoát, nhanh chóng nhưng không giật cục để hồ quang nhanh bị dập tắt bởi khoảng hở không khí kéo dài."
+    "explanation": "Do dòng điện dung của đường dây, khi cắt DCL luôn có hồ quang xèo xèo."
   },
   {
     "id": 132,
     "question": "Khi cấp cứu nạn nhân bị bỏng điện sâu do hồ quang cao áp, việc đầu tiên cần xử lý vết bỏng tại hiện trường là gì?",
-    "answer": "Xối nước sạch, mát liên tục lên vùng bị bỏng (trừ khi có vết thương hở quá lớn) và che phủ bằng gạc vô trùng",
+    "options": ["Xối nước sạch, mát liên tục lên vùng bị bỏng (trừ khi có vết thương hở quá lớn) và che phủ bằng gạc vô trùng", "Bôi kem đánh răng", "Đắp lá cây", "Chích bỏng nước"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Hồ quang điện sinh nhiệt lượng cực lớn (>3000°C). Xối nước mát sạch giúp hạ nhiệt nhanh các lớp mô sâu bên dưới da, giảm độ sâu của vết bỏng và giảm đau đớn cho nạn nhân. Không được bôi các chất lạ (kem đánh răng, mỡ trăn) lên vết thương vì gây nguy cơ nhiễm trùng nặng."
+    "explanation": "Xối nước mát hạ nhiệt, giảm sâu vết bỏng và đau, không bôi chất lạ."
   },
   {
     "id": 133,
     "question": "Theo quy chuẩn kỹ thuật, khi kéo dòng dây hàn, khoảng cách tối thiểu từ máy hàn điện đến vị trí bình khí nén (Oxy, Acetylen) hoặc các chất dễ cháy là bao nhiêu?",
-    "answer": "5.0 m",
+    "options": ["2.0 m", "5.0 m", "10.0 m", "15.0 m"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đảm bảo khoảng cách 5 mét nhằm ngăn ngừa các tia lửa hàn, xỉ hàn nhiệt độ cao bay bắn vào các bình khí nén hoặc khu vực chứa dung môi dễ cháy, hạn chế rủi ro nổ bình hoặc hỏa hoạn dây chuyền."
+    "explanation": "Khoảng cách an toàn 5 mét ngăn tia lửa hàn bắn vào bình khí nén hoặc chất dễ cháy."
   },
   {
     "id": 134,
     "question": "Thao tác nào dưới đây đối với dao cách ly (DCL) bị nghiêm cấm tuyệt đối khi mạch điện đang mang dòng tải lớn?",
-    "answer": "Mở dao cách ly khi chưa cắt Máy cắt (hoặc Aptomat) nối tiếp phía trước",
+    "options": ["Mở dao cách ly khi chưa cắt Máy cắt (hoặc Aptomat) nối tiếp phía trước", "Đóng dao cách ly khi cắt máy cắt", "Đóng dao cách ly lúc không tải", "Mở dao cách ly lúc không tải"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "DCL không có bộ phận dập hồ quang. Nếu mở DCL khi đang có dòng tải lớn chạy qua, hồ quang điện siêu nhiệt sẽ bùng phát dữ dội giữa hai tiếp điểm, làm ngắn mạch các pha với nhau và với đất, gây nổ phá hủy hoàn toàn thiết bị và gây bỏng, mù mắt cho người thao tác đứng gần."
+    "explanation": "DCL không có buồng dập hồ quang, mở khi có tải lớn gây nổ hồ quang hủy diệt."
   },
   {
     "id": 135,
     "question": "Biển báo \"CẤM LẠI GẦN! ĐIỆN ÁP CAO NGUY HIỂM\" treo trên hàng rào trạm biến áp thuộc loại biển nào?",
-    "answer": "Biển cảnh báo nguy hiểm",
+    "options": ["Biển cấm", "Biển cảnh báo nguy hiểm", "Biển chỉ dẫn", "Biển hiệu lệnh"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Biển này có nhiệm vụ thông tin và cảnh báo trước cho người lao động cũng như người dân về mối nguy hiểm điện cao áp ẩn chứa bên trong khu vực rào chắn để chủ động phòng tránh."
+    "explanation": "Cảnh báo nguy hiểm điện cao áp bên trong rào chắn."
   },
   {
     "id": 136,
     "question": "Khi tiến hành xả điện tích dư của cáp ngầm cao thế sau khi đã cắt điện thử nghiệm, tại sao không được dùng dây nhỏ tiếp xúc trực tiếp mà phải qua điện trở xả chuyên dụng trước?",
-    "answer": "Để tránh dòng điện phóng cực đại gây nổ rách đầu cáp hoặc hỏng cách điện",
+    "options": ["Để tránh dòng điện phóng cực đại gây nổ rách đầu cáp hoặc hỏng cách điện", "Để tiết kiệm dây", "Để đo điện áp", "Để kiểm tra độ dài cáp"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Cáp ngầm có điện dung tích lũy rất lớn. Nếu phóng thẳng xuống đất (đoản mạch trực tiếp), năng lượng giải phóng tức thời cực lớn sẽ tạo tiếng nổ lớn và sinh hồ quang hủy hoại cách điện đầu cáp. Phóng qua điện trở xả giúp tiêu tán năng lượng từ từ, êm dịu trước khi kẹp dây đất trực tiếp."
+    "explanation": "Phóng thẳng tạo hồ quang hủy hoại đầu cáp; điện trở xả giúp tiêu tán năng lượng từ từ."
   },
   {
     "id": 137,
     "question": "Chức năng \"Khóa liên động\" (Interlock) trong các tủ bảng điện trung thế (6kV-35kV) có tác dụng gì?",
-    "answer": "Ngăn ngừa tuyệt đối các thao tác sai quy trình (ví dụ: Không cho mở cửa tủ khi chưa cắt điện, không cho đóng dao tiếp đất khi đường dây đang có điện)",
+    "options": ["Ngăn ngừa tuyệt đối các thao tác sai quy trình", "Tăng thẩm mỹ", "Cách điện cho tủ", "Bảo vệ quá tải"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Khóa liên động (bằng cơ khí hoặc bằng mạch điện từ) là lớp bảo vệ thông minh loại bỏ hoàn toàn yếu tố sai sót do con người. Nó \"khóa cứng\" không cho phép các hành vi thao tác sai quy trình kỹ thuật xảy ra, bảo vệ tính mạng công nhân và an toàn lưới."
+    "explanation": "Khóa liên động (cơ khí hoặc điện từ) loại bỏ sai sót do con người, khóa cứng thao tác sai."
   },
   {
     "id": 138,
     "question": "Thiết bị bảo vệ dòng rò (RCD / RCBO) dân dụng thường chọn dòng rò tác động là bao nhiêu để bảo vệ tối ưu tính mạng con người?",
-    "answer": "30 mA",
+    "options": ["10 mA", "30 mA", "100 mA", "300 mA"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Ngưỡng dòng điện xoay chiều (50Hz) đi qua cơ thể người bắt đầu gây hiện tượng co cơ, khó thở và ngạt là từ 20mA đến 30mA. Do đó, thiết bị RCD có dòng rò định mức 30mA sẽ cắt nguồn điện trong vòng vài mili giây ngay khi có dòng rò vượt ngưỡng, ngăn chặn nguy cơ rung tâm thất (ngừng tim)."
+    "explanation": "Ngưỡng 30mA cắt nguồn trong mili giây khi có dòng rò, ngăn rung tâm thất."
   },
   {
     "id": 139,
     "question": "Khi trèo lên sửa chữa đường dây hạ thế nông thôn trên cột bê tông ly tâm, vật tư bảo hộ bắt buộc nào giúp ngăn ngừa việc trượt ngã tự do khi dịch chuyển qua các thanh xà?",
-    "answer": "Dây đai an toàn toàn thân (Full body harness) tích hợp dây treo giảm chấn kép",
+    "options": ["Dây đai an toàn toàn thân (Full body harness) tích hợp dây treo giảm chấn kép", "Giày cao su", "Mũ bảo hiểm", "Kính mắt"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Khác với đai bụng thắt lưng kiểu cũ dễ gây chấn thương cột sống khi ngã, đai toàn thân phân phối lực đều lên đùi, vai và ngực. Hệ thống dây kép đảm bảo nguyên tắc \"luôn có ít nhất một móc bám cố định vào cột\" khi công nhân dịch chuyển bước trèo."
+    "explanation": "Đai toàn thân phân phối lực, dây kép đảm bảo luôn có một móc cố định."
   },
   {
     "id": 140,
     "question": "Khi tiến hành đo điện trở cách điện của cuộn dây máy biến áp bằng đồng hồ Megomet (2500V hoặc 5000V), sau khi kết thúc phép đo, ta phải thực hiện ngay động tác gì?",
-    "answer": "Dùng sào tiếp đất xả điện tích trên cuộn dây vừa đo",
+    "options": ["Dùng sào tiếp đất xả điện tích trên cuộn dây vừa đo", "Tắt máy", "Rút que đo", "Ghi kết quả"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đồng hồ Megomet sử dụng điện áp DC cao thế để thử nghiệm cách điện, làm cho cuộn dây máy biến áp bị nhiễm điện tích như một cái tụ điện. Nếu chạm tay vào ngay mà chưa xả đất, người thử nghiệm sẽ bị giật bắn người, có thể ngã ngửa gây chấn thương."
+    "explanation": "Megomet tích điện DC cao thế, cuộn dây nhiễm điện, phải xả đất tránh giật."
   },
   {
     "id": 141,
     "question": "Tại sao quy trình vận hành cấm tuyệt đối việc hở mạch cuộn thứ cấp của Máy biến dòng điện (TI / CT) khi phía sơ cấp đang có dòng điện chạy qua?",
-    "answer": "Gây xuất hiện điện áp cao cảm ứng cực kỳ nguy hiểm ở hai đầu cuộn thứ cấp và làm cháy hỏng TI",
+    "options": ["Gây xuất hiện điện áp cao cảm ứng cực kỳ nguy hiểm ở hai đầu cuộn thứ cấp và làm cháy hỏng TI", "Làm sai số đo", "Làm rơ le không tác động", "Làm mất tín hiệu"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Khi thứ cấp bị hở mạch, dòng điện thứ cấp bằng 0, không còn từ trường ngược chiều để khử từ trường do dòng sơ cấp sinh ra. Lúc này, toàn bộ dòng sơ cấp biến thành dòng kích từ, làm lõi thép của TI bị bão hòa từ cực độ, sinh ra suất điện động cảm ứng dạng xung nhọn với điện áp lên tới hàng nghìn Vôn ở đầu ra thứ cấp, gây đánh thủng cách điện, cháy nổ TI và giật chết bất kỳ ai chạm vào."
+    "explanation": "Hở mạch thứ cấp gây điện áp xung nhọn hàng nghìn Vôn, phá hủy cách điện và nguy hiểm chết người."
   },
   {
     "id": 142,
     "question": "Ngược lại với Máy biến dòng (TI), đối với Máy biến điện áp (TU / PT), hành vi nào sau đây bị nghiêm cấm trong vận hành mạch nhị thứ?",
-    "answer": "Để xảy ra ngắn mạch (đoản mạch) phía cuộn thứ cấp của TU",
+    "options": ["Để xảy ra ngắn mạch (đoản mạch) phía cuộn thứ cấp của TU", "Hở mạch thứ cấp", "Đấu nối đất thứ cấp", "Tăng tải thứ cấp"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "TU hoạt động như một máy biến áp hạ áp lý tưởng. Điện trở cuộn thứ cấp rất nhỏ. Nếu bị ngắn mạch thứ cấp, dòng điện thứ cấp sẽ vọt lên cực đại, làm cháy cuộn dây TU ngay lập tức và có thể gây nổ vỡ sứ cách điện của TU."
+    "explanation": "Ngắn mạch thứ cấp TU gây dòng lớn, cháy cuộn dây và nổ sứ."
   },
   {
     "id": 143,
     "question": "Khi làm việc trong các trạm phân phối điện kín (Indoor Substation), hệ thống chiếu sáng sự cố (Emergency Light) phải đảm bảo thời gian duy trì tối thiểu là bao lâu khi mất toàn bộ nguồn điện AC?",
-    "answer": "90 phút",
+    "options": ["30 phút", "60 phút", "90 phút", "120 phút"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Thời gian 90 phút là quy chuẩn bắt buộc của hệ thống đèn khẩn cấp để đảm bảo nhân viên vận hành có đủ ánh sáng thực hiện các thao tác cô lập sự cố, chuyển nguồn dự phòng hoặc giúp đơn vị công tác rút quân ra ngoài an toàn."
+    "explanation": "Thời gian 90 phút là quy chuẩn để đủ ánh sáng thao tác cô lập sự cố và rút quân an toàn."
   },
   {
     "id": 144,
     "question": "Theo tiêu chuẩn quản lý, các dụng cụ cách điện bằng cao su (găng tay, ủng, thảm) sau khi rửa sạch bằng nước phải được làm khô bằng cách nào?",
-    "answer": "Phơi trong bóng râm, thoáng gió hoặc sấy nhẹ ở nhiệt độ thấp (dưới 40°C)",
+    "options": ["Phơi trong bóng râm, thoáng gió hoặc sấy nhẹ ở nhiệt độ thấp (dưới 40°C)", "Phơi nắng trực tiếp", "Sấy ở nhiệt độ cao", "Dùng máy sấy tóc"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Cao su cách điện rất nhạy cảm với nhiệt độ và tia tử ngoại. Phơi trực tiếp dưới nắng gắt hoặc sấy nhiệt độ cao sẽ làm cao su bị lão hóa, giòn, nứt nẻ, mất khả năng chịu áp lực điện."
+    "explanation": "Cao su nhạy cảm với tia UV và nhiệt cao, dễ lão hóa, nứt nẻ."
   },
   {
     "id": 145,
     "question": "Hiện tượng \"Điện hồ quang\" xuất hiện khi đóng cắt điện thực chất là trạng thái gì của môi trường không khí?",
-    "answer": "Sự ion hóa mạnh mẽ của chất khí biến không khí thành môi trường dẫn điện",
+    "options": ["Sự ion hóa mạnh mẽ của chất khí biến không khí thành môi trường dẫn điện", "Sự nhiễm từ", "Sự đông đặc", "Sự bay hơi"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Dưới tác động của cường độ điện trường lớn và nhiệt độ cao tại tiếp điểm, các phân tử khí bị bẻ gãy thành các ion dương và electron tự do (trạng thái Plasma), dòng điện chạy qua môi trường này tạo ra vệt sáng chói lòa và tỏa nhiệt lượng cực lớn chính là hồ quang."
+    "explanation": "Hồ quang là trạng thái plasma, không khí trở thành dẫn điện."
   },
   {
     "id": 146,
     "question": "Khi thấy đồng nghiệp bị bất tỉnh do điện giật nhưng miệng bị khóa chặt (co cứng cơ hàm), người cứu hộ phải thực hiện phương pháp thổi ngạt nào?",
-    "answer": "Thổi ngạt qua đường mũi (ngậm chặt miệng nạn nhân và thổi vào mũi)",
+    "options": ["Thổi ngạt qua đường mũi (ngậm chặt miệng nạn nhân và thổi vào mũi)", "Dùng dụng cụ cạy miệng", "Không thổi, chỉ ép tim", "Chờ bác sĩ"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Khi cơ hàm bị co cứng do dòng điện tác động kích thích thần kinh, không được cố cạy miệng nạn nhân vì sẽ gây gãy răng hoặc tổn thương thêm. Phương pháp thổi ngạt qua mũi là giải pháp thay thế hoàn hảo và hiệu quả tương đương."
+    "explanation": "Không được cạy miệng, thổi ngạt qua mũi là giải pháp thay thế hiệu quả."
   },
   {
     "id": 147,
     "question": "Đối với hệ thống điện có điểm trung tính cách ly đối với đất (mạng điện không nối đất), khi xảy ra sự cố chạm đất một pha, điện áp của hai pha còn lại đối với đất sẽ thay đổi như thế nào?",
-    "answer": "Vọt lên bằng điện áp dây (tăng √3 lần)",
+    "options": ["Vọt lên bằng điện áp dây (tăng √3 lần)", "Giảm xuống 0", "Giữ nguyên", "Tăng gấp đôi"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Vì trung tính cách ly, khi một pha chạm đất, tiềm năng của pha đó bị kéo xuống 0 (bằng đất). Theo quan hệ hình học vectơ, điện áp đối với đất của hai pha lành còn lại sẽ tăng từ điện áp pha (Up) lên bằng điện áp dây (Ud = √3 Up), làm tăng áp lực lên cách điện của thiết bị."
+    "explanation": "Pha chạm đất kéo về 0, hai pha kia tăng lên điện áp dây, gây áp lực cách điện."
   },
   {
     "id": 148,
     "question": "Khi di chuyển dụng cụ, thiết bị cầm tay có dây nguồn dài ngoài công trường, hành vi nào sau đây thường xuyên gây rò điện tai nạn cần nghiêm cấm?",
-    "answer": "Kéo lê dây điện trực tiếp trên nền đất đá, cạnh sắt bén hoặc để xe rùa, xe cơ giới chèn qua dây",
+    "options": ["Kéo lê dây điện trực tiếp trên nền đất đá, cạnh sắt bén hoặc để xe rùa, xe cơ giới chèn qua dây", "Cuộn dây gọn sau khi dùng", "Treo dây lên cao", "Dùng dây có vỏ bọc tốt"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Việc này làm bong tróc, băm nát lớp vỏ nhựa bọc bảo vệ bên ngoài của dây dẫn điện, khiến lõi đồng mang điện lộ ra tiếp xúc với đất ẩm hoặc khung giàn giáo gây rò điện diện rộng."
+    "explanation": "Làm hỏng vỏ cách điện, lộ lõi đồng gây rò điện."
   },
   {
     "id": 149,
     "question": "Khi làm việc trong các tủ phân phối hạ thế đang có điện, tay của công nhân không được đeo đồ trang sức nào dưới đây?",
-    "answer": "Nhẫn kim loại, đồng hồ dây kim loại, vòng tay kim loại",
+    "options": ["Nhẫn kim loại, đồng hồ dây kim loại, vòng tay kim loại", "Nhẫn cưới bằng vàng", "Vòng tay bằng da", "Đồng hồ điện tử"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đồ trang sức bằng kim loại là vật dẫn điện tốt. Khi công nhân luồn tay vào đấu nối trong không gian hẹp, chiếc nhẫn hoặc dây đồng hồ rất dễ vô tình làm cầu nối bắc cầu gây chập mạch ngắn mạch giữa pha với pha hoặc pha với vỏ tủ, gây nổ hồ quang làm cháy sém bàn tay."
+    "explanation": "Trang sức kim loại dẫn điện, dễ gây ngắn mạch pha-pha hoặc pha-vỏ, nổ hồ quang."
   },
   {
     "id": 150,
     "question": "Tại sao trong quy trình sơ cứu CPR, việc \"Để nạn nhân nằm trên nền mặt phẳng cứng\" lại là yếu tố tiên quyết?",
-    "answer": "Để lực ép tim từ tay người cứu hộ ép thực sự lên lồng ngực và tim, không bị triệt tiêu bởi độ lún",
+    "options": ["Để lực ép tim từ tay người cứu hộ ép thực sự lên lồng ngực và tim, không bị triệt tiêu bởi độ lún", "Để nạn nhân đỡ đau", "Để dễ thổi ngạt", "Để tránh bẩn"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Nếu để nạn nhân nằm trên nệm mềm, giường lò xo hoặc nền đất lún, khi ta dùng lực ép xuống, toàn bộ cơ thể nạn nhân sẽ bị lún chìm xuống theo nệm, lực ép lên xương ức bị triệt tiêu đáng kể, khiến việc ép tim không đạt đủ độ sâu 5-6cm cần thiết để tống máu đi."
+    "explanation": "Nệm mềm hấp thụ lực ép, không đạt độ sâu 5-6cm cần thiết."
   },
   {
     "id": 151,
     "question": "Khi làm việc trên cao bằng xe nâng gáo chuyên dụng (Bucket Truck) gần đường dây 22kV, nếu cánh tay gầu vô tình chạm vào pha mang điện, người công nhân ngồi trong gáo nâng nên xử lý thế nào để đảm bảo an toàn tính mạng?",
-    "answer": "Ngồi yên bên trong gáo, không chạm tay vào thành gáo bên ngoài và tuyệt đối không được nhảy xuống đất",
+    "options": ["Ngồi yên bên trong gáo, không chạm tay vào thành gáo bên ngoài và tuyệt đối không được nhảy xuống đất", "Nhảy xuống đất ngay", "Bò ra ngoài gáo", "Dùng tay đẩy dây ra"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Lúc này, toàn bộ chiếc xe nâng và gáo nâng đã bị nhiễm điện thế bằng điện thế đường dây (22kV). Tuy nhiên, người công nhân ở bên trong gáo đang ở trạng thái đẳng thế (giống như chim đậu trên dây điện) nên chưa bị dòng điện chạy qua người. Nếu hoảng loạn nhảy xuống đất hoặc thò tay chạm vào vật khác bên ngoài, mạch điện từ gáo qua cơ thể xuống đất sẽ được thiết lập, gây điện giật chết người ngay lập tức. Hãy đợi xe cẩu điều khiển rút cần ra hoặc cắt điện lưới."
+    "explanation": "Lúc đó gáo nhiễm điện nhưng người đang ở trạng thái đẳng thế; nhảy xuống đất sẽ tạo mạch điện qua người gây chết."
   },
   {
     "id": 152,
     "question": "Trong công tác quản lý vận hành cáp ngầm trung thế (22kV - 35kV), hiện tượng \"Cây nước\" (Water Treeing) bên trong lớp cách điện XLPE nguy hiểm như thế nào?",
-    "answer": "Làm suy giảm dần độ bền cách điện của cáp theo thời gian, dẫn đến đánh thủng rách cáp gây sự cố ngắn mạch ngầm",
+    "options": ["Làm suy giảm dần độ bền cách điện của cáp theo thời gian, dẫn đến đánh thủng rách cáp gây sự cố ngắn mạch ngầm", "Làm cáp nhẹ hơn", "Làm cáp đẹp hơn", "Không nguy hiểm"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Sự thâm nhập của hơi ẩm kết hợp với ứng suất điện trường cao trong thời gian dài sẽ tạo ra các vết nứt vi mô có hình dạng giống cành cây (gọi là cây nước) trong lớp cách điện XLPE. Theo thời gian, các vết này phát triển, biến thành \"cây điện\" (Electrical Treeing) và kết thúc bằng một cú phóng điện đánh thủng xuyên qua lớp cách điện, gây nổ cáp ngầm."
+    "explanation": "Cây nước phát triển thành cây điện, cuối cùng gây đánh thủng cách điện, nổ cáp."
   },
   {
     "id": 153,
     "question": "Khi sửa chữa hệ thống điện nhị thứ (mạch đo lường, bảo vệ) tại tủ bảng điện, dụng cụ kim loại như tua-vít, kìm bắt buộc phải được xử lý an toàn như thế nào trước khi sử dụng?",
-    "answer": "Phải được bọc cách điện toàn bộ phần thân kim loại, chỉ để hở khoảng 1-2 mm ở đầu làm việc",
+    "options": ["Phải được bọc cách điện toàn bộ phần thân kim loại, chỉ để hở khoảng 1-2 mm ở đầu làm việc", "Phải sạch sẽ", "Phải bôi dầu", "Phải có tay cầm bằng cao su"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Trong không gian chật hẹp của tủ nhị thứ, các hàng kẹp chân rơ-le, mạch điều khiển nằm rất sát nhau. Nếu dùng tua-vít trần, chỉ một cái sẩy tay vô tình có thể làm đoản mạch chập giữa các cực mang điện khác nhau, gây nổ cháy mạch nhị thứ hoặc kích động nhảy nhầm máy cắt đang vận hành, làm mất điện diện rộng."
+    "explanation": "Tránh đoản mạch giữa các cực trong tủ nhị thứ do vô tình chạm."
   },
   {
     "id": 154,
     "question": "Tại sao quy trình an toàn nghiêm cấm việc dùng thang tre hoặc thang gỗ ẩm ướt để làm việc tại các vị trí gần lưới điện hạ thế?",
-    "answer": "Vì gỗ và tre ẩm ướt không còn là chất cách điện mà trở thành vật dẫn điện tốt",
+    "options": ["Vì gỗ và tre ẩm ướt không còn là chất cách điện mà trở thành vật dẫn điện tốt", "Vì dễ gãy", "Vì trơn", "Vì nặng"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Tre và gỗ khô bản chất là chất cách điện tốt ở điện áp thấp. Tuy nhiên, khi bị ẩm ướt, nước ngấm vào cấu trúc sợi gỗ sẽ biến chiếc thang thành một điện trở dẫn điện. Khi công nhân trèo lên làm việc, nếu thang tì vào dây rò điện, dòng điện sẽ truyền qua thang xuống đất, gây giật ngã hoặc tử vong cho người đang trèo."
+    "explanation": "Nước ngấm làm gỗ trở thành điện trở dẫn điện, gây giật chết người."
   },
   {
     "id": 155,
     "question": "Đối với các máy cắt điện lưu huỳnh hexafluoride (Khí SF6), khi tiến hành thu hồi khí hoặc bảo trì buồng dập hồ quang, sản phẩm phân hủy nào của khí SF6 là cực kỳ độc hại cần phải phòng tránh?",
-    "answer": "Các hợp chất khí độc và bột mịn như SOF2, SO2F2, HF và SF4",
+    "options": ["Các hợp chất khí độc và bột mịn như SOF2, SO2F2, HF và SF4", "SO2", "CO2", "H2S"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Khí SF6 nguyên chất là khí trơ, không độc. Nhưng dưới tác động của hồ quang điện nhiệt độ siêu cao khi máy cắt mở tải, một lượng nhỏ SF6 bị phân hủy và phản ứng với độ ẩm, tạp chất tạo ra các sản phẩm phụ khí và bột độc hại (HF, SO2). Những chất này ăn mòn phổi mạnh mẽ và gây nhiễm độc nặng nếu hít phải. Do đó, công nhân phải trang bị mặt nạ phòng độc chuyên dụng và đồ bảo hộ kín khi xử lý."
+    "explanation": "Các sản phẩm phân hủy của SF6 dưới hồ quang rất độc, ăn mòn phổi."
   },
   {
     "id": 156,
     "question": "Trước khi thực hiện việc nạp ga SF6 bổ sung cho thiết bị đóng cắt trung/cao thế, công việc kiểm tra độ ẩm (hàm lượng nước) trong bình khí có tầm quan trọng như thế nào?",
-    "answer": "Ngăn ngừa nước phản ứng với khí dưới tác động của hồ quang sinh ra axit ăn mòn và làm giảm độ bền cách điện của khí",
+    "options": ["Ngăn ngừa nước phản ứng với khí dưới tác động của hồ quang sinh ra axit ăn mòn và làm giảm độ bền cách điện của khí", "Để tiết kiệm ga", "Để tăng áp suất", "Để làm sạch bình"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Nếu hàm lượng nước (độ ẩm) trong khí quá cao, khi xuất hiện hồ quang điện, nước sẽ kết hợp với các sản phẩm phân hủy của SF6 để tạo ra axit Hydrofluoric (HF) ăn mòn mạnh bề mặt tiếp điểm và các bộ phận cách điện bên trong buồng cắt, làm suy giảm nghiêm trọng khả năng dập hồ quang và cách điện của thiết bị."
+    "explanation": "Nước kết hợp với sản phẩm phân hủy tạo axit HF ăn mòn thiết bị."
   },
   {
     "id": 157,
     "question": "Biện pháp nào dưới đây là bắt buộc khi thực hiện công việc kéo rải dây dẫn điện mới cắt ngang qua một đường dây hạ thế đang có điện phía dưới?",
-    "answer": "Xây dựng giàn giáo chắn bảo vệ vững chắc bằng vật liệu cách điện để đỡ dây dẫn mới không bị võng chạm vào đường dây đang có điện",
+    "options": ["Xây dựng giàn giáo chắn bảo vệ vững chắc bằng vật liệu cách điện để đỡ dây dẫn mới không bị võng chạm vào đường dây đang có điện", "Kéo thật nhanh", "Dùng sào tre đỡ dây", "Chỉ làm vào ban đêm"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Trong quá trình kéo rải, lực căng dây có thể thay đổi đột ngột làm dây mới bị chùng, võng hoặc bật nảy gạt xuống đường dây có điện phía dưới. Việc lập giàn giáo chắn (hoặc lưới chắn bảo vệ) cách điện tạo ra một tấm màng ngăn cách vật lý an toàn tuyệt đối, loại bỏ rủi ro phóng điện ngược lên hệ thống dòng dây kéo."
+    "explanation": "Giàn giáo chắn tạo ngăn cách vật lý an toàn, tránh dây mới chạm vào lưới có điện."
   },
   {
     "id": 158,
     "question": "Khi tiến hành thí nghiệm cao áp (thử nghiệm chịu đựng điện áp tăng cao AC/DC) đối với thiết bị điện, khoảng cách từ khối thiết bị thí nghiệm đến rào chắn tạm thời xung quanh phải tuân thủ nguyên tắc gì?",
-    "answer": "Phải lớn hơn khoảng cách an toàn phóng điện đối với cấp điện áp thử nghiệm cao nhất và có người đứng gác liên tục",
+    "options": ["Phải lớn hơn khoảng cách an toàn phóng điện đối với cấp điện áp thử nghiệm cao nhất và có người đứng gác liên tục", "Càng gần càng tốt", "Chỉ cần biển báo", "Không cần rào chắn"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Điện áp thí nghiệm cao áp thường lớn hơn nhiều so với điện áp định mức của thiết bị (ví dụ cáp 22kV có thể thử lên tới 42kV hoặc hơn). Khoảng cách rào chắn phải tính toán dựa trên mức đỉnh của điện áp thử nghiệm này để đảm bảo dòng điện không phóng ra ngoài rào, đồng thời bố trí nhân sự canh gác nhằm ngăn người không phận sự bước vào vùng nguy hiểm."
+    "explanation": "Điện áp thử nghiệm cao hơn định mức, cần khoảng cách lớn và người canh gác."
   },
   {
     "id": 159,
     "question": "Một nạn nhân bị điện giật cao áp dập nát một phần cơ thể và đang chảy máu xối xả ở đùi, quy trình sơ cứu ưu tiên lúc này tại hiện trường là gì?",
-    "answer": "Ngay lập tức thực hiện ép băng chặt hoặc đặt garo cầm máu trước, song song với việc kiểm tra và duy trì đường thở (CPR)",
+    "options": ["Ngay lập tức thực hiện ép băng chặt hoặc đặt garo cầm máu trước, song song với việc kiểm tra và duy trì đường thở (CPR)", "Chỉ ép tim", "Chỉ băng bó", "Đưa đến bệnh viện"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Thông thường CPR (ép tim, thổi ngạt) được ưu tiên hàng đầu. Tuy nhiên, nếu nạn nhân bị xuất huyết ồ ạt ở động mạch lớn (như đùi, bẹn), lượng máu trong cơ thể sẽ cạn kiệt chỉ trong vòng vài phút. Do đó, phải ưu tiên chặn đứng việc mất máu cấp trước (hoặc làm đồng thời nếu có nhiều người cứu hộ), nếu không việc ép tim CPR sẽ không còn tác dụng do không còn máu để tống đi."
+    "explanation": "Xuất huyết ồ ạt làm cạn máu nhanh, cầm máu là ưu tiên số một, nếu không CPR vô dụng."
   },
   {
     "id": 160,
     "question": "Đối với hệ thống chống sét nối tiếp đất của trạm biến áp, tại sao các mối liên kết giữa băng đồng/băng thép tiếp đất dưới lòng đất ưu tiên sử dụng phương pháp hàn hóa nhiệt (Cadwell) thay vì kẹp bu-lông?",
-    "answer": "Để đảm bảo mối nối không bị oxy hóa, không tăng điện trở tiếp xúc theo thời gian dưới tác động ăn mòn của lòng đất",
+    "options": ["Để đảm bảo mối nối không bị oxy hóa, không tăng điện trở tiếp xúc theo thời gian dưới tác động ăn mòn của lòng đất", "Rẻ hơn", "Dễ tháo lắp", "Đẹp hơn"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Kẹp bằng bu-lông trong lòng đất ẩm sẽ nhanh chóng bị rỉ sét, tạo màng oxit làm tăng điện trở mối nối, thậm chí bị lỏng ra do giãn nở nhiệt khi dòng sét lớn chạy qua. Hàn hóa nhiệt là quá trình nóng chảy nhôm và oxit đồng tạo thành một khối đồng đồng nhất, giúp mối nối chịu được dòng điện ngắn mạch/dòng sét cực lớn và trường tồn theo tuổi thọ công trình."
+    "explanation": "Kẹp bu-lông dễ rỉ sét, tăng điện trở; hàn hóa nhiệt tạo khối đồng nhất, bền vững."
   },
   {
     "id": 161,
     "question": "Tại sao khi di chuyển làm việc trong khu vực sân ngắt cao áp (110kV - 500kV) vào những ngày trời ẩm ướt hoặc có sương mù, công nhân thường có cảm giác tê rần ở da đầu hoặc khi chạm vào các kết cấu kim loại không nối đất?",
-    "answer": "Do hiện tượng cảm ứng điện trường mạnh trong không gian xung quanh đường dây cao áp",
+    "options": ["Do hiện tượng cảm ứng điện trường mạnh trong không gian xung quanh đường dây cao áp", "Do thời tiết lạnh", "Do ma sát", "Do thiếu vitamin"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đường dây siêu cao áp sinh ra một vùng điện trường cực kỳ mạnh xung quanh nó. Môi trường không khí ẩm ướt tăng cường khả năng dẫn cảm ứng. Cơ thể người chuyển động trong vùng này đóng vai trò như một vật dẫn tích điện cảm ứng. Khi chạm vào kết cấu kim loại khác tiềm năng, sẽ có dòng điện cảm ứng nhỏ phóng qua, gây cảm giác tê giật nhẹ (dù không nguy hiểm trực tiếp đến tính mạng nhưng dễ gây giật mình ngã từ trên cao)."
+    "explanation": "Điện trường mạnh, cơ thể tích điện cảm ứng, chạm vào kim loại khác tạo dòng điện nhỏ gây tê."
   },
   {
     "id": 162,
     "question": "Theo quy chuẩn an toàn, khi lắp đặt hệ thống nối đất lưu động (tiếp đất tạm thời), cọc tiếp đất đóng xuống lòng đất phải đạt độ sâu tối thiểu là bao nhiêu?",
-    "answer": "0.8 mét (tính từ mặt đất đến đỉnh cọc hoặc chiều sâu ngập hoàn toàn phần điện cực của cọc)",
+    "options": ["0.5 m", "0.8 m", "1.0 m", "1.5 m"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đóng cọc sâu ít nhất 0.8 mét nhằm mục đích đưa cọc tiếp cận được với các lớp đất có độ ẩm ổn định bên dưới, giảm điện trở tản của cọc đất, đảm bảo hệ thống tiếp đất lưu động hoạt động hiệu quả, dập tắt dòng điện sự cố/điện cảm ứng nhanh nhất có thể."
+    "explanation": "Sâu ít nhất 0.8m để đạt độ ẩm ổn định, giảm điện trở tản dòng điện."
   },
   {
     "id": 163,
     "question": "Khi kiểm tra tủ phân phối điện hạ thế bằng camera nhiệt (Hồng ngoại), phát hiện một đầu cốt dây cáp động lực có nhiệt độ vọt lên 120°C trong khi các pha khác chỉ 45°C. Hiện tượng này phản ánh mối nguy cơ gì?",
-    "answer": "Mối nối bị lỏng, tiếp xúc kém gây tăng điện trở tiếp xúc và có nguy cơ phát hỏa, cháy nổ phá hủy tủ điện",
+    "options": ["Mối nối bị lỏng, tiếp xúc kém gây tăng điện trở tiếp xúc và có nguy cơ phát hỏa, cháy nổ phá hủy tủ điện", "Bình thường", "Quá tải", "Mất pha"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Định luật Joule-Lenz chỉ ra nhiệt lượng tỷ lệ thuận với điện Resistance (P = I^2R). Đầu cốt lỏng làm giảm diện tích tiếp xúc hiệu dụng, làm tăng vọt điện trở R. Dòng điện tải lớn chạy qua sẽ sinh nhiệt độ cao, làm nóng chảy lớp nhựa bọc cáp, dẫn đến ngắn mạch giữa các pha và bùng phát hỏa hoạn."
+    "explanation": "P = I²R, điện trở tăng sinh nhiệt lớn, dễ cháy."
   },
   {
     "id": 164,
     "question": "Khi thực hiện sửa chữa đường dây trên không đã cắt điện, tại sao quy trình bắt buộc phải treo biển \"CẤM ĐÓNG ĐIỆN! CÓ NGƯỜI ĐANG LÀM VIỆC\" tại tay gạt điều khiển của tất cả các thiết bị đóng cắt (Dao cách ly, Máy cắt, Aptomat) có khả năng cấp điện đến vị trí làm việc?",
-    "answer": "Để ngăn chặn hành vi vô tình hay sai sót của nhân viên vận hành khác đóng điện trở lại lưới gây tước đoạt mạng sống của đơn vị công tác",
+    "options": ["Để ngăn chặn hành vi vô tình hay sai sót của nhân viên vận hành khác đóng điện trở lại lưới gây tước đoạt mạng sống của đơn vị công tác", "Để trang trí", "Để báo cáo", "Để kiểm kê thiết bị"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đây là biện pháp khóa an toàn tinh thần (Lockout/Tagout). Biển báo đập vào mắt người vận hành tại phòng điều khiển hoặc ngoài hiện trường, cảnh báo nghiêm ngặt rằng đang có đồng nghiệp làm việc phía sau thiết bị này, tuyệt đối không được chạm vào cần thao tác khi chưa có lệnh trả phiếu."
+    "explanation": "Biển cảnh báo tại cơ cấu đóng cắt, tránh đóng điện nhầm khi đang có người làm việc."
   },
   {
     "id": 165,
     "question": "Trong công tác thí nghiệm dầu cách điện của Máy biến áp lực, chỉ số \"Điện áp đánh thủng\" (Dielectric Breakdown Voltage) của dầu biểu thị thuộc tính gì?",
-    "answer": "Khả năng chịu đựng ứng suất điện trường của dầu mà không bị phóng điện xuyên qua",
+    "options": ["Khả năng chịu đựng ứng suất điện trường của dầu mà không bị phóng điện xuyên qua", "Độ nhớt", "Màu sắc", "Mùi"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Chỉ số điện áp đánh thủng (đo bằng kV/2.5mm) càng cao chứng tỏ dầu càng sạch, ít bị lẫn tạp chất sợi cách điện, bụi bẩn hay hạt nước ẩm. Nếu chỉ số này tụt giảm nghiêm trọng, nguy cơ phóng điện nội bộ giữa các vòng dây máy biến áp qua môi trường dầu là rất lớn, dễ gây nổ máy biến áp."
+    "explanation": "Điện áp đánh thủng càng cao, dầu càng sạch, cách điện tốt."
   },
   {
     "id": 166,
     "question": "Khi sử dụng máy hàn điện một chiều hoặc xoay chiều, kẹp mát (kẹp nối mạch về của dòng hàn) phải được kẹp như thế nào là đúng kỹ thuật an toàn?",
-    "answer": "Kẹp trực tiếp càng gần vị trí thanh kim loại cần hàn càng tốt, trên bề mặt đã được làm sạch rỉ sét",
+    "options": ["Kẹp trực tiếp càng gần vị trí thanh kim loại cần hàn càng tốt, trên bề mặt đã được làm sạch rỉ sét", "Kẹp xa vị trí hàn", "Kẹp lên dây nguồn", "Kẹp tùy ý"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Kẹp mát gần vị trí hàn giúp dòng điện hàn chạy theo một mạch ngắn nhất, không đi loằng ngoằng qua các kết cấu nhà xưởng, đường ống ga, bệ máy có vòng bi. Nếu kẹp mát xa hoặc lỏng, dòng điện hàn (hàng trăm Ampe) tìm đường về qua các chi tiết cơ khí nhạy cảm có thể gây phóng điện hồ quang làm hỏng vòng bi, thủng ống dẫn khí hoặc mồi lửa cháy ngầm."
+    "explanation": "Kẹp gần tạo mạch hàn ngắn, tránh dòng hàn đi qua các chi tiết nhạy cảm gây hư hỏng."
   },
   {
     "id": 167,
     "question": "Khi cắt điện để bảo trì hệ thống thanh cái (Busbar) tổng hạ thế của trạm biến áp, việc đầu tiên cần làm sau khi mở Aptomat tổng phía hạ thế là gì?",
-    "answer": "Phải cắt điện cả Máy cắt/Cầu chì phía trung thế (phía sơ cấp) của máy biến áp để cô lập hoàn toàn",
+    "options": ["Phải cắt điện cả Máy cắt/Cầu chì phía trung thế (phía sơ cấp) của máy biến áp để cô lập hoàn toàn", "Tháo thanh cái", "Kiểm tra dòng điện", "Đặt biển báo"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Nếu chỉ cắt Aptomat tổng hạ thế mà vẫn giữ điện phía trung thế, máy biến áp vẫn ngâm điện. Thanh cái hạ thế tuy đã tách tải nhưng chỉ cần một lỗi cách điện nhỏ bên trong máy hoặc thao tác chạm vào đầu cực thứ cấp vẫn cực kỳ nguy hiểm. Cô lập hoàn toàn từ phía nguồn cao/trung thế là biện pháp an toàn triệt để."
+    "explanation": "Cô lập từ nguồn cao/trung thế là an toàn triệt để, tránh điện ngược từ máy biến áp."
   },
   {
     "id": 168,
     "question": "Tại sao khi cứu hộ một nạn nhân đang bị dính chặt vào nguồn điện hạ thế (ví dụ tay nắm chặt dây điện rò), ta tuyệt đối cấm dùng lực kéo trực tiếp vào da thịt trần của nạn nhân?",
-    "answer": "Vì cơ thể nạn nhân đang mang điện thế cao, người cứu hộ chạm vào da thịt trần sẽ lập tức trở thành nạn nhân thứ hai",
+    "options": ["Vì cơ thể nạn nhân đang mang điện thế cao, người cứu hộ chạm vào da thịt trần sẽ lập tức trở thành nạn nhân thứ hai", "Vì nạn nhân đau", "Vì nạn nhân yếu", "Vì không hiệu quả"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Dòng điện chạy qua cơ thể khiến cơ thịt nạn nhân co quắp, khóa chặt nguồn điện. Lúc này cơ thể họ là một vật dẫn điện. Người cứu hộ chạm vào vùng da hở của họ sẽ bị dòng điện truyền sang ngay. Luôn phải đứng trên vật cách điện, nắm vào quần áo khô, rộng của nạn nhân hoặc dùng gậy gỗ khô để tách họ ra."
+    "explanation": "Cơ thể nạn nhân dẫn điện, chạm trực tiếp sẽ bị giật dây chuyền."
   },
   {
     "id": 169,
     "question": "Biển báo nào dưới đây được đặt cố định tại ranh giới phân chia giữa vùng thiết bị đang mang điện vận hành và vùng thiết bị đã cắt điện an toàn giao cho đơn vị công tác?",
-    "answer": "Biển \"DỪNG LẠI! CÓ ĐIỆN NGUY HIỂM CHẾT NGƯỜI\" hoặc rào chắn cứng sơn màu đỏ/trắng",
+    "options": ["Biển \"DỪNG LẠI! CÓ ĐIỆN NGUY HIỂM CHẾT NGƯỜI\" hoặc rào chắn cứng sơn màu đỏ/trắng", "Biển \"CẤM TRÈO\"", "Biển \"LÀM VIỆC TẠI ĐÂY\"", "Biển \"VÀO HƯỚNG NÀY\""],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Biển báo và hàng rào này đóng vai trò như một \"bức tường biên giới\" nghiêm ngặt. Công nhân làm việc tuyệt đối không được phép thò người, tay chân hay dụng cụ vượt qua ranh giới này, ngăn chặn việc vi phạm khoảng cách phóng điện sang vùng đang vận hành kế bên."
+    "explanation": "Ranh giới nghiêm ngặt, ngăn công nhân vượt vào vùng có điện."
   },
   {
     "id": 170,
     "question": "Đối với thiết bị chống sét van (Surge Arrester - LA) lắp tại đầu trạm biến áp, dây dẫn tiếp đất từ đế của LA xuống hệ thống nối đất tổng phải tuân thủ yêu cầu lắp đặt nào?",
-    "answer": "Phải đi thẳng nhất có thể, tiết diện lớn và tuyệt đối không được uốn cong gập góc nhọn (90°)",
+    "options": ["Phải đi thẳng nhất có thể, tiết diện lớn và tuyệt đối không được uốn cong gập góc nhọn (90°)", "Được uốn cong thoải mái", "Có thể nối dài", "Không cần chú ý"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Dòng điện sét có tần số cực cao, khi chạy qua dây dẫn uốn cong gập góc sẽ gặp phải một độ tự cảm (L) cực lớn tại góc cua (hiệu ứng cảm ứng điện từ). Độ tự cảm này sẽ cản trở dòng sét, sinh ra điện áp phản kháng lớn làm vọt điện áp tại đầu LA, dẫn đến phóng điện phá hủy thiết bị xung quanh thay vì thoát sét xuống đất an toàn."
+    "explanation": "Uốn gập nhọn tạo điện cảm lớn, cản trở dòng sét, gây phóng điện hủy hoại thiết bị."
   },
   {
     "id": 171,
     "question": "Khi làm việc trong các không gian hạn chế (Confined Space) như bên trong lồng cánh tuabin gió, hầm cáp ngầm, tại sao yêu cầu bắt buộc phải sử dụng hệ thống chiếu sáng bằng nguồn điện áp cực thấp an toàn (SELV)?",
-    "answer": "Vì môi trường chật hẹp, độ ẩm cao, người công nhân dễ tiếp xúc toàn diện với vách kim loại, nếu rò điện 220V tỷ lệ tử vong là 100%",
+    "options": ["Vì môi trường chật hẹp, độ ẩm cao, người công nhân dễ tiếp xúc toàn diện với vách kim loại, nếu rò điện 220V tỷ lệ tử vong là 100%", "Để tiết kiệm điện", "Vì đèn sáng hơn", "Quy định cũ"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Trong không gian kín bằng kim loại hoặc ẩm ướt, điện trở cơ thể người giảm xuống mức rất thấp do mồ hôi. Tiêu chuẩn an toàn quy định phải dùng nguồn điện áp siêu thấp (<24V AC hoặc <50V DC) cấp từ biến áp cách ly đặt bên ngoài hầm để cấp điện cho đèn chiếu sáng và công cụ cầm tay."
+    "explanation": "Điện áp siêu thấp (<24V AC hoặc <50V DC) qua biến áp cách ly đặt ngoài hầm."
   },
   {
     "id": 172,
     "question": "Sau khi xảy ra sự cố ngắn mạch hồ quang lớn trong tủ điện hạ thế công nghiệp, tại sao không được bật ngay quạt thông gió thông thường của nhà xưởng để thổi khói ra ngoài mà phải dùng quạt hút sự cố chuyên dụng có màng lọc?",
-    "answer": "Để tránh thổi bụi đồng, muội than và các hạt kim loại li ti phát tán sang các tủ điện lân cận đang có điện gây ngắn mạch dây chuyền",
+    "options": ["Để tránh thổi bụi đồng, muội than và các hạt kim loại li ti phát tán sang các tủ điện lân cận đang có điện gây ngắn mạch dây chuyền", "Để khỏi bẩn", "Vì quạt thường yếu", "Vì quạt chuyên dụng đẹp"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Khói từ vụ nổ hồ quang chứa rất nhiều hạt kim loại bốc hơi ngưng tụ (bụi đồng, bụi nhôm) và muội cacbon dẫn điện. Nếu dùng quạt thông gió thổi bừa bãi, luồng khí mang bụi dẫn điện này bay lọt vào các khoang tủ điện đang vận hành bình thường bên cạnh sẽ lập tức làm suy giảm cách điện không khí, mồi ra một loạt vụ nổ hồ quang thứ cấp cực kỳ nguy hiểm."
+    "explanation": "Khói hồ quang chứa bụi kim loại dẫn điện, thổi bừa bãi gây ngắn mạch hàng loạt."
   },
   {
     "id": 173,
     "question": "Trong quy trình xử lý sự cố rơ le bảo vệ so lệch dòng điện (Bảo vệ 87) của Máy biến áp lực tác động nhảy máy cắt, hành vi nào sau đây bị nghiêm cấm?",
-    "answer": "Tự ý đóng lại máy cắt điện để cấp điện trở lại cho máy biến áp khi chưa tiến hành kiểm tra, thử nghiệm xác định nguyên nhân",
+    "options": ["Tự ý đóng lại máy cắt điện để cấp điện trở lại cho máy biến áp khi chưa tiến hành kiểm tra, thử nghiệm xác định nguyên nhân", "Báo cáo lãnh đạo", "Ghi nhật ký", "Đo cách điện"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Rơ le so lệch (87) là bảo vệ vùng nội bộ, chỉ tác động khi có sự cố ngắn mạch rất nặng bên trong thùng máy biến áp (phóng điện giữa các pha, cháy cuộn dây). Nếu cố tình đóng điện lại (đóng điện vào điểm ngắn mạch cố định), nguồn năng lượng khổng lồ sẽ làm nổ tung máy biến áp, gây cháy lớn và nguy hiểm trực tiếp đến tính mạng nhân sự xung quanh."
+    "explanation": "Bảo vệ so lệch tác động khi ngắn mạch nội bộ, đóng lại sẽ gây nổ máy."
   },
   {
     "id": 174,
     "question": "Khi thực hiện thao tác kiểm tra định kỳ bằng mắt các chuỗi sứ cách điện đường dây 110kV-220kV đang vận hành, hiện tượng \"Phóng điện vầng quang\" (Corona) thường dễ quan sát nhất vào thời điểm nào?",
-    "answer": "Ban đêm hoặc lúc trời chạng vạng tối, trời mưa phùn, sương ẩm",
+    "options": ["Ban đêm hoặc lúc trời chạng vạng tối, trời mưa phùn, sương ẩm", "Giữa trưa nắng gắt", "Lúc có bão", "Mọi lúc"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Vầng quang điện là hiện tượng ion hóa cục bộ không khí xung quanh bề mặt dây dẫn hoặc phụ kiện sứ do cường độ điện trường vượt quá độ bền cách điện của không khí. Hiện tượng này phát ra ánh sáng tím nhạt kèm tiếng kêu xèo xèo nhỏ, rất khó thấy dưới ánh nắng ban ngày nhưng hiện rõ mồn một trong bóng tối hoặc khi độ ẩm không khí tăng cao."
+    "explanation": "Ánh sáng vầng quang yếu, dễ thấy trong tối hoặc ẩm ướt."
   },
   {
     "id": 175,
     "question": "Tại sao trong kỹ thuật an toàn, người ta quy định dây tiếp đất lưu động bắt buộc phải là loại dây đồng trần bọc một lớp nhựa trong suốt (Clear nhựa PVC) mà không dùng dây bọc nhựa màu đen hay màu xanh thông thường?",
-    "answer": "Để người công nhân dễ dàng kiểm tra bằng mắt xem các sợi đồng bên trong có bị đứt ngầm, rỉ sét hay gãy giảm tiết diện hay không",
+    "options": ["Để người công nhân dễ dàng kiểm tra bằng mắt xem các sợi đồng bên trong có bị đứt ngầm, rỉ sét hay gãy giảm tiết diện hay không", "Để đẹp", "Để rẻ tiền", "Để dễ uốn"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Dây tiếp đất lưu động phải chịu dòng ngắn mạch cực lớn khi có sự cố đóng điện nhầm. Nếu dây bị đứt ngầm bên trong lớp vỏ nhựa màu, tiết diện đồng bị giảm, khi có dòng điện lớn chạy qua dây sẽ bị nổ đứt phăng ngay lập tức, làm mất tác dụng bảo vệ an toàn. Lớp vỏ trong suốt giúp loại bỏ rủi ro này qua việc kiểm tra trực quan trước mỗi lần sử dụng."
+    "explanation": "Vỏ trong suốt giúp phát hiện đứt ngầm, tránh mất tác dụng bảo vệ khi có dòng sự cố."
   },
   {
     "id": 176,
     "question": "Khi làm việc trên lưới điện 500kV, khoảng cách an toàn tối thiểu đối với người và thiết bị không được bảo vệ theo QCVN 25:2025 là bao nhiêu?",
-    "answer": "6.0 m",
+    "options": ["3.0 m", "4.0 m", "4.5 m", "6.0 m"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Với cấp điện áp siêu cao áp 500kV, độ bền cách điện của không khí bị suy giảm mạnh dưới tác dụng của điện trường lớn. Khoảng cách an toàn tối thiểu nghiêm ngặt quy định là 6.0 mét nhằm loại trừ hoàn toàn nguy cơ phóng điện vầng quang hoặc phóng điện đánh thủng qua khoảng trống không khí đến cơ thể người."
+    "explanation": "Điện áp 500kV yêu cầu khoảng cách an toàn tối thiểu 6.0 mét."
   },
   {
     "id": 177,
     "question": "Dụng cụ thử điện (bút thử điện) phải được kiểm tra như thế nào trước khi dùng ngoài hiện trường?",
-    "answer": "Thử tại nơi biết chắc chắn có điện để xác nhận bút hoạt động tốt",
+    "options": ["Nhìn bằng mắt", "Thử tại nơi biết chắc chắn có điện để xác nhận bút hoạt động tốt", "Thử vào nước", "Chỉ cần xem ngày sản xuất"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Việc kiểm tra hạn kiểm định trên thân bút chỉ là điều kiện cần. Để đảm bảo an toàn tuyệt đối, điều kiện đủ là phải thử bút tại một nguồn điện sống có sẵn tại trạm hoặc dùng bộ tạo nguồn xung thử bút chuyên dụng để chắc chắn rằng đèn báo/chuông báo của bút vẫn hoạt động nhạy bén. Nếu bút bị hỏng mạch bên trong mà không thử trước, khi đo vào đường dây có điện nó sẽ không báo, khiến công nhân lầm tưởng đã hết điện và dẫn tới tai nạn."
+    "explanation": "Đảm bảo bút báo đúng, tránh bút hỏng dẫn đến hiểu lầm hết điện."
   },
   {
     "id": 178,
     "question": "Khi bàn giao ca trực vận hành trạm biến áp hoặc tổ thao tác lưu động, nội dung về an toàn nào cần phải chú ý và bàn giao chi tiết nhất?",
-    "answer": "Các vị trí đang có đơn vị công tác làm việc và các bộ tiếp đất lưu động đang đặt",
+    "options": ["Các vị trí đang có đơn vị công tác làm việc và các bộ tiếp đất lưu động đang đặt", "Tên của bảo vệ ca trước", "Thời tiết của ngày hôm qua", "Không cần chú ý"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Đây là nội dung cốt lõi của an toàn vận hành. Ca sau phải nắm rõ đang có bao nhiêu phiếu công tác chưa trả, đơn vị nào đang làm việc ở ngăn lộ nào và sơ đồ các bộ tiếp đất lưu động đang khóa lưới. Việc này giúp ngăn ngừa việc ca sau vô tình thực hiện thao tác đóng điện nhầm vào ngăn lộ đang có người làm việc hoặc đóng điện vào điểm đang bị nối đất."
+    "explanation": "Tránh đóng điện nhầm vào ngăn lộ đang có người làm việc hoặc đang nối đất."
   },
   {
     "id": 179,
     "question": "Một người có bậc an toàn điện bậc 4 có được phép đảm nhiệm vai trò \"Người cho phép\" tại trạm biến áp hoặc đường dây cấp điện áp 110kV không?",
-    "answer": "Có, nếu đủ năng lực và được bổ nhiệm bằng văn bản của đơn vị",
+    "options": ["Không", "Có, nếu đủ năng lực và được bổ nhiệm bằng văn bản của đơn vị", "Chỉ khi có lãnh đạo đi cùng", "Chỉ làm được ở phần hạ thế"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Theo quy trình an toàn điện, đối với lưới điện từ 01kV trở lên, chức danh \"Người cho phép\" yêu cầu bậc an toàn điện tối thiểu từ bậc 4 trở lên. Do đó, người có bậc 4 hoàn toàn đủ điều kiện pháp lý để được đơn vị bổ nhiệm làm Người cho phép tại trạm 110kV sau khi đã qua sát hạch đạt yêu cầu."
+    "explanation": "Bậc 4 đủ điều kiện cho lưới từ 1kV trở lên, cần bổ nhiệm bằng văn bản."
   },
   {
     "id": 180,
     "question": "Nếu Phiếu công tác bị mất hoặc bị rách nát đến mức không thể đọc rõ các nội dung biện pháp an toàn thì phải xử lý thế nào?",
-    "answer": "Đình chỉ công việc và lập phiếu mới",
+    "options": ["Dán lại để dùng", "Đình chỉ công việc và lập phiếu mới", "Cứ làm tiếp vì đã nhớ nội dung", "Chụp ảnh lại là được"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Phiếu công tác là văn bản pháp lý tối cao chỉ đạo an toàn tại hiện trường. Khi phiếu không còn nguyên vẹn hoặc mất, mọi biện pháp kiểm soát rủi ro không thể đối chiếu. Người chỉ huy trực tiếp phải ra lệnh dừng việc, rút quân ra vị trí an toàn và làm thủ tục xin cấp lại phiếu mới."
+    "explanation": "Phiếu là chứng từ pháp lý, mất hoặc rách không đọc được phải dừng và lập lại phiếu."
   },
   {
     "id": 181,
     "question": "Khi làm việc trên đường dây đang cắt điện nhưng đi vận hành song song (chung cột hoặc đi sát hành lang) với một đường dây khác đang có điện, yếu tố nguy hiểm tiềm ẩn lớn nhất cần được kiểm soát là gì?",
-    "answer": "Điện áp cảm ứng",
+    "options": ["Gió bão", "Điện áp cảm ứng", "Độ võng của dây", "Tiếng ồn từ vầng quang"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Đường dây đang mang điện bên cạnh sẽ sinh ra một điện trường và từ trường biến thiên mạnh, cảm ứng sang đường dây đã cắt điện bên cạnh một lượng điện tích lớn (điện áp cảm ứng cao áp). Lượng điện áp cảm ứng này có thể lên tới hàng nghìn Volts, đủ sức gây giật chết người nếu công nhân chạm vào dây mà không thực hiện tiếp đất lưu động đầy đủ để dập điện thế xuống đất."
+    "explanation": "Điện áp cảm ứng từ đường dây bên cạnh có thể gây giật chết nếu không tiếp đất."
   },
   {
     "id": 182,
     "question": "Theo QCVN 25:2025, khi làm việc tại các mạch điều khiển, bảo vệ nhị thứ của trạm biến áp, việc sử dụng các dụng cụ kim loại dài phải tuân thủ quy tắc nào?",
-    "answer": "Phải bọc cách điện toàn bộ phần thân, trừ phần đầu làm việc",
+    "options": ["Không được mang vào", "Phải đeo găng tay vải", "Phải bọc cách điện toàn bộ phần thân, trừ phần đầu làm việc", "Chỉ làm khi đã cắt điện nhất thứ"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Mạch nhị thứ bố trí rất dày đặc các tiếp điểm. Dụng cụ kim loại trần nếu không bọc cách điện có thể vô tình tạo cầu nối đoản mạch giữa các cực nguồn điều khiển 220V DC, gây nổ cháy hoặc gửi tín hiệu kích động nhầm làm nhảy các máy cắt đang vận hành phụ tải."
+    "explanation": "Tránh đoản mạch giữa các cực trong tủ nhị thứ."
   },
   {
     "id": 183,
     "question": "Trong trường hợp khẩn cấp để cứu người bị tai nạn hoặc ngăn chặn sự cố cháy nổ thiết bị lớn, ai có quyền ra lệnh thực hiện thao tác cô lập mà không cần chờ Phiếu công tác?",
-    "answer": "Nhân viên vận hành trực ca (theo quy trình xử lý sự cố)",
+    "options": ["Người chỉ huy trực tiếp", "Nhân viên vận hành trực ca (theo quy trình xử lý sự cố)", "Giám đốc đơn vị", "Bất cứ ai phát hiện sự cố"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Trong tình huống khẩn cấp nguy hiểm đến tính mạng hoặc an toàn hệ thống, Quy trình xử lý sự cố cho phép nhân viên vận hành trực ca được quyền cô lập khẩn cấp thiết bị bị sự cố ngay lập tức để cứu hộ, sau đó ghi nhật ký và báo cáo cấp trên, không cần tuân theo trình tự Phiếu công tác thông thường nhằm tranh thủ \"thời gian vàng\" cứu người."
+    "explanation": "Quy trình xử lý sự cố cho phép nhân viên trực ca cô lập khẩn cấp, sau đó báo cáo."
   },
   {
     "id": 184,
     "question": "Khoảng cách an toàn tối thiểu chống phóng điện đối với cấp điện áp 220kV đối với người và thiết bị không được bảo vệ là bao nhiêu?",
-    "answer": "3.0 m",
+    "options": ["2.0 m", "2.5 m", "3.0 m", "4.0 m"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Theo quy chuẩn an toàn, khoảng cách an toàn phóng điện đối với cấp điện áp 220kV tối thiểu là 3.0 mét. Nhân sự và các phương tiện máy móc thi công khi di chuyển xung quanh vùng mang điện phải luôn giữ khoảng cách lớn hơn con số này."
+    "explanation": "Theo quy chuẩn, khoảng cách an toàn cho 220kV là 3.0 m."
   },
   {
     "id": 185,
     "question": "Khi làm việc trên thiết bị có nhiều nguồn điện cấp tới (như máy biến áp hoặc thanh cái), việc \"Cắt điện để làm việc\" yêu cầu tối thiểu điều gì?",
-    "answer": "Cắt điện từ mọi phía, tạo khoảng cách hở và khóa các bộ truyền động",
+    "options": ["Chỉ cắt nguồn phía tải", "Cắt điện từ mọi phía, tạo khoảng cách hở và khóa các bộ truyền động", "Chỉ cần tắt máy cắt", "Đóng tiếp đất là đủ"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Cắt điện từ mọi phía (phía sơ cấp, thứ cấp, mạch vòng nếu có) giúp triệt tiêu hoàn toàn khả năng có nguồn điện ngược từ các phía khác xông về vị trí làm việc. Tạo khoảng cách hở nhìn thấy được qua dao cách ly và khóa cơ khí bộ truyền động nhằm ngăn thiết bị tự đóng lại do lỗi điều khiển."
+    "explanation": "Cô lập hoàn toàn mọi nguồn điện, tạo khoảng hở nhìn thấy và khóa cơ khí."
   },
   {
     "id": 186,
     "question": "Chức danh \"Người lãnh đạo công việc\" có trách nhiệm chính nào dưới đây tại hiện trường làm việc?",
-    "answer": "Xác định phạm vi, biện pháp an toàn chung và chọn người chỉ huy phù hợp",
+    "options": ["Trực tiếp làm việc cùng nhóm", "Đứng dưới đất giám sát", "Xác định phạm vi, biện pháp an toàn chung và chọn người chỉ huy phù hợp", "Không có trách nhiệm tại hiện trường"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Người lãnh đạo công việc là người phê duyệt phương án thi công tổng thể, chịu trách nhiệm phối hợp các đơn vị, đề xuất biện pháp an toàn đồng bộ và lựa chọn nhân sự có đủ năng lực chỉ huy đơn vị công tác làm việc một cách an toàn nhất."
+    "explanation": "Quản lý tầm vĩ mô, phê duyệt phương án và giao nhiệm vụ."
   },
   {
     "id": 187,
     "question": "Tại sao quy trình an toàn nghiêm cấm việc thực hiện tiếp đất lưu động tại các vị trí mà dây tiếp đất phải băng ngang qua đường giao thông?",
-    "answer": "Nguy cơ bị phương tiện kéo đứt gây mất an toàn và tạo điện áp bước",
+    "options": ["Tốn dây", "Nguy cơ bị phương tiện kéo đứt gây mất an toàn và tạo điện áp bước", "Không thẩm mỹ", "Cản trở giao thông"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Nếu luồn dây tiếp đất qua đường xe chạy, khi có phương tiện di chuyển qua cán hoặc vướng dây kéo đứt, hệ thống nối đất bảo vệ bị vô hiệu hóa. Khi đó, nếu có dòng điện sự cố tràn về, vị trí đứt sẽ sinh ra tia lửa hồ quang và một vùng điện áp bước cực kỳ nguy hiểm cho mọi người xung quanh hành lang giao thông."
+    "explanation": "Xe cộ cán đứt dây, mất tác dụng bảo vệ và gây điện áp bước nguy hiểm."
   },
   {
     "id": 188,
     "question": "Khi thay sứ cách điện trên đường dây cao áp đang cắt điện nhưng nằm trong vùng có điện áp cảm ứng từ lớn, yêu cầu bắt buộc là gì?",
-    "answer": "Đặt tiếp đất lưu động tại cả hai phía của vị trí đang làm việc",
+    "options": ["Đeo thêm găng tay", "Đặt tiếp đất lưu động tại cả hai phía của vị trí đang làm việc", "Làm thật nhanh", "Chỉ làm khi trời nắng"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Việc đặt tiếp đất lưu động ở cả hai phía (trước và sau vị trí làm việc) tạo ra một vùng đẳng thế an toàn kẹp giữa. Toàn bộ dòng điện cảm ứng sinh ra trên đường dây sẽ bị các bộ tiếp đất này xả thẳng xuống lòng đất, bảo vệ người công nhân không bị dòng điện chạy qua cơ thể khi tháo/lắp chuỗi sứ."
+    "explanation": "Tiếp đất hai phía tạo vùng đẳng thế, xả dòng cảm ứng xuống đất."
   },
   {
     "id": 189,
     "question": "Đối với một máy biến áp lực công suất lớn vừa mới được tách ra khỏi lưới điện, nguy cơ nào tồn tại nếu không thực hiện tiếp đất phóng điện ngay?",
-    "answer": "Điện dung dư trên cuộn dây và điện áp cảm ứng",
+    "options": ["Máy bị hỏng", "Điện dung dư trên cuộn dây và điện áp cảm ứng", "Máy bị nóng", "Không có nguy cơ gì"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Các cuộn dây kích thước lớn trong máy biến áp lực đóng vai trò như các bản cực của một tụ điện khổng lồ. Khi ngắt điện, năng lượng điện trường vẫn tích tụ dưới dạng điện tích dư (điện dung dư) có điện áp rất cao. Do đó, bắt buộc phải dùng sào tiếp đất chuyên dụng để xả phóng điện tích này xuống đất trước khi cho người chạm tay vào bảo trì."
+    "explanation": "Cuộn dây máy biến áp có điện dung dư, cần xả đất tránh giật."
   },
   {
     "id": 190,
     "question": "Theo Quy định an toàn EVN, một người lao động có bậc 3 an toàn điện có thể đảm nhận tốt nhất vai trò nào dưới đây?",
-    "answer": "Người chỉ huy trực tiếp cho nhóm làm việc đơn giản",
+    "options": ["Người cấp phiếu công tác", "Người cho phép", "Người chỉ huy trực tiếp cho nhóm làm việc đơn giản", "Người kiểm soát phiếu"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Người có bậc 3 an toàn điện đã có kinh nghiệm và kiến thức thực tế, được phép đảm nhận vai trò chỉ huy trực tiếp cho các nhóm công tác thực hiện các công việc đơn giản, ít nguy cơ độc hại nguy hiểm (ví dụ: làm việc ở lưới hạ thế hoặc công việc không liên quan đến điện cao thế). Các chức danh cấp phiếu hay cho phép đòi hỏi tối thiểu bậc 4 trở lên."
+    "explanation": "Bậc 3 chỉ huy các công việc đơn giản, ít nguy cơ; cấp phiếu/cho phép cần bậc 4 trở lên."
   },
   {
     "id": 191,
     "question": "Khi làm việc tại các ngăn lộ thiết bị khí cách điện (GIS), nếu hệ thống cảm biến cảnh báo phát hiện nồng độ khí SF6 rò rỉ vượt mức an toàn làm tụt nồng độ oxy, quy định xử lý tại hiện trường là gì?",
-    "answer": "Rút toàn bộ quân và thực hiện thông gió cưỡng bức",
+    "options": ["Đeo khẩu trang làm tiếp", "Rút toàn bộ quân và thực hiện thông gió cưỡng bức", "Bật quạt cá nhân", "Không cần xử lý"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khí SF6 nặng hơn không khí nên khi rò rỉ sẽ chìm xuống sàn trạm và các hầm cáp ngầm, chiếm chỗ của oxy gây ngạt thở. Đồng thời khí SF6 rò rỉ có thể chứa chất phân hủy độc hại. Khi có cảnh báo, toàn bộ nhân sự phải di tản ngay lên vùng cao/thoát ra ngoài và khởi động hệ thống quạt hút thông gió cưỡng bức công suất lớn để làm sạch không khí trước khi quay lại."
+    "explanation": "SF6 nặng, gây ngạt; phải di tản và thông gió cưỡng bức."
   },
   {
     "id": 192,
     "question": "Trong quy trình bàn giao hiện trường công tác, nếu \"Người chỉ huy trực tiếp\" phát hiện các biện pháp an toàn (cắt điện, tiếp đất) do trạm chuẩn bị còn thiếu sót, họ phải xử lý thế nào?",
-    "answer": "Từ chối nhận bàn giao và yêu cầu người cho phép bổ sung đúng quy định",
+    "options": ["Tự ý bổ sung và làm", "Từ chối nhận bàn giao và yêu cầu người cho phép bổ sung đúng quy định", "Cứ làm và cẩn thận hơn", "Báo cáo trực ban"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Người chỉ huy trực tiếp là người bảo vệ tính mạng cho cả đội. Nếu thấy khoảng cách hở chưa rõ, tiếp đất lưu động thiếu hoặc sai vị trí, tuyệt đối không được ký nhận bàn giao hiện trường và không cho quân vào làm, mà phải yêu cầu Người cho phép thực hiện đúng và đủ các biện pháp ghi trong phiếu công tác."
+    "explanation": "Người chỉ huy có quyền từ chối nếu thấy an toàn chưa đảm bảo, bảo vệ tính mạng đội."
   },
   {
     "id": 193,
     "question": "Biện pháp nào dưới đây là tối ưu nhất để bảo vệ người vận hành khỏi nguy cơ điện áp bước khi thao tác đóng cắt các dao cách ly cao áp bằng tay ngoài sân ngắt?",
-    "answer": "Sử dụng thảm cách điện hoặc thiết kế lưới đẳng thế tại vị trí đứng thao tác",
+    "options": ["Đi ủng cách điện", "Sử dụng thảm cách điện hoặc thiết kế lưới đẳng thế tại vị trí đứng thao tác", "Đứng bằng một chân", "Thao tác bằng sào thật dài"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khi thao tác dao cách ly cao áp, nếu xảy ra sự cố phóng điện bề mặt, dòng ngắn mạch cực lớn sẽ chạy dọc khung kim loại xuống đất tạo ra dải điện áp bước rất cao quanh bệ thao tác. Việc thiết kế một tấm lưới thép đẳng thế chôn ngầm kết nối trực tiếp với bệ kim loại thao tác (hoặc thảm cao su cách điện chuyên dụng) sẽ giữ cho hai chân của người vận hành luôn ở cùng một điện thế (hiệu điện thế bằng 0), loại bỏ hoàn toàn dòng điện chạy qua chân."
+    "explanation": "Lưới đẳng thế hoặc thảm cách điện giữ hai chân cùng điện thế, loại trừ điện áp bước."
   },
   {
     "id": 194,
     "question": "Khi làm việc với thiết bị viễn thông, cáp quang gắn chung trên thân cột điện cao thế, khoảng cách an toàn điện quy định được tính bắt đầu từ đâu?",
-    "answer": "Từ phần có điện gần nhất của đường dây đến người và dụng cụ làm việc",
+    "options": ["Từ phần có điện gần nhất của đường dây đến người và dụng cụ làm việc", "Từ thân cột", "Từ mặt đất", "Từ xà thấp nhất"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Cáp viễn thông dẫu không mang điện cao áp nhưng được treo chung cột với dây điện cao thế. Khoảng cách an toàn luôn được tính từ vị trí dây dẫn điện trần (vùng mang điện nguy hiểm) đến điểm cao nhất của cơ thể người công nhân hoặc dụng cụ kim loại mà họ mang theo để tránh hiện tượng phóng điện phóng qua người từ trên xuống."
+    "explanation": "Tính từ dây dẫn điện trần gần nhất đến người và dụng cụ."
   },
   {
     "id": 195,
     "question": "Trong quy trình kỹ thuật an toàn điện, \"Khoảng cách làm việc an toàn\" được định nghĩa khác biệt như thế nào so với \"Khoảng cách an toàn phóng điện\"?",
-    "answer": "Khoảng cách làm việc bao gồm khoảng cách phóng điện cộng thêm khoảng cách bù sai số do dịch chuyển của người",
+    "options": ["Là một", "Khoảng cách làm việc bao gồm khoảng cách phóng điện cộng thêm khoảng cách bù sai số do dịch chuyển của người", "Là khoảng cách từ đất lên", "Không có định nghĩa này"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Khoảng cách an toàn phóng điện là ranh giới vật lý tối thiểu (chạm vào hoặc vượt qua là bị phóng điện giật). Còn khoảng cách làm việc an toàn được cộng thêm một biên độ dao động (thường từ 0.5m - 1.0m) để dự phòng cho các cử động vô ý của công nhân trong quá trình xoay người, đưa tay hoặc vung dụng cụ làm việc không bị lọt vào vùng phóng điện nguy hiểm."
+    "explanation": "Khoảng cách làm việc an toàn = khoảng cách phóng điện + biên độ dao động (0.5-1.0m)."
   },
   {
     "id": 196,
     "question": "Khi kéo dây lấy độ võng băng qua phía trên một đường dây hạ thế đang có điện phía dưới, quy trình bắt buộc đơn vị công tác phải thực hiện là gì?",
-    "answer": "Xây dựng giàn giáo bảo vệ (giàn giáo chắn dây) chắc chắn",
+    "options": ["Kéo thật căng", "Có người cầm sào đẩy dây", "Chỉ làm ban đêm", "Xây dựng giàn giáo bảo vệ (giàn giáo chắn dây) chắc chắn"],
+    "answer": "D",
     "can_cu": "",
-    "explanation": "Trong lúc kéo dây, dây dẫn mới có thể bị tuột tời, chùng võng bất ngờ gạt xuống lưới hạ thế đang có điện. Giàn giáo bảo vệ (làm bằng gỗ hoặc vật liệu cách điện vững chắc) đặt phía trên lưới hạ thế đóng vai trò như một giá đỡ vật lý ngăn cách tuyệt đối, giúp dây mới không chạm vào lưới điện bên dưới trong mọi tình huống phát sinh lực căng."
+    "explanation": "Giàn giáo chắn dây cách điện ngăn dây mới chạm vào lưới có điện."
   },
   {
     "id": 197,
     "question": "Đối với công việc làm việc trên cao có tính chất di chuyển dọc theo dây dẫn đường dây truyền tải, yêu cầu về việc sử dụng dây an toàn như thế nào là đúng quy chuẩn chống rơi?",
-    "answer": "Phải sử dụng dây an toàn kép có thiết bị chống rơi hoặc giảm chấn",
+    "options": ["Dùng dây thừng", "Phải sử dụng dây an toàn kép có thiết bị chống rơi hoặc giảm chấn", "Chỉ cần 1 dây móc", "Không cần móc dây khi đang đi"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Làm việc lưu động dọc dây dẫn bắt buộc phải dùng hệ thống dây bảo hiểm kép (2 móc). Quy tắc di chuyển là: \"Móc dây thứ 2 vào vị trí mới chắc chắn trước khi tháo móc dây thứ 1 ra\". Điều này đảm bảo trong suốt quá trình di chuyển dọc tuyến, người công nhân luôn được neo giữ cố định an toàn với đường dây, giảm chấn giúp triệt tiêu chấn thương nếu không may trượt chân ngã."
+    "explanation": "Dây kép đảm bảo luôn có một móc cố định khi di chuyển dọc dây."
   },
   {
     "id": 198,
     "question": "Sau khi cắt điện máy cắt chân không để cô lập thiết bị, tại sao quy trình vận hành bắt buộc phải mở thêm dao cách ly nối tiếp trực tiếp với nó?",
-    "answer": "Để tạo khoảng cách hở nhìn thấy được bằng mắt vì buồng cắt máy cắt kín không đảm bảo khoảng cách hở an toàn",
+    "options": ["Để làm mát", "Để tạo khoảng cách hở nhìn thấy được bằng mắt vì buồng cắt máy cắt kín không đảm bảo khoảng cách hở an toàn", "Quy định cho đủ thủ tục", "Để khóa máy cắt"],
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Tiếp điểm của máy cắt chân không hay máy cắt khí nằm kín hoàn toàn bên trong buồng dập hồ quang, mắt thường không thể nhìn thấy chúng đã mở thật hay chưa (nguy cơ kẹt tiếp điểm cơ khí bên trong). Mở dao cách ly nối tiếp để tạo ra một \"khoảng cách hở không khí nhìn thấy được\", đây là minh chứng trực quan an toàn nhất khẳng định mạch điện đã được cắt rời hoàn toàn trước khi bàn giao thiết bị."
+    "explanation": "Buồng cắt kín, không nhìn thấy tiếp điểm, mở dao cách ly tạo khoảng hở không khí nhìn thấy."
   },
   {
     "id": 199,
     "question": "Khi thực hiện công việc \"Cấp cứu người bị điện giật\" đột ngột ngừng tim, ngừng thở, ưu tiên hồi sức tim phổi (CPR - Ép tim ngoài lồng ngực và thổi ngạt) phải được tiến hành liên tục tại hiện trường trong bao lâu?",
-    "answer": "Liên tục cho đến khi nhân viên y tế đến tiếp quản hoặc nạn nhân có dấu hiệu tỉnh lại (thở lại, mạch đập lại)",
+    "options": ["15 phút", "30 phút", "Liên tục cho đến khi nhân viên y tế đến tiếp quản hoặc nạn nhân có dấu hiệu tỉnh lại (thở lại, mạch đập lại)", "1 tiếng"],
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Việc cấp cứu ngưng tuần hoàn do điện giật đòi hỏi sự kiên trì tuyệt đối. Có rất nhiều trường hợp nạn nhân tim ngừng đập nhưng nhờ ép tim liên tục suốt nhiều giờ liền, tế bào não vẫn được nuôi dưỡng bằng dòng máu tuần hoàn nhân tạo và sau đó đã sống lại một cách kỳ diệu. Tuyệt đối không tự ý bỏ cuộc giữa chừng khi chưa có sự xác nhận tử vong của bác sĩ chuyên khoa."
+    "explanation": "Cần kiên trì ép tim liên tục, nhiều trường hợp sống lại sau nhiều giờ."
   },
   {
     "id": 200,
     "question": "Đối với các thiết bị, lưới điện có cấp điện áp từ 1000V (01kV) trở lên, người lao động thực hiện nhiệm vụ thử hết điện bắt buộc phải trang bị các phương tiện bảo hộ đặc thù nào?",
-    "answer": "Găng tay cách điện phù hợp cấp điện áp và sào cách ly gắn kèm bút thử điện",
+    "options": ["Găng tay cách điện phù hợp cấp điện áp và sào cách ly gắn kèm bút thử điện", "Chỉ cần bút thử", "Đeo kính bảo hộ", "Đi chân không"],
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Ở cấp điện áp cao thế, dòng điện có thể phóng qua không khí khi bút thử tiến lại gần phần mang điện. Do đó, người công nhân không được phép cầm trực tiếp bút thử điện bằng tay, mà bắt buộc phải vặn gắn bút thử vào đầu một cây sào cách ly có cấp điện áp tương ứng, đồng thời đeo găng tay cách điện cao áp để tạo ra hai lớp bảo vệ cách điện tuyệt đối ngăn dòng điện rò phóng qua người."
+    "explanation": "Sào cách ly và găng tay cao thế tạo hai lớp bảo vệ, tránh phóng điện qua người."
   }
 ]
