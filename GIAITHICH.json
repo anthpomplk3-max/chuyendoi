@@ -61,9 +61,7 @@
     "options": ["A. Mở hoàn toàn", "B. Đóng hoàn toàn", "C. Có thể nhìn thấy khoảng cách hở", "D. Cả A và C"],
     "answer": "A",
     "can_cu": "",
-    "explanation": "Đảm bảo khoảng cách ly điện rõ ràng, có thể nhìn thấy bằng mắt thường → xác nhận chắc chắn mạch đã được cắt
-Ngăn ngừa đóng điện trở lại vô tình trong khi đang làm việc
-Theo quy định an toàn điện (QTATĐ), dao cách ly phải mở hoàn toàn mới được coi là đã tạo ra "khoảng cách ly nhìn thấy được" (visible isolation gap)."
+    "explanation": "Đảm bảo khoảng cách ly điện rõ ràng, có thể nhìn thấy bằng mắt thường → xác nhận chắc chắn mạch đã được cắt. Ngăn ngừa đóng điện trở lại vô tình trong khi đang làm việc. Theo quy định an toàn điện (QTATĐ), dao cách ly phải mở hoàn toàn mới được coi là đã tạo ra khoảng cách ly nhìn thấy được (visible isolation gap)."
   },
   {
     "id": 9,
