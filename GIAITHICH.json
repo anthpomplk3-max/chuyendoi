@@ -42,7 +42,7 @@
   {
     "id": 6,
     "question": "Việc đặt tiếp đất lưu động tại nơi làm việc nhằm mục đích gì?",
-    "options": ["A. Chống điện cảm ứng", "B. Chống có điện bất ngờ", "C. Bảo vệ thiết bị", "D. Cả A và B đều đúng"],
+    "options": [" Chống điện cảm ứng", " Chống có điện bất ngờ", " Bảo vệ thiết bị", " Cả A và B đều đúng"],
     "answer": "D",
     "can_cu": "",
     "explanation": "Tiếp đất lưu động triệt tiêu điện áp cảm ứng và làm nhảy bảo vệ nếu có đóng điện nhầm."
