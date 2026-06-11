@@ -113,7 +113,7 @@ def get_selected_letter(selected_prefix):
 # ---------------------------
 # 4. Giao diện chính
 # ---------------------------
-st.set_page_config(page_title="Ôn tập và Thi thử - PECC2", layout="wide")
+st.set_page_config(page_title="Ôn tập và Thi thử xác hạch năm 2026", layout="wide")
 
 st.markdown(
     """
