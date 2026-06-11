@@ -59,9 +59,11 @@
     "id": 8,
     "question": "Khi thực hiện cắt điện để làm việc, lưỡi dao cách ly phải ở trạng thái nào?",
     "options": ["A. Mở hoàn toàn", "B. Đóng hoàn toàn", "C. Có thể nhìn thấy khoảng cách hở", "D. Cả A và C"],
-    "answer": "D",
+    "answer": "A",
     "can_cu": "",
-    "explanation": "Dao cách ly tạo khoảng hở không khí nhìn thấy được, khẳng định mạch đã cô lập."
+    "explanation": "Đảm bảo khoảng cách ly điện rõ ràng, có thể nhìn thấy bằng mắt thường → xác nhận chắc chắn mạch đã được cắt
+Ngăn ngừa đóng điện trở lại vô tình trong khi đang làm việc
+Theo quy định an toàn điện (QTATĐ), dao cách ly phải mở hoàn toàn mới được coi là đã tạo ra "khoảng cách ly nhìn thấy được" (visible isolation gap)."
   },
   {
     "id": 9,
