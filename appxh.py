@@ -213,7 +213,7 @@ if not all_questions:
 total_questions = len(all_questions)
 exam_sets = create_exam_sets(all_questions, total_questions)
 
-st.markdown('<div class="main-header"><h1>📚 ÔN TẬP & THI THỬ HỆ THỐNG ĐIỆN</h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header"><h1>📚 ÔN TẬP & THI THỬ XÁC HẠCH 2026</h1></div>', unsafe_allow_html=True)
 
 with st.sidebar:
     st.markdown("---")
