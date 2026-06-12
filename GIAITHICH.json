@@ -115,9 +115,9 @@
     "id": 15,
     "question": "Trong sơ đồ cấp điện, \"Vùng an toàn\" được hiểu là vùng như thế nào?",
     "options": ["Vùng không có điện", "Vùng đã được bao quanh bởi rào chắn an toàn", "Vùng nằm ngoài khoảng cách an toàn phóng điện", "Vùng có biển báo \"Đã tiếp đất\""],
-    "answer": "B",
+    "answer": "C",
     "can_cu": "",
-    "explanation": "Vùng an toàn là phạm vi có rào chắn, đã cô lập điện, thử hết điện, tiếp đất và treo biển làm việc tại đây."
+    "explanation": "Vùng an toàn Là toàn bộ không gian nằm ngoài phạm vi khoảng cách nguy hiểm nói trên. Khi con người, dụng cụ hoặc phương tiện di chuyển và làm việc hoàn toàn trong vùng này, nguy cơ bị phóng điện hồ quang được triệt tiêu"
   },
   {
     "id": 16,
