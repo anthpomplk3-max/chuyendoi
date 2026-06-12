@@ -34,52 +34,81 @@ def check_login():
                 st.rerun()
 
 # ---------------------------
-# 1. Đọc dữ liệu
+# 1. Đọc và ghép dữ liệu từ 4 file JSON
 # ---------------------------
 @st.cache_data(show_spinner=False)
 def load_data_cached():
+    # Đọc file câu hỏi
     try:
-        with open("GIAITHICH.json", "r", encoding="utf-8") as f:
-            giai_thich = json.load(f)
-        with open("TN.json", "r", encoding="utf-8") as f:
-            tn = json.load(f)
+        with open("ATD.json", "r", encoding="utf-8") as f:
+            atd_questions = json.load(f)
+        with open("OM.json", "r", encoding="utf-8") as f:
+            om_questions = json.load(f)
     except Exception as e:
-        st.error(f"Lỗi đọc file JSON: {e}")
-        return []
-
-    giai_thich_map = {item["id"]: item for item in giai_thich}
-    questions = []
-    for tn_item in tn:
-        qid = tn_item["id"]
-        g_item = giai_thich_map.get(qid, {})
-        questions.append({
+        st.error(f"Lỗi đọc file JSON câu hỏi: {e}")
+        return [], {}
+    
+    # Đọc file giải thích
+    try:
+        with open("TL ATD.json", "r", encoding="utf-8") as f:
+            tl_atd = json.load(f)
+        with open("TL OM.json", "r", encoding="utf-8") as f:
+            tl_om = json.load(f)
+    except Exception as e:
+        st.error(f"Lỗi đọc file JSON giải thích: {e}")
+        return [], {}
+    
+    # Tạo map giải thích theo id
+    explanation_map = {}
+    for item in tl_atd:
+        explanation_map[item["id"]] = item
+    for item in tl_om:
+        explanation_map[item["id"]] = item
+    
+    # Ghép câu hỏi từ ATD và OM
+    all_questions = []
+    for item in atd_questions:
+        qid = item["id"]
+        exp = explanation_map.get(qid, {})
+        all_questions.append({
             "id": qid,
-            "question": tn_item["question"],
-            "options": tn_item["options"],
-            "answer_letter": g_item.get("answer"),
-            "explanation": g_item.get("explanation", "Không có giải thích")
+            "question": item["question"],
+            "options": item["options"],
+            "answer_letter": exp.get("answer"),
+            "explanation": exp.get("explanation", "Không có giải thích")
         })
-    return questions
+    for item in om_questions:
+        qid = item["id"]
+        exp = explanation_map.get(qid, {})
+        all_questions.append({
+            "id": qid,
+            "question": item["question"],
+            "options": item["options"],
+            "answer_letter": exp.get("answer"),
+            "explanation": exp.get("explanation", "Không có giải thích")
+        })
+    
+    # Sắp xếp theo id tăng dần (1..538)
+    all_questions.sort(key=lambda x: x["id"])
+    return all_questions, {"ATD": len(atd_questions), "OM": len(om_questions)}
 
 def reload_data():
     st.cache_data.clear()
     st.rerun()
 
 # ---------------------------
-# 2. Tạo bộ đề thi thử
+# 2. Tạo bộ đề thi thử theo phần thi
 # ---------------------------
-def create_exam_sets(all_questions, total_questions):
-    if total_questions >= 690:
+def create_exam_sets(questions, total_questions, num_sets=25, questions_per_set=30):
+    if total_questions >= num_sets * questions_per_set:
         random.seed(42)
-        shuffled = all_questions.copy()
+        shuffled = questions.copy()
         random.shuffle(shuffled)
         exam_sets = {}
-        for i in range(23):
-            exam_sets[i+1] = shuffled[i*30:(i+1)*30]
-        for i in range(23, 25):
-            exam_sets[i+1] = random.sample(all_questions, 30)
+        for i in range(num_sets):
+            exam_sets[i+1] = shuffled[i*questions_per_set:(i+1)*questions_per_set]
     else:
-        exam_sets = {i+1: random.sample(all_questions, 30) for i in range(25)}
+        exam_sets = {i+1: random.sample(questions, questions_per_set) for i in range(num_sets)}
     return exam_sets
 
 # ---------------------------
@@ -205,17 +234,22 @@ with st.sidebar:
     if st.button("🔄 Tải lại dữ liệu JSON", use_container_width=True):
         reload_data()
 
-all_questions = load_data_cached()
+all_questions, counts = load_data_cached()
 if not all_questions:
     st.error("Không thể tải dữ liệu. Vui lòng kiểm tra file JSON.")
     st.stop()
 
 total_questions = len(all_questions)
-exam_sets = create_exam_sets(all_questions, total_questions)
-
 st.markdown('<div class="main-header"><h1>📚 ÔN TẬP & THI THỬ XÁC HẠCH 2026</h1></div>', unsafe_allow_html=True)
 
 with st.sidebar:
+    st.markdown("---")
+    # Chọn phần thi
+    section = st.radio(
+        "📂 CHỌN PHẦN",
+        ["🏭 Toàn bộ (ATĐ + O&M)", "⚡ An toàn điện (câu 1-200)", "🔧 O&M (câu 201-538)"],
+        key="section_select"
+    )
     st.markdown("---")
     mode = st.radio(
         "🔘 CHẾ ĐỘ",
@@ -223,21 +257,31 @@ with st.sidebar:
         key="mode_select"
     )
     st.markdown("---")
-    if mode.startswith("📖 Ôn tập"):
-        st.info(f"📌 Tổng số: {total_questions} câu")
+    
+    # Lọc câu hỏi theo phần
+    if section == "⚡ An toàn điện (câu 1-200)":
+        filtered_questions = [q for q in all_questions if 1 <= q["id"] <= 200]
+    elif section == "🔧 O&M (câu 201-538)":
+        filtered_questions = [q for q in all_questions if 201 <= q["id"] <= 538]
     else:
-        set_number = st.selectbox("🎯 Chọn bộ đề (1-25)", options=list(range(1, 26)), index=0)
-        if set_number <= 23 and total_questions >= 690:
-            st.success(f"📌 Bộ đề {set_number}: 30 câu không trùng")
-        else:
-            st.warning(f"📌 Bộ đề {set_number}: 30 câu (có thể trùng)")
+        filtered_questions = all_questions
+    
+    total_filtered = len(filtered_questions)
+    
+    if mode.startswith("📖 Ôn tập"):
+        st.info(f"📌 Tổng số: {total_filtered} câu")
+    else:
+        # Số bộ đề có thể tạo dựa trên số câu đã lọc
+        num_sets = max(1, total_filtered // 30)
+        set_number = st.selectbox("🎯 Chọn bộ đề", options=list(range(1, num_sets+1)), index=0)
+        st.success(f"📌 Bộ đề {set_number}: 30 câu")
 
 # ---------------------------
 # 5. ÔN TẬP (CÓ CONFETTI BẰNG components.html)
 # ---------------------------
 if mode.startswith("📖 Ôn tập"):
     st.markdown('<div class="content-card">', unsafe_allow_html=True)
-    st.subheader("🎓 ÔN TẬP TOÀN BỘ CÂU HỎI")
+    st.subheader("🎓 ÔN TẬP CÂU HỎI")
     st.caption("✏️ Chọn đáp án, xem kết quả và giải thích ngay bên dưới.")
 
     if "learn_idx" not in st.session_state:
@@ -254,13 +298,13 @@ if mode.startswith("📖 Ôn tập"):
 
     def go_next():
         st.session_state.confetti_trigger = False
-        if st.session_state.learn_idx < total_questions - 1:
+        if st.session_state.learn_idx < total_filtered - 1:
             st.session_state.learn_idx += 1
 
     def go_to_question():
         st.session_state.confetti_trigger = False
         jump_num = st.session_state.jump_number
-        if 1 <= jump_num <= total_questions:
+        if 1 <= jump_num <= total_filtered:
             st.session_state.learn_idx = jump_num - 1
 
     col1, col2, col3, col4 = st.columns([1, 1.2, 1, 1.5])
@@ -268,7 +312,7 @@ if mode.startswith("📖 Ôn tập"):
         st.button("⬅️ Câu trước", on_click=go_prev, use_container_width=True)
     with col2:
         st.markdown(
-            f"<div style='text-align: center; font-size: 1rem; font-weight: bold; padding-top: 8px;'>📌 Câu {st.session_state.learn_idx+1}/{total_questions}</div>",
+            f"<div style='text-align: center; font-size: 1rem; font-weight: bold; padding-top: 8px;'>📌 Câu {st.session_state.learn_idx+1}/{total_filtered}</div>",
             unsafe_allow_html=True
         )
     with col3:
@@ -277,7 +321,7 @@ if mode.startswith("📖 Ôn tập"):
         st.number_input(
             "Số câu",
             min_value=1,
-            max_value=total_questions,
+            max_value=total_filtered,
             value=st.session_state.learn_idx + 1,
             step=1,
             key="jump_number",
@@ -285,7 +329,7 @@ if mode.startswith("📖 Ôn tập"):
             label_visibility="collapsed"
         )
 
-    q = all_questions[st.session_state.learn_idx]
+    q = filtered_questions[st.session_state.learn_idx]
     st.markdown(f"**📄 Câu {st.session_state.learn_idx+1} (ID {q['id']}):** {q['question']}")
 
     prefixed_opts = option_with_prefix(q['options'])
@@ -306,7 +350,6 @@ if mode.startswith("📖 Ôn tập"):
             st.success("✅ CHÍNH XÁC! Bạn đã trả lời đúng.")
             if not st.session_state.confetti_trigger:
                 st.session_state.confetti_trigger = True
-                # Dùng components.html để chạy canvas-confetti 100%
                 confetti_html = """
                     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
                     <script>
@@ -333,10 +376,14 @@ if mode.startswith("📖 Ôn tập"):
 # 6. THI THỬ
 # ---------------------------
 else:
+    # Tạo bộ đề từ filtered_questions
+    exam_sets = create_exam_sets(filtered_questions, total_filtered, num_sets=max(1, total_filtered//30), questions_per_set=30)
+    current_set = set_number if set_number in exam_sets else 1
+    questions_exam = exam_sets[current_set]
+    
     st.markdown('<div class="content-card">', unsafe_allow_html=True)
-    st.subheader(f"📝 BỘ ĐỀ {set_number} - THI THỬ")
+    st.subheader(f"📝 BỘ ĐỀ {current_set} - THI THỬ")
     st.caption("⏳ Hoàn thành 30 câu, nhấn Nộp bài để chấm điểm (không giải thích trong khi làm).")
-    questions_exam = exam_sets[set_number]
 
     if "exam_version" not in st.session_state:
         st.session_state.exam_version = 0
