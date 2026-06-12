@@ -3,6 +3,7 @@ import json
 import random
 import re
 import streamlit.components.v1 as components
+import os
 
 # ---------------------------
 # 0. Xác thực đăng nhập
@@ -34,28 +35,68 @@ def check_login():
                 st.rerun()
 
 # ---------------------------
+# Hàm sửa lỗi JSON phổ biến
+# ---------------------------
+def repair_json(json_str):
+    """Cố gắng sửa một số lỗi JSON phổ biến: thiếu dấu phẩy, thừa dấu phẩy cuối mảng/object."""
+    # Xóa dấu phẩy thừa trước dấu } hoặc ]
+    json_str = re.sub(r',\s*}', '}', json_str)
+    json_str = re.sub(r',\s*]', ']', json_str)
+    # Thêm dấu phẩy giữa } và {, ] và [ (đơn giản hóa)
+    json_str = re.sub(r'}\s*{', '},{', json_str)
+    json_str = re.sub(r']\s*\[', '],[', json_str)
+    return json_str
+
+def load_json_file_safe(filepath):
+    """Đọc file JSON, nếu lỗi thì thử sửa và báo chi tiết."""
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            content = f.read()
+        data = json.loads(content)
+        return data, None
+    except json.JSONDecodeError as e:
+        # Thử sửa lỗi
+        try:
+            repaired = repair_json(content)
+            data = json.loads(repaired)
+            st.warning(f"⚠️ File {filepath} bị lỗi nhưng đã tự động sửa. Vui lòng kiểm tra lại file gốc.")
+            return data, None
+        except json.JSONDecodeError as e2:
+            # Báo lỗi chi tiết
+            lineno = e2.lineno
+            colno = e2.colno
+            msg = e2.msg
+            error_detail = f"Lỗi tại dòng {lineno}, cột {colno}: {msg}"
+            # Đọc dòng gây lỗi
+            lines = content.split('\n')
+            if lineno <= len(lines):
+                error_line = lines[lineno-1]
+                error_detail += f"\nDòng lỗi: {error_line}"
+            return None, error_detail
+
+# ---------------------------
 # 1. Đọc và ghép dữ liệu từ 4 file JSON
 # ---------------------------
 @st.cache_data(show_spinner=False)
 def load_data_cached():
     # Đọc file câu hỏi
-    try:
-        with open("ATD.json", "r", encoding="utf-8") as f:
-            atd_questions = json.load(f)
-        with open("OM.json", "r", encoding="utf-8") as f:
-            om_questions = json.load(f)
-    except Exception as e:
-        st.error(f"Lỗi đọc file JSON câu hỏi: {e}")
+    atd_data, err = load_json_file_safe("ATD.json")
+    if err:
+        st.error(f"❌ Lỗi file ATD.json: {err}")
+        return [], {}
+    om_data, err = load_json_file_safe("OM.json")
+    if err:
+        st.error(f"❌ Lỗi file OM.json: {err}")
         return [], {}
     
     # Đọc file giải thích
-    try:
-        with open("TL ATD.json", "r", encoding="utf-8") as f:
-            tl_atd = json.load(f)
-        with open("TL OM.json", "r", encoding="utf-8") as f:
-            tl_om = json.load(f)
-    except Exception as e:
-        st.error(f"Lỗi đọc file JSON giải thích: {e}")
+    tl_atd, err = load_json_file_safe("TL ATD.json")
+    if err:
+        st.error(f"❌ Lỗi file TL ATD.json: {err}")
+        return [], {}
+    tl_om, err = load_json_file_safe("TL OM.json")
+    if err:
+        st.error(f"❌ Lỗi file TL OM.json: {err}")
         return [], {}
     
     # Tạo map giải thích theo id
@@ -67,7 +108,7 @@ def load_data_cached():
     
     # Ghép câu hỏi từ ATD và OM
     all_questions = []
-    for item in atd_questions:
+    for item in atd_data:
         qid = item["id"]
         exp = explanation_map.get(qid, {})
         all_questions.append({
@@ -77,7 +118,7 @@ def load_data_cached():
             "answer_letter": exp.get("answer"),
             "explanation": exp.get("explanation", "Không có giải thích")
         })
-    for item in om_questions:
+    for item in om_data:
         qid = item["id"]
         exp = explanation_map.get(qid, {})
         all_questions.append({
@@ -90,7 +131,7 @@ def load_data_cached():
     
     # Sắp xếp theo id tăng dần (1..538)
     all_questions.sort(key=lambda x: x["id"])
-    return all_questions, {"ATD": len(atd_questions), "OM": len(om_questions)}
+    return all_questions, {"ATD": len(atd_data), "OM": len(om_data)}
 
 def reload_data():
     st.cache_data.clear()
@@ -277,7 +318,7 @@ with st.sidebar:
         st.success(f"📌 Bộ đề {set_number}: 30 câu")
 
 # ---------------------------
-# 5. ÔN TẬP (CÓ CONFETTI BẰNG components.html)
+# 5. ÔN TẬP (CÓ CONFETTI)
 # ---------------------------
 if mode.startswith("📖 Ôn tập"):
     st.markdown('<div class="content-card">', unsafe_allow_html=True)
