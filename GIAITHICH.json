@@ -501,7 +501,7 @@
     "options": ["Nước làm dầu cháy to hơn", "Nước dẫn điện gây nguy hiểm cho người chữa cháy", "Nước làm hỏng vỏ máy", "Nước dễ kiếm"],
     "answer": "B",
     "can_cu": "",
-    "explanation": "Nước dẫn điện, phun vào nguồn cao áp gây giật chết người chữa cháy."
+    "explanation": "Nước sinh hoạt thông thường là một chất dẫn điện tốt. Việc phun nước trực tiếp vào đám cháy khi thiết bị (ở đây là máy biến áp) chưa được cắt điện hoàn toàn sẽ tạo thành đường dẫn dòng điện cao áp truyền thẳng về phía lăng phun, gây giật điện trực tiếp nguy hiểm đến tính mạng người chữa cháy"
   },
   {
     "id": 64,
