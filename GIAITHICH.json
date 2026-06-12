@@ -1011,9 +1011,18 @@
     "id": 127,
     "question": "Trong hệ thống điện, mục đích chính của việc nối đất lặp lại cho dây trung tính (dây N) là gì?",
     "options": ["Đảm bảo tính ổn định của điểm trung tính, giảm điện áp sụt và hạn chế điện áp nguy hiểm xuất hiện trên vỏ thiết bị khi đứt dây trung tính", "Tiết kiệm dây dẫn", "Tăng công suất truyền tải", "Giảm tổn thất điện năng"],
-    "answer": "A",
+    "answer": "B",
     "can_cu": "",
-    "explanation": "Tránh lệch trung tính và điện áp nguy hiểm khi đứt dây N."
+    "explanation": "Sơ cứu bỏng điện đúng cách:
+Cách ly nạn nhân khỏi nguồn điện một cách an toàn (ngắt cầu dao, dùng vật cách điện gạt dây điện).
+
+Kiểm tra sinh hiệu (nếu ngưng tim, ngưng thở phải tiến hành ép tim và hà hơi thổi ngạt ngay lập tức).
+
+Làm mát vết bỏng bằng cách ngâm hoặc xả nhẹ dưới dòng nước sạch mát trong khoảng 15 - 20 phút (không dùng nước đá lạnh).
+
+Che phủ vết thương bằng gạc vô trùng hoặc khăn sạch ẩm.
+
+Chuyển ngay nạn nhân đến cơ sở y tế gần nhất vì bỏng điện luôn có nguy cơ gây tổn thương ngầm các cơ quan nội tạng và rối loạn nhịp tim."
   },
   {
     "id": 128,
