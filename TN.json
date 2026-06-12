@@ -663,10 +663,10 @@
     "id": 61,
     "question": "Khi phát hiện có người bị điện hạ thế giật, nếu không cắt được điện ngay, ta nên làm gì?",
     "options": [
-      "A. Dùng tay nắm vào áo khô của nạn nhân để kéo ra",
-      "B. Dùng vật khô cách điện (gỗ, nhựa) gạt dây điện hoặc đẩy nạn nhân ra",
-      "C. Đứng lên thảm cao su rồi kéo nạn nhân",
-      "D. Cả B và C đều đúng"
+      "Dùng tay nắm vào áo khô của nạn nhân để kéo ra",
+      "Dùng vật khô cách điện (gỗ, nhựa) gạt dây điện hoặc đẩy nạn nhân ra",
+      "Đứng lên thảm cao su rồi kéo nạn nhân",
+      "Cả B và C đều đúng"
     ],
     "answer": null
   },
