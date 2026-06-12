@@ -1005,7 +1005,7 @@
     "options": ["Bóp chặt mũi nạn nhân trong lúc thổi và ngửa đầu, nâng cằm để khai thông đường thở", "Đặt đầu nạn nhân nghiêng sang bên", "Kê gối dưới vai", "Cho nạn nhân ngậm ống thở"],
     "answer": "B",
     "can_cu": "",
-    "explanation": "Đây là thao tác bắt buộc trước khi thổi ngạt, theo đúng quy trình A-B-C hoặc C-A-B của CPR hiện đại"
+    "explanation": "Đây là thao tác bắt buộc trước khi thổi ngạt, theo đúng quy trình A,B,C hoặc C,A,B của CPR hiện đại"
   },
   {
     "id": 127,
