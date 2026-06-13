@@ -80,10 +80,10 @@
     "id": 8,
     "question": "Khi thực hiện cắt điện để làm việc, lưỡi dao cách ly phải ở trạng thái nào?",
     "options": [
-      "A. Mở hoàn toàn",
-      "B. Đóng hoàn toàn",
-      "C. Có thể nhìn thấy khoảng cách hở",
-      "D. Cả A và C"
+      "Mở hoàn toàn",
+      "Đóng hoàn toàn",
+      "Có thể nhìn thấy khoảng cách hở",
+      "Cả A và C"
     ],
     "answer": null
   },
