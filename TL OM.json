@@ -521,9 +521,9 @@
             "Hệ thống ĐMTMN trên mái nhà văn phòng công suất 200kW chỉ để tự dùng",
             "Nhà máy sử dụng ĐMTMN 800kW để cấp điện nội bộ, không phát lên lưới"
         ],
-        "answer": "Không có đáp án trong gốc",
+        "answer": "B",
         "can_cu": "Nghị định 58/2025/NĐ-CP",
-        "explanation": "Câu hỏi trong dữ liệu gốc không có đáp án. Cần tra cứu Nghị định 58/2025/NĐ-CP để xác định rõ các trường hợp phải có xác nhận quy hoạch và giấy phép hoạt động điện lực trước khi lắp đặt hệ thống điện mặt trời mái nhà.[reference:43]"
+        "explanation": "Theo Nghị định 58/2025/NĐ-CP, hệ thống điện mặt trời mái nhà (ĐMTMN) chỉ cần xác nhận quy hoạch phát triển điện lực và Giấy phép hoạt động điện lực khi có bán điện (đấu nối với lưới điện quốc gia để mua bán điện, có công suất từ 1.000kW trở lên thuộc trường hợp phải có giấy phép)"
     },
     {
         "id": 248,
