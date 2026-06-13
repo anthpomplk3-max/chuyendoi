@@ -83,14 +83,19 @@
         "can_cu": "Điều 41 Thông tư 05/2025/TT-BCT",
         "explanation": "Theo quy định tại Điều 41 Thông tư 05/2025/TT-BCT, khi điện áp tại điểm đấu nối nằm trong dải từ 1.15 p.u đến dưới 1.2 p.u, nhà máy điện gió và nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW phải có khả năng duy trì vận hành phát điện tối thiểu 0.5 giây. Đây là yêu cầu về khả năng chịu đựng sự cố quá áp. [reference:7]"
     },
-    {
-        "id": 209,
-        "question": "Căn cứ điều 41 Thông tư 05/2025, yêu cầu thời gian tối thiểu duy trì vận hành phát điện trong trường hợp tần số hệ thống điện quốc gia nằm trong dải trên 48 Hz đến dưới 49 Hz đối với nhà máy điện gió, nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW là bao nhiêu?",
-        "options": ["01 phút", "10 phút", "30 phút", "Phát liên tục"],
-        "answer": "C",
-        "can_cu": "Điều 41 Thông tư 05/2025/TT-BCT",
-        "explanation": "Theo quy định tại Điều 41 Thông tư 05/2025/TT-BCT, khi tần số hệ thống nằm trong dải trên 48 Hz đến dưới 49 Hz, nhà máy điện gió và nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW phải có khả năng duy trì vận hành phát điện tối thiểu 30 phút. Yêu cầu này nhằm đảm bảo ổn định tần số ở chế độ sự cố.[reference:8]"
-    },
+   {
+  "id": 209,
+  "question": "Căn cứ điều 41 Thông tư 05/2025, yêu cầu thời gian tối thiểu duy trì vận hành phát điện trong trường hợp tần số hệ thống điện quốc gia nằm trong dải trên 48 Hz đến dưới 49 Hz đối với nhà máy điện gió, nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW là bao nhiêu?",
+  "options": [
+    "01 phút",
+    "10 phút",
+    "30 phút",
+    "Phát liên tục"
+  ],
+  "answer": "C",
+  "can_cu": "Điều 41 Thông tư 05/2025/TT-BCT",
+  "explanation": "Theo Điều 41, khoản 2, Bảng 12 của Thông tư 05/2025, thời gian tối thiểu duy trì vận hành phát điện của nhà máy điện gió, nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW:\nDải tần sốThời gian duy trì tối thiểuTừ 47,5 Hz đến 48,0 Hz10 phútTrên 48 Hz đến dưới 49 Hz30 phútTừ 49 Hz đến 51 HzPhát liên tụcTrên 51 Hz đến 51,5 Hz30 phútTrên 51,5 Hz đến 52 Hz01 phút"
+},
     {
         "id": 210,
         "question": "Căn cứ điều 41 Thông tư 05/2025, yêu cầu thời gian tối thiểu duy trì vận hành phát điện trong trường hợp tần số hệ thống điện quốc gia nằm trong dải từ 49 Hz đến 51 Hz đối với nhà máy điện gió, nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW là bao nhiêu?",
