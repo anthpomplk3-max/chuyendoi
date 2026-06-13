@@ -41,7 +41,7 @@
         "can_cu": "Điều 41 Thông tư 05/2025/TT-BCT",
         "explanation": "Theo quy định tại Điều 41 Thông tư 05/2025/TT-BCT, khi điện áp tại điểm đấu nối là 0.5 p.u, thời gian duy trì vận hành tối thiểu đối với nhà máy điện gió và điện mặt trời là 1.4 giây. Yêu cầu này nhằm đảm bảo khả năng vượt qua sự cố thoáng qua của hệ thống.[reference:3]"
     },
-    {
+     {
         "id": 205,
         "question": "Căn cứ điều 41 Thông tư 05/2025, quy định thời gian duy trì tối thiểu đối với nhà máy điện gió, nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW trong trường hợp điện áp 0.8 p.u?",
         "options": ["0.15 giây", "0.5 giây", "2.6 giây", "3 giây"],
