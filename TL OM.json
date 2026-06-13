@@ -33,14 +33,19 @@
         "can_cu": "Điều 41 Thông tư 05/2025/TT-BCT",
         "explanation": "Theo quy định tại Điều 41 Thông tư 05/2025/TT-BCT, độ dốc tương đối của đường đặc tuyến tĩnh (droop) được phép nằm trong dải từ 2% đến 10%. Đây là yêu cầu kỹ thuật khi tần số hệ thống vượt quá 50.5 Hz để đảm bảo ổn định.[reference:2]"
     },
-    {
-        "id": 204,
-        "question": "Căn cứ điều 41 Thông tư 05/2025, quy định thời gian duy trì tối thiểu đối với nhà máy điện gió, nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW trong trường hợp điện áp 0.5 p.u?",
-        "options": ["0.15 giây", "0.5 giây", "1.4 giây", "3 giây"],
-        "answer": "C",
-        "can_cu": "Điều 41 Thông tư 05/2025/TT-BCT",
-        "explanation": "Theo quy định tại Điều 41 Thông tư 05/2025/TT-BCT, khi điện áp tại điểm đấu nối là 0.5 p.u, thời gian duy trì vận hành tối thiểu đối với nhà máy điện gió và điện mặt trời là 1.4 giây. Yêu cầu này nhằm đảm bảo khả năng vượt qua sự cố thoáng qua của hệ thống.[reference:3]"
-    },
+   {
+  "id": 204,
+  "question": "Căn cứ điều 41 Thông tư 05/2025, quy định thời gian duy trì tối thiểu đối với nhà máy điện gió, nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW trong trường hợp điện áp 0.5 p.u?",
+  "options": [
+    "0.15 giây",
+    "0.5 giây",
+    "1.4 giây",
+    "3 giây"
+  ],
+  "answer": "C",
+  "can_cu": "Điều 41 Thông tư 05/2025/TT-BCT",
+  "explanation": "Áp dụng công thức tại Điều 41, khoản 6, điểm b của Thông tư 05/2025:\nĐiện áp từ 0,3 pu đến dưới 0,9 pu:\nT_min = 4 × U − 0,6\nVới U = 0,5 pu:\nT_min = 4 × 0,5 − 0,6 = 2,0 − 0,6 = 1,4 giây\nVậy đáp án đúng là C. 1,4 giây. "
+},
      {
     "id": 205,
     "question": "Căn cứ điều 41 Thông tư 05/2025, quy định thời gian duy trì tối thiểu đối với nhà máy điện gió, nhà máy điện mặt trời có công suất từ 1 MW đến 30 MW trong trường hợp điện áp 0.8 p.u?",
