@@ -295,19 +295,19 @@
         "can_cu": "Điều 16 Thông tư 06/2025/TT-BCT",
         "explanation": "Theo quy định tại Điều 16 Thông tư 06/2025/TT-BCT, danh sách các nhà máy được tự điều khiển công suất tác dụng bao gồm các nhà máy điện được huy động theo cơ chế chi phí tránh được và các nhà máy điện năng lượng tái tạo. Tuy nhiên, quyền tự điều khiển này không được áp dụng trong trường hợp xảy ra thừa nguồn, quá tải lưới điện hoặc ảnh hưởng đến bảo đảm cung cấp điện.[reference:26]"
     },
-    {
-        "id": 228,
-        "question": "Công suất điện xoay chiều tối đa có thể phát được của nhà máy được tính toán và công bố, phù hợp với công suất điện một chiều của nhà máy điện mặt trời theo quy hoạch",
-        "options": [
-            "Công suất phát thực tế cực đại của tổ máy phát điện có thể phát ổn định, liên tục trong một khoảng thời gian xác định.",
-            "Công suất điện điện một chiều theo quy hoạch",
-            "Công suất điện điện xoay chiều theo quy hoạch",
-            "Phương án trống"
-        ],
-        "answer": "",
-        "can_cu": "Không có đáp án trong gốc",
-        "explanation": "Câu hỏi bị lặp nội dung từ câu 202, đáp án gốc null, không xác định được đáp án đúng."
-    },
+  {
+  "id": 228,
+  "question": "Công suất điện xoay chiều tối đa có thể phát được của nhà máy được tính toán và công bố, phù hợp với công suất điện một chiều của nhà máy điện mặt trời theo quy hoạch",
+  "options": [
+    "Công suất phát thực tế cực đại của tổ máy phát điện có thể phát ổn định, liên tục trong một khoảng thời gian xác định.",
+    "Công suất điện điện một chiều theo quy hoạch",
+    "Công suất điện điện xoay chiều theo quy hoạch",
+    "Phương án trống"
+  ],
+  "answer": "A",
+  "can_cu": "Không có đáp án trong gốc",
+  "explanation": "Đáp án A đúng vì khái niệm công suất xoay chiều tối đa có thể phát được (AC capacity) là công suất phát thực tế cực đại mà tổ máy có thể duy trì ổn định, liên tục trong một khoảng thời gian xác định - đây là cơ sở để tính toán và công bố công suất AC tương ứng với công suất DC theo quy hoạch của nhà máy điện mặt trời.\nCác phương án khác sai vì:\n\nB, C: chỉ lặp lại tên gọi công suất DC/AC theo quy hoạch, không phải là định nghĩa/cách tính toán công suất AC tối đa có thể phát.\nD: không phù hợp."
+},
     {
         "id": 229,
         "question": "Đâu là nội dung không có trong Nghị định 58/2025/NĐ-CP",
