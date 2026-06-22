@@ -487,17 +487,17 @@
         "explanation": "Theo quy định tại Nghị định 134/2013/NĐ-CP, các hành vi chào giá không đúng để được lập lịch huy động, hành vi chào giá nhằm tăng giá trên thị trường giao ngay, và hành vi thỏa thuận với Đơn vị điều hành giao dịch thị trường điện lực để được lập lịch huy động không đúng quy định đều bị phạt tiền từ 50.000.000 đồng đến 60.000.000 đồng. Do đó, tất cả các đáp án đều đúng.[reference:42]"
     },
     {
-        "id": 245,
-        "question": "Theo Nghị định 134/2013/NĐ-CP: Trưởng đơn vị có thẩm quyền xử phạt vi phạm trong lĩnh vực sử dụng năng lượng tiết kiệm và hiệu quả",
-        "options": [
-            "Chủ tịch Ủy ban nhân dân cấp xã trở lên",
-            "Chủ tịch Ủy ban nhân dân cấp huyện trở lên",
-            "Chủ tịch Ủy ban nhân dân cấp tỉnh trở lên",
-            "Chánh thanh tra cấp Bộ và cơ quan ngang Bộ"
-        ],
-        "answer": "A",
-        "can_cu": "Nghị định 134/2013/NĐ-CP",
-        "explanation": "Theo Nghị định 134/2013/NĐ-CP (Điều 37 - Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân), thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực sử dụng năng lượng tiết kiệm và hiệu quả được phân cấp theo nguyên tắc chung: Chủ tịch UBND cấp xã có quyền xử phạt ở mức thấp (cảnh cáo, phạt tiền trong giới hạn), và thẩm quyền tăng dần theo cấp (huyện, tỉnh). Do đó "Chủ tịch UBND cấp xã trở lên" là đáp án bao quát đúng — tức là từ cấp xã lên đến cấp tỉnh đều có thẩm quyền (tùy theo mức phạt cụ thể), không giới hạn chỉ từ cấp huyện hoặc cấp tỉnh như các đáp án B, C."
+  "id": 245,
+  "question": "Theo Nghị định 134/2013/NĐ-CP: Trưởng đơn vị có thẩm quyền xử phạt vi phạm trong lĩnh vực sử dụng năng lượng tiết kiệm và hiệu quả",
+  "options": [
+    "Chủ tịch Ủy ban nhân dân cấp xã trở lên",
+    "Chủ tịch Ủy ban nhân dân cấp huyện trở lên",
+    "Chủ tịch Ủy ban nhân dân cấp tỉnh trở lên",
+    "Chánh thanh tra cấp Bộ và cơ quan ngang Bộ"
+  ],
+  "answer": "A",
+  "can_cu": "Nghị định 134/2013/NĐ-CP",
+  "explanation": "Theo Nghị định 134/2013/NĐ-CP (Điều 37 - Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân), thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực sử dụng năng lượng tiết kiệm và hiệu quả được phân cấp theo nguyên tắc chung: Chủ tịch UBND cấp xã có quyền xử phạt ở mức thấp (cảnh cáo, phạt tiền trong giới hạn), và thẩm quyền tăng dần theo cấp (huyện, tỉnh). Do đó \"Chủ tịch UBND cấp xã trở lên\" là đáp án bao quát đúng — tức là từ cấp xã lên đến cấp tỉnh đều có thẩm quyền (tùy theo mức phạt cụ thể), không giới hạn chỉ từ cấp huyện hoặc cấp tỉnh như các đáp án B, C."
     },
     {
         "id": 246,
