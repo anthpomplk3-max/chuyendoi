@@ -1567,9 +1567,9 @@
             "Cắt tất cả các máy cắt đang ở trạng thái đóng",
             "Khởi động nguồn điện diesel dự phòng (nếu được trang bị), chuyển đổi hệ thống tự dùng sang nhận từ nguồn điện diesel dự phòng"
         ],
-        "answer": "A",
-        "can_cu": "Điều 69 Thông tư 06/2025/TT-BCT",
-        "explanation": "Theo quy định tại Điều 69 Thông tư 06/2025/TT-BCT, khi nhân viên vận hành nhà máy điện xác định nhà máy đang nằm trong khu vực bị rã lưới, hành động đầu tiên cần thực hiện là báo cáo ngay cho điều độ viên có quyền điều khiển về tình hình mất điện để nhận lệnh xử lý, bao gồm việc cắt toàn bộ máy cắt nếu cần. Điều này nhằm tránh các thao tác tự phát có thể gây hư hỏng thiết bị hoặc ảnh hưởng đến quá trình khôi phục.[reference:127]"
+        "answer": "D",
+        "can_cu": "Thông tư 06/2025/TT-BCT",
+        "explanation": "Mục đích của việc này là để đảm bảo nguồn cung cấp điện cho các hệ thống điều khiển, bảo vệ và thiết bị quan trọng, duy trì khả năng vận hành của nhà máy, tạo điều kiện cho các bước xử lý sự cố tiếp theo và chuẩn bị cho quá trình khởi động đen, khôi phục hệ thống điện"
     },
     {
         "id": 340,
@@ -1705,18 +1705,18 @@
         "explanation": "Theo quy định tại Điều 9 Thông tư 06/2025/TT-BCT, trong trường hợp sự cố hoặc đe dọa sự cố, nhân viên vận hành phải thực hiện thao tác trước, báo cáo sau, không được chờ cấp điều độ cho phép (A). Việc thông báo cho đơn vị có quyền nắm thông tin trước khi thực hiện (B) cũng không đúng quy trình. Do đó, cả A và B đều không đúng quy trình.[reference:138]"
     },
     {
-        "id": 351,
-        "question": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Nhân viên vận hành thực hiện quyền điều khiển thế nào là không đúng quy trình trong trường hợp vận hành bình thường",
-        "options": [
-            "Xin phép và được sự cho phép của cấp điều độ có quyền kiểm tra trước khi thực hiện quyền điều khiển.",
-            "Thông báo thông tin cần thiết với đơn vị có quyền nắm thông tin trước khi thực hiện quyền điều khiển.",
-            "Báo cáo cấp điều độ có quyền kiểm tra sau khi thực hiện xong quyền điều khiển.",
-            "Thông báo đơn vị có quyền nắm thông tin sau khi thực hiện xong quyền điều khiển."
-        ],
-        "answer": "Không có đáp án trong gốc",
-        "can_cu": "Điều 9 Thông tư 06/2025/TT-BCT",
-        "explanation": "Câu hỏi trong dữ liệu gốc không có đáp án. Có thể đáp án là các phương án không tuân thủ nguyên tắc phải xin phép cấp điều độ trước khi thực hiện trong vận hành bình thường."
-    },
+  "id": 351,
+  "question": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Nhân viên vận hành thực hiện quyền điều khiển thế nào là không đúng quy trình trong trường hợp vận hành bình thường",
+  "options": [
+    "Xin phép và được sự cho phép của cấp điều độ có quyền kiểm tra trước khi thực hiện quyền điều khiển.",
+    "Thông báo thông tin cần thiết với đơn vị có quyền nắm thông tin trước khi thực hiện quyền điều khiển.",
+    "Báo cáo cấp điều độ có quyền kiểm tra sau khi thực hiện xong quyền điều khiển.",
+    "Thông báo đơn vị có quyền nắm thông tin sau khi thực hiện xong quyền điều khiển."
+  ],
+  "answer": "D",
+  "can_cu": "Theo quy định tại Thông tư 06/2025/TT/BCT",
+  "explanation": "trong trường hợp vận hành bình thường, nhân viên vận hành không được thực hiện quyền điều khiển rồi mới thông báo sau. Quy trình đúng bắt buộc phải:\n\nXin phép và được sự cho phép của cấp điều độ có quyền kiểm tra trước khi thực hiện.\n\nThông báo thông tin cần thiết cho đơn vị có quyền nắm thông tin.\n\nDo đó, phương án D. Thông báo đơn vị có quyền nắm thông tin sau khi thực hiện xong quyền điều khiển là hành vi vi phạm trình tự, không đúng quy trình."
+},
     {
         "id": 352,
         "question": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Phải kiểm tra trạng thái máy cắt theo chỉ thị trạng thái tại chỗ khi nào",
